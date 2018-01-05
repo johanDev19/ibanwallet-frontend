@@ -1,0 +1,22 @@
+.page-menu {
+  figure {
+    img {
+      width: 150px;
+    }
+  }
+
+  ul {
+    a {
+      margin-right: 20px;
+      color: #000;
+
+      &:hover {
+        text-decoration: none;
+      }
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+
+  }
+}

@@ -20,6 +20,7 @@ section.intro-section {
     margin-bottom: 50px;
     margin-left: 50px;
     padding: 0px;
+    width: 600px;
 
   }
 
@@ -49,8 +50,9 @@ section.info-1-section {
 
   background-color: rgb(246, 246, 246);
 
+
   .info-1-section_text {
-    width: 400px;
+    width: 600px;
   }
 
   .info-1-section_img {
@@ -64,6 +66,9 @@ section.info-1-section {
       border-top-left-radius: 40px;
       border-bottom-right-radius: 40px;
       border-bottom-left-radius: 40px;
+      position: relative;
+      transition: 0.2s;
+
 
       img {
         width: 270px;
@@ -73,4 +78,44 @@ section.info-1-section {
     }
   }
 
+}
+
+section.info-2-section {
+  background-color: #ffff !important;
+
+  ul {
+    li {
+      position: relative;
+      padding-left: 20px;
+      margin-top: 30px;
+
+      &:after {
+        content: "1";
+        font-size: 18px;
+        color: #fff;
+        display: inline-block;
+        vertical-align: middle;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        text-align: center;
+        line-height: 40px;
+        background-color: $btn-blue;
+        border-radius: 50%;
+        position: absolute;
+        left: -40px;
+        top: 50%;
+        margin-top: -20px;
+      }
+    }
+  }
+}
+
+.info-3-section {
+  background-color: rgb(246, 246, 246);
+  min-height: 700px;
+
+  .info-1-section_text {
+    width: 600px;
+  }
 }

@@ -1,0 +1,21 @@
+footer {
+  background-color: #f6f6f6; }
+  footer figure {
+    margin: 0px;
+    padding: 0px; }
+    footer figure img {
+      width: 130px; }
+  footer span {
+    margin: 10px 0px; }
+  footer ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 10px; }
+    footer ul a {
+      margin-right: 20px;
+      color: #000;
+      font-size: 20px; }
+      footer ul a:last-child {
+        margin-right: 0px; }
+  footer p {
+    font-size: 12px; }

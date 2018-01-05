@@ -3,6 +3,24 @@ section {
   width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  .container {
+    padding: 40px;
+  }
+
+  .info-section_text {
+    width: 400px;
+    margin-right: 100px;
+  }
+}
+
+footer {
+
+  .container {
+    padding: 40px;
+  }
 }
 
 figure {

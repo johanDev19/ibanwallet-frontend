@@ -1,20 +1,31 @@
 import React, {Component} from 'react'
+import logo from './../img/Logoibanwallet.svg'
+
 
 class Menu extends Component {
     render(){
         return(
-            <header class="d-flex justify-content-between align-items-center page-menu">
-                <figure class="col-md-4">
-                    <img src="" alt="logo" />
+            <header className="d-flex justify-content-between align-items-center page-menu">
+                <figure className="col-md-4">
+                    <img src={logo} alt="logo" />
                 </figure>
-                <nav class="col-md-8 menu">
-                    <ul class="d-flex justify-content-around">
-                        <li>menu1</li>
-                        <li>menu2</li>
-                        <li>menu3</li>
-                        <li>menu4</li>
-                        <li>menu5</li>
-                        <li>menu6</li>
+                <nav className="col-md-8 menu">
+                    <ul className="d-flex justify-content-end">
+                        <a href="">
+                            <li>iBAN</li>
+                        </a>
+                        <a href="">
+                            <li>Planes de Ahorro</li>
+                        </a>
+                        <a href="">
+                            <li>Inversión</li>
+                        </a>
+                        <a href="">
+                            <li>Acceso Clientes</li>
+                        </a>
+                        <a href="">
+                            <li>Registrate</li>
+                        </a>
                     </ul>
                 </nav>
             </header>

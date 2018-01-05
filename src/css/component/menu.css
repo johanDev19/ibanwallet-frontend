@@ -1,0 +1,10 @@
+.page-menu figure img {
+  width: 150px; }
+
+.page-menu ul a {
+  margin-right: 20px;
+  color: #000; }
+  .page-menu ul a:hover {
+    text-decoration: none; }
+  .page-menu ul a:last-child {
+    margin-right: 0px; }

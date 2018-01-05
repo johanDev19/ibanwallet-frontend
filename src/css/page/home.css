@@ -10,7 +10,8 @@ section.intro-section {
   section.intro-section .intro-text {
     margin-bottom: 50px;
     margin-left: 50px;
-    padding: 0px; }
+    padding: 0px;
+    width: 600px; }
   section.intro-section figure {
     position: relative; }
     section.intro-section figure img {
@@ -28,7 +29,7 @@ section.intro-section {
 section.info-1-section {
   background-color: #f6f6f6; }
   section.info-1-section .info-1-section_text {
-    width: 400px; }
+    width: 600px; }
   section.info-1-section .info-1-section_img figure.mobile-img {
     width: 300px;
     height: 600px;
@@ -38,7 +39,39 @@ section.info-1-section {
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px; }
+    border-bottom-left-radius: 40px;
+    position: relative;
+    transition: 0.2s; }
     section.info-1-section .info-1-section_img figure.mobile-img img {
       width: 270px;
       border: 1px solid #afafaf; }
+
+section.info-2-section {
+  background-color: #ffff !important; }
+  section.info-2-section ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-top: 30px; }
+    section.info-2-section ul li:after {
+      content: "1";
+      font-size: 18px;
+      color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      text-align: center;
+      line-height: 40px;
+      background-color: #3bd0d6;
+      border-radius: 50%;
+      position: absolute;
+      left: -40px;
+      top: 50%;
+      margin-top: -20px; }
+
+.info-3-section {
+  background-color: #f6f6f6;
+  min-height: 700px; }
+  .info-3-section .info-1-section_text {
+    width: 600px; }
