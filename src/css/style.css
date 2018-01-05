@@ -2352,94 +2352,21 @@ button {
   border: 0px;
   cursor: pointer; }
 
-.page-menu figure img {
-  width: 150px; }
-
-.page-menu ul a {
-  margin-right: 20px;
-  color: #000; }
-  .page-menu ul a:hover {
-    text-decoration: none; }
-  .page-menu ul a:last-child {
-    margin-right: 0px; }
-
 .page-menu {
-  height: 70px; }
-  .page-menu ul {
-    list-style: none;
+  margin-top: 10px; }
+  .page-menu figure {
     margin: 0px; }
-
-section.intro-section {
-  width: 100%;
-  padding: 0px; }
-  section.intro-section .intro-text {
-    margin-bottom: 50px;
-    margin-left: 50px;
-    padding: 0px;
-    width: 600px; }
-  section.intro-section figure {
-    position: relative; }
-    section.intro-section figure img {
-      width: 100%; }
-    section.intro-section figure button {
-      position: relative;
-      width: 178px;
-      height: 48px;
-      background-color: #3bd0d6;
-      color: #fff;
-      margin-left: 50px;
-      margin-bottom: -20px;
-      top: 13px; }
-
-section.info-1-section {
-  background-color: #f6f6f6; }
-  section.info-1-section .info-1-section_text {
-    width: 600px; }
-  section.info-1-section .info-1-section_img figure.mobile-img {
-    width: 300px;
-    height: 600px;
-    text-align: right;
-    box-shadow: 0 8px 12px 0 rgba(191, 197, 209, 0.22), 0 4px 4px 0 rgba(93, 97, 104, 0.1), inset 0 -8px 12px 0 rgba(239, 242, 246, 0.77), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-    background-color: white;
-    border-top-right-radius: 40px;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    position: relative;
-    transition: 0.2s; }
-    section.info-1-section .info-1-section_img figure.mobile-img img {
-      width: 270px;
-      border: 1px solid #afafaf; }
-
-section.info-2-section {
-  background-color: #ffff !important; }
-  section.info-2-section ul li {
-    position: relative;
-    padding-left: 20px;
-    margin-top: 30px; }
-    section.info-2-section ul li:after {
-      content: "1";
-      font-size: 18px;
-      color: #fff;
-      display: inline-block;
-      vertical-align: middle;
-      width: 40px;
-      height: 40px;
-      margin-right: 10px;
-      text-align: center;
-      line-height: 40px;
-      background-color: #3bd0d6;
-      border-radius: 50%;
-      position: absolute;
-      left: -40px;
-      top: 50%;
-      margin-top: -20px; }
-
-.info-3-section {
-  background-color: #f6f6f6;
-  min-height: 700px; }
-  .info-3-section .info-1-section_text {
-    width: 600px; }
+    .page-menu figure img {
+      width: 150px; }
+  .page-menu ul {
+    list-style: none; }
+    .page-menu ul a {
+      margin-right: 20px;
+      color: #000; }
+      .page-menu ul a:hover {
+        text-decoration: none; }
+      .page-menu ul a:last-child {
+        margin-right: 0px; }
 
 footer {
   background-color: #f6f6f6; }
@@ -2462,3 +2389,163 @@ footer {
         margin-right: 0px; }
   footer p {
     font-size: 12px; }
+
+.intro-page .page-menu {
+  height: 70px; }
+  .intro-page .page-menu ul {
+    list-style: none;
+    margin: 0px; }
+
+.intro-page section.intro-section {
+  width: 100%;
+  padding: 0px; }
+  .intro-page section.intro-section .intro-text {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding: 0px;
+    width: 600px; }
+  .intro-page section.intro-section figure {
+    position: relative; }
+    .intro-page section.intro-section figure img {
+      width: 100%; }
+    .intro-page section.intro-section figure button {
+      position: relative;
+      width: 178px;
+      height: 48px;
+      background-color: #3bd0d6;
+      color: #fff;
+      margin-left: 50px;
+      margin-bottom: -20px;
+      top: 13px; }
+
+.intro-page section.info-1-section {
+  background-color: #f6f6f6; }
+  .intro-page section.info-1-section .info-1-section_text {
+    width: 600px; }
+  .intro-page section.info-1-section .info-1-section_img figure.mobile-img {
+    width: 300px;
+    height: 600px;
+    text-align: right;
+    box-shadow: 0 8px 12px 0 rgba(191, 197, 209, 0.22), 0 4px 4px 0 rgba(93, 97, 104, 0.1), inset 0 -8px 12px 0 rgba(239, 242, 246, 0.77), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    position: relative;
+    transition: 0.2s; }
+    .intro-page section.info-1-section .info-1-section_img figure.mobile-img img {
+      width: 270px;
+      border: 1px solid #afafaf; }
+
+.intro-page section.info-2-section {
+  background-color: #ffff !important; }
+  .intro-page section.info-2-section ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-top: 30px; }
+    .intro-page section.info-2-section ul li:after {
+      content: "1";
+      font-size: 18px;
+      color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      text-align: center;
+      line-height: 40px;
+      background-color: #3bd0d6;
+      border-radius: 50%;
+      position: absolute;
+      left: -40px;
+      top: 50%;
+      margin-top: -20px; }
+
+.intro-page .info-3-section {
+  background-color: #f6f6f6;
+  min-height: 700px; }
+  .intro-page .info-3-section .info-1-section_text {
+    width: 600px; }
+
+.inversion .inv-1-section {
+  position: relative; }
+  .inversion .inv-1-section .inv-1-section_container {
+    position: relative; }
+    .inversion .inv-1-section .inv-1-section_container .inv-1-section_img {
+      position: absolute;
+      top: 0px;
+      right: 130px; }
+      .inversion .inv-1-section .inv-1-section_container .inv-1-section_img figure {
+        width: 450px;
+        z-index: 100; }
+        .inversion .inv-1-section .inv-1-section_container .inv-1-section_img figure img {
+          width: 100%; }
+    .inversion .inv-1-section .inv-1-section_container .inv-1-section_text {
+      width: 70%; }
+      .inversion .inv-1-section .inv-1-section_container .inv-1-section_text h4 {
+        width: 90%; }
+      .inversion .inv-1-section .inv-1-section_container .inv-1-section_text ul {
+        list-style: none; }
+        .inversion .inv-1-section .inv-1-section_container .inv-1-section_text ul li {
+          font-size: 16px;
+          margin: 20px 0px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #000;
+          padding-right: 190px;
+          font-weight: 100;
+          position: relative; }
+          .inversion .inv-1-section .inv-1-section_container .inv-1-section_text ul li:after {
+            content: "\f05d";
+            font-size: 32px;
+            color: #3bd0d6;
+            display: inline-block;
+            vertical-align: middle;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            position: absolute;
+            left: -45px;
+            top: 50%;
+            margin-top: -20px;
+            font-family: "FontAwesome";
+            font-weight: 100; }
+
+.inversion .inv-2-section {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #3bd0d6;
+  margin-top: 258px;
+  padding-bottom: 100px;
+  margin-bottom: 300px; }
+  .inversion .inv-2-section:after {
+    content: "";
+    position: absolute;
+    background-color: #3bd0d6;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    transform: translateY(-50%) skewY(-8deg); }
+  .inversion .inv-2-section .inv-2-section_card {
+    margin-top: 30px; }
+    .inversion .inv-2-section .inv-2-section_card .card {
+      width: 300px;
+      height: 380px; }
+
+.inversion .inv-3-section {
+  background-image: url(https://www.finanbest.com/wp-content/uploads/2016/11/hallegadoelmomento.jpg);
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .inversion .inv-3-section .inv-3-section_text {
+    background-color: #fff;
+    width: 500px;
+    height: 400px; }

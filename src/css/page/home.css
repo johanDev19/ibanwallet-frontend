@@ -1,22 +1,22 @@
-.page-menu {
+.intro-page .page-menu {
   height: 70px; }
-  .page-menu ul {
+  .intro-page .page-menu ul {
     list-style: none;
     margin: 0px; }
 
-section.intro-section {
+.intro-page section.intro-section {
   width: 100%;
   padding: 0px; }
-  section.intro-section .intro-text {
+  .intro-page section.intro-section .intro-text {
     margin-bottom: 50px;
     margin-left: 50px;
     padding: 0px;
     width: 600px; }
-  section.intro-section figure {
+  .intro-page section.intro-section figure {
     position: relative; }
-    section.intro-section figure img {
+    .intro-page section.intro-section figure img {
       width: 100%; }
-    section.intro-section figure button {
+    .intro-page section.intro-section figure button {
       position: relative;
       width: 178px;
       height: 48px;
@@ -26,11 +26,11 @@ section.intro-section {
       margin-bottom: -20px;
       top: 13px; }
 
-section.info-1-section {
+.intro-page section.info-1-section {
   background-color: #f6f6f6; }
-  section.info-1-section .info-1-section_text {
+  .intro-page section.info-1-section .info-1-section_text {
     width: 600px; }
-  section.info-1-section .info-1-section_img figure.mobile-img {
+  .intro-page section.info-1-section .info-1-section_img figure.mobile-img {
     width: 300px;
     height: 600px;
     text-align: right;
@@ -42,17 +42,17 @@ section.info-1-section {
     border-bottom-left-radius: 40px;
     position: relative;
     transition: 0.2s; }
-    section.info-1-section .info-1-section_img figure.mobile-img img {
+    .intro-page section.info-1-section .info-1-section_img figure.mobile-img img {
       width: 270px;
       border: 1px solid #afafaf; }
 
-section.info-2-section {
+.intro-page section.info-2-section {
   background-color: #ffff !important; }
-  section.info-2-section ul li {
+  .intro-page section.info-2-section ul li {
     position: relative;
     padding-left: 20px;
     margin-top: 30px; }
-    section.info-2-section ul li:after {
+    .intro-page section.info-2-section ul li:after {
       content: "1";
       font-size: 18px;
       color: #fff;
@@ -70,8 +70,8 @@ section.info-2-section {
       top: 50%;
       margin-top: -20px; }
 
-.info-3-section {
+.intro-page .info-3-section {
   background-color: #f6f6f6;
   min-height: 700px; }
-  .info-3-section .info-1-section_text {
+  .intro-page .info-3-section .info-1-section_text {
     width: 600px; }

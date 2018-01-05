@@ -36,7 +36,7 @@ class Home extends Component {
 
     render() {
         return(
-            <div>
+            <div className="intro-page">
                 <section className="intro-section container">
                     <header>
                         <div className="intro-text container-fluid d-flex flex-column justify-content-start">
@@ -92,9 +92,6 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
-
-
-
             </div>
         )
     }
