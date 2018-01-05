@@ -1,0 +1,15 @@
+.page-menu {
+  height: 70px; }
+  .page-menu figure {
+    margin: 0px; }
+    .page-menu figure img {
+      width: 100%; }
+  .page-menu ul {
+    list-style: none;
+    margin: 0px; }
+
+section.intro-section {
+  margin-top: 50px;
+  width: 100%; }
+  section.intro-section .intro-text {
+    margin-bottom: 50px; }
