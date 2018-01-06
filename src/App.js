@@ -9,7 +9,7 @@ import Footer from './component/Footer'
 import Home from './page/Home'
 import Inversion from './page/Inversion'
 import Ahorro from './page/Ahorro'
-
+import Iban from './page/Iban'
 
 import './css/bootstrap4.min.css'
 import './css/style.css';
@@ -25,6 +25,7 @@ class App extends Component {
                 <Route exact path="/" component={Home}/>
                 <Route path="/inversion" component={Inversion}/>
                 <Route path="/ahorro" component={Ahorro}/>
+                <Route path="/iban" component={Iban}/>
                 <Footer/>
             </div>
 

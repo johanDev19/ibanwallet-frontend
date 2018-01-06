@@ -1,0 +1,75 @@
+$btn-primary: rgb(59, 208, 214);
+
+.iban {
+
+  h1 {
+    margin-top: 100px;
+  }
+  .iban-1-section, .iban-2-section {
+    margin-top: 50px;
+
+    .iban-1-section_text, .iban-2-section_text {
+      width: 500px;
+    }
+
+    figure {
+      width: 300px;
+    }
+  }
+
+  .iban-3-section {
+    p {
+      //padding: 0px 100px;
+      font-weight: 100;
+    }
+  }
+
+  .iban-4-section {
+    p.margin-top {
+      margin-top: 50px;
+
+      &:last-child {
+        margin-top: 0px;
+      }
+    }
+
+    .comment {
+      ul {
+        list-style: none;
+        li {
+          margin-left: 100px;
+          margin-bottom: 50px;
+          position: relative;
+
+          &:before {
+            content: "\f10e";
+            font-family: "fontawesome";
+            font-size: 30px;
+            color: $btn-primary;
+            display: inline-block;
+            vertical-align: middle;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            text-align: center;
+            line-height: 40px;
+            position: absolute;
+            left: -60px;
+            top: 20%;
+            margin-top: -20px;
+          }
+        }
+      }
+    }
+  }
+
+  .iban-5-section {
+    background-color: rgb(246, 246, 246);
+    height: 200px;
+
+    h5 {
+      font-size: 25px;
+    }
+  }
+
+}

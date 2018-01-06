@@ -7,11 +7,13 @@ class Menu extends Component {
         return(
             <header className="d-flex justify-content-between align-items-center page-menu container">
                 <figure className="col-md-4">
-                    <img src={logo} alt="logo" />
+                    <a href="/">
+                        <img src={logo} alt="logo" />
+                    </a>
                 </figure>
                 <nav className="col-md-8 menu">
                     <ul className="d-flex justify-content-end">
-                        <a href="/">
+                        <a href="/iban">
                             <li>iBAN</li>
                         </a>
                         <a href="/ahorro">
