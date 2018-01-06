@@ -1,0 +1,47 @@
+$btn-primary: rgb(59, 208, 214);
+
+.ahorro {
+
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  .ah-2-section {
+    .ah-2-section_text {
+      &:nth-child(2) {
+
+        figure {
+          margin-left: 0px;
+          margin-right: 50px;
+        }
+
+      }
+      .text {
+        width: 600px;
+
+        span {
+          color: $btn-primary;
+        }
+
+        p {
+          margin-top: 20px;
+        }
+      }
+
+      figure {
+        width: 300px;
+        margin-left: 50px;
+
+
+        img {
+          width: 100%;
+        }
+      }
+
+    }
+  }
+
+
+
+
+}

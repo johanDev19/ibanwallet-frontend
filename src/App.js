@@ -8,6 +8,7 @@ import Footer from './component/Footer'
 //page
 import Home from './page/Home'
 import Inversion from './page/Inversion'
+import Ahorro from './page/Ahorro'
 
 
 import './css/bootstrap4.min.css'
@@ -23,6 +24,7 @@ class App extends Component {
                 <Menu/>
                 <Route exact path="/" component={Home}/>
                 <Route path="/inversion" component={Inversion}/>
+                <Route path="/ahorro" component={Ahorro}/>
                 <Footer/>
             </div>
 

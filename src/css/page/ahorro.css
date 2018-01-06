@@ -1,0 +1,19 @@
+.ahorro h2 {
+  margin-bottom: 50px; }
+
+.ahorro .ah-2-section .ah-2-section_text:nth-child(2) figure {
+  margin-left: 0px;
+  margin-right: 50px; }
+
+.ahorro .ah-2-section .ah-2-section_text .text {
+  width: 600px; }
+  .ahorro .ah-2-section .ah-2-section_text .text span {
+    color: #3bd0d6; }
+  .ahorro .ah-2-section .ah-2-section_text .text p {
+    margin-top: 20px; }
+
+.ahorro .ah-2-section .ah-2-section_text figure {
+  width: 300px;
+  margin-left: 50px; }
+  .ahorro .ah-2-section .ah-2-section_text figure img {
+    width: 100%; }

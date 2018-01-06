@@ -14,7 +14,7 @@ class Menu extends Component {
                         <a href="/">
                             <li>iBAN</li>
                         </a>
-                        <a href="">
+                        <a href="/ahorro">
                             <li>Planes de Ahorro</li>
                         </a>
                         <a href="/inversion">

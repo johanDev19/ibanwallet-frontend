@@ -1,3 +1,4 @@
+$btn-primary: rgb(59, 208, 214);
 
 section {
   width: 100%;
@@ -34,5 +35,10 @@ button {
   outline: none;
   border: 0px;
   cursor: pointer;
+}
+
+.p-color {
+  color: $btn-primary
+
 }
 
