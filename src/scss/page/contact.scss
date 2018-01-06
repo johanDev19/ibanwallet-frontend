@@ -1,0 +1,24 @@
+.contact {
+  margin-top: 100px;
+
+  .contact-2-section {
+    padding: 50px;
+    background-color: rgb(246, 246, 246);
+    .icon {
+      width: 70px;
+      height: 70px;
+      border: 1px solid #000;
+      border-radius: 100%;
+
+      i {
+        font-size: 40px;
+      }
+
+    }
+
+    h4 {
+      margin-top: 40px;
+    }
+  }
+
+}

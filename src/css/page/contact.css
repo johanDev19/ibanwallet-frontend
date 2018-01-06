@@ -1,0 +1,14 @@
+.contact {
+  margin-top: 100px; }
+  .contact .contact-2-section {
+    padding: 50px;
+    background-color: #f6f6f6; }
+    .contact .contact-2-section .icon {
+      width: 70px;
+      height: 70px;
+      border: 1px solid #000;
+      border-radius: 100%; }
+      .contact .contact-2-section .icon i {
+        font-size: 40px; }
+    .contact .contact-2-section h4 {
+      margin-top: 40px; }
