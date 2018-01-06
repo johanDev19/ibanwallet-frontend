@@ -75,14 +75,15 @@
       height: 380px; }
 
 .inversion .inv-3-section {
-  background-image: url("./../img/banner_06.png");
-  background-size: contain;
-  background-repeat: no-repeat !important;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-top: 0px;
+  width: 100%;
   margin-bottom: -100px; }
+  .inversion .inv-3-section figure {
+    margin: 0px; }
   .inversion .inv-3-section .inv-3-section_text {
-    width: 400px;
+    width: 600px;
     height: 300px;
-    margin-right: 100px; }
+    margin-right: 50px; }
+    .inversion .inv-3-section .inv-3-section_text h2 {
+      margin-bottom: 30px; }
+    .inversion .inv-3-section .inv-3-section_text p {
+      font-size: 18px; }
