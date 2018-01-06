@@ -2619,3 +2619,39 @@ footer {
   height: 200px; }
   .iban .iban-5-section h5 {
     font-size: 25px; }
+
+.opinion .opinion-1-section {
+  margin-top: 100px; }
+  .opinion .opinion-1-section .cover {
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-color: #f3dcb2;
+    padding: 0px 100px; }
+
+.opinion .opinion-2-section {
+  margin-top: 100px; }
+  .opinion .opinion-2-section h4 {
+    margin-bottom: 50px; }
+  .opinion .opinion-2-section .comment ul {
+    list-style: none; }
+    .opinion .opinion-2-section .comment ul li {
+      margin-left: 100px;
+      margin-bottom: 50px;
+      position: relative; }
+      .opinion .opinion-2-section .comment ul li:before {
+        content: "\f10e";
+        font-family: "fontawesome";
+        font-size: 30px;
+        color: #3bd0d6;
+        display: inline-block;
+        vertical-align: middle;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        text-align: center;
+        line-height: 40px;
+        position: absolute;
+        left: -60px;
+        top: 20%;
+        margin-top: -20px; }

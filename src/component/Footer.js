@@ -35,8 +35,7 @@ class Footer extends Component {
                     </div>
                     <div className="fo-2 d-flex flex-column">
                         <span className="font-weight-bold">Información</span>
-                        <span>Opiniones</span>
-                        <span>iBAN</span>
+                        <span><a href="/ibanopinion">Opiniones iBAN</a></span>
                         <span>Contacto</span>
                     </div>
                 </div>
