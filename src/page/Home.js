@@ -37,7 +37,7 @@ class Home extends Component {
     render() {
         return(
             <div className="intro-page container-fluid">
-                <section className="intro-section container">
+                <section className="intro-section">
                     <header>
                         <div className="intro-text container-fluid d-flex flex-column justify-content-start">
                             <h6>Saca el máximo partido a tus inversiones</h6>
