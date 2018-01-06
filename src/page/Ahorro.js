@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
-import icon1 from './../img/icon-inv3.svg'
+import icon1 from './../img/planahorro_screen1.png'
+import icon2 from './../img/planahorro_screen2.png'
+import icon3 from './../img/planahorro_screen3.png'
+
 
 class Ahorro extends Component {
     render(){
@@ -42,7 +45,7 @@ class Ahorro extends Component {
                                 <p>Dinos tus preferencias, con cuánto quieres empezar y cuánto puedes poner al mes. No te agobies porque podrás cambiarlo cuando quieras.</p>
                             </div>
                             <figure>
-                                <img src={icon1} alt=""/>
+                                <img src={icon1} alt="ahorro1"/>
                             </figure>
                         </div>
                         <div className="ah-2-section_text d-flex align-items-center flex-row-reverse">
@@ -52,7 +55,7 @@ class Ahorro extends Component {
                                 <p>Responde 10 sencillas preguntas sobre ti para que podamos calcular tu perfil de ahorrador y diseñar tu plan a medida.</p>
                             </div>
                             <figure>
-                                <img src={icon1} alt=""/>
+                                <img src={icon2} alt="ahorro2"/>
                             </figure>
                         </div>
                         <div className="ah-2-section_text d-flex align-items-center">
@@ -62,7 +65,7 @@ class Ahorro extends Component {
                                 <p>Actívalo en 10 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
                             </div>
                             <figure>
-                                <img src={icon1} alt=""/>
+                                <img src={icon3} alt="ahorro3"/>
                             </figure>
                         </div>
                     </div>

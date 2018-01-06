@@ -1,5 +1,9 @@
 import React, {Component} from 'react'
-import icon1 from './../img/icon-inv3.svg'
+import icon1 from './../img/Inversiones_screen_1.png'
+import icon2 from './../img/Rentabilidad.svg'
+import icon3 from './../img/Comisiones.svg'
+import icon4 from './../img/Accesible.svg'
+
 
 class Inversion extends Component {
 
@@ -19,7 +23,7 @@ class Inversion extends Component {
                         </div>
                         <div className="inv-1-section_img">
                             <figure className={"mobile-img d-flex justify-content-center align-items-center"}>
-                                <img src="https://n26.com/content/uploads/2016/10/n26-credit-card-unique-features-phone-de-ret-1-1x.png" alt="card"/>
+                                <img src={icon1} alt="card"/>
                             </figure>
                         </div>
                     </div>
@@ -31,21 +35,21 @@ class Inversion extends Component {
                     <div className="inv-2-section_card d-flex justify-content-between align-items-center">
                         <div className="card d-flex justify-content-center align-items-center container">
                             <figure>
-                                <img src={icon1} alt=""/>
+                                <img src={icon2} alt=""/>
                             </figure>
                             <p>MAYOR RENTABILIDAD</p>
                             <p className="text-center">Una cartera de inversión diversificada y gestionada por ti</p>
                         </div>
                         <div className="card d-flex justify-content-center align-items-center container">
                             <figure>
-                                <img src={icon1} alt=""/>
+                                <img src={icon3} alt=""/>
                             </figure>
                             <p>COMISIONES MÍNIMAS</p>
                             <p className="text-center">Un 80% menos de comisiones que la banca. Eliminamos comisiones.</p>
                         </div>
                         <div className="card d-flex justify-content-center align-items-center container">
                             <figure>
-                                <img src={icon1} alt=""/>
+                                <img src={icon4} alt=""/>
                             </figure>
                             <p>SIEMPRE ACCESSIBLE</p>
                             <p className="text-center">Puedes solicitar tu dinero cuando quieras.</p>

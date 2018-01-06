@@ -4,7 +4,7 @@
     position: relative; }
     .inversion .inv-1-section .inv-1-section_container .inv-1-section_img {
       position: absolute;
-      top: 0px;
+      top: -76px;
       right: 130px; }
       .inversion .inv-1-section .inv-1-section_container .inv-1-section_img figure {
         width: 450px;
@@ -28,7 +28,7 @@
           .inversion .inv-1-section .inv-1-section_container .inv-1-section_text ul li:after {
             content: "\f05d";
             font-size: 32px;
-            color: #3bd0d6;
+            color: #339966;
             display: inline-block;
             vertical-align: middle;
             width: 40px;
@@ -48,14 +48,17 @@
   position: relative;
   width: 100%;
   height: 300px;
-  background-color: #3bd0d6;
+  background-color: #339966;
   margin-top: 258px;
   padding-bottom: 100px;
   margin-bottom: 300px; }
+  .inversion .inv-2-section h4 {
+    color: #fff;
+    font-weight: normal; }
   .inversion .inv-2-section:after {
     content: "";
     position: absolute;
-    background-color: #3bd0d6;
+    background-color: #339966;
     width: 100%;
     height: 100%;
     left: 0px;
@@ -69,7 +72,7 @@
       height: 380px; }
 
 .inversion .inv-3-section {
-  background-image: url(https://www.finanbest.com/wp-content/uploads/2016/11/hallegadoelmomento.jpg);
+  background-image: url("./../img/banner_01.png");
   background-size: cover !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
