@@ -1,6 +1,8 @@
 .inversion .inv-1-section {
   position: relative;
-  padding: 0px; }
+  padding: 0px;
+  margin-right: 50px;
+  margin-left: 50px; }
   .inversion .inv-1-section .inv-1-section_container {
     position: relative; }
     .inversion .inv-1-section .inv-1-section_container .inv-1-section_img {
@@ -82,4 +84,5 @@
   .inversion .inv-3-section .inv-3-section_text {
     background-color: #fff;
     width: 500px;
-    height: 400px; }
+    height: 400px;
+    margin-right: 50px; }

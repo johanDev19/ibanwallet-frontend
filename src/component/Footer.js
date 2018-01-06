@@ -5,7 +5,7 @@ class Footer extends Component {
     render(){
         return(
             <footer className="d-flex justify-content-center align-items-center flex-column">
-                <div className="row container d-flex justify-content-between">
+                <div className="row container-fluid d-flex justify-content-between">
                     <div className="fo-1">
                         <div className="d-flex flex-column">
                             <span className="font-weight-bold">
@@ -39,7 +39,7 @@ class Footer extends Component {
                         <span><a href="/contact">Contacto</a></span>
                     </div>
                 </div>
-                <div className="container">
+                <div className="container-fluid">
                     <p>
                         iBAN Investment Group S.L, Paseo de las Delicias, 1, 41001, Sevilla, Agente de Esfera Capital, Agencia de valores sujeta a supervisión de la CNMV inscrito con el número 252. Agente de de Seguros Exclusivo de Caser (Caja de Seguros Reunidos, Compañia de Seguros y reaseguros, S.A.= sujeto a la supervisión de la DGSFP inscrito con el número C0031B90344383. Los planes de ahorro están gestionados por Caser y depositado en CecaBank.
                     </p>

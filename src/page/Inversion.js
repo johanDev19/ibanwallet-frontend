@@ -11,8 +11,8 @@ class Inversion extends Component {
     render(){
         return(
             <div className="inversion">
-                <section className="inv-1-section container ">
-                    <div className="d-flex justify-content-start container inv-1-section_container">
+                <section className="inv-1-section  container">
+                    <div className="d-flex justify-content-start  inv-1-section_container">
                         <div className="inv-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center">
                             <h4 className="text-uppercase">el modelo de inversión de los grandes inversores, al alcance de todos</h4>
                             <ul>
@@ -57,7 +57,7 @@ class Inversion extends Component {
                     </div>
                 </section>
 
-                <section className="inv-3-section d-flex justify-content-end align-items-center container">
+                <section className="inv-3-section d-flex justify-content-end align-items-center ">
                     <div className="inv-3-section_text d-flex justify-content-center align-items-center">
                         <div className="container">
                             <h4 className="text-center">HA LLEGADO EL MOMENTO</h4>

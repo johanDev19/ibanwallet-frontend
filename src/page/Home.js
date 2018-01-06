@@ -37,7 +37,7 @@ class Home extends Component {
     render() {
         return(
             <div className="intro-page container-fluid">
-                <section className="intro-section container">
+                <section className="intro-section">
                     <header>
                         <div className="intro-text container-fluid d-flex flex-column justify-content-start">
                             <h6>Saca el máximo partido a tus inversiones</h6>
@@ -52,7 +52,7 @@ class Home extends Component {
 
                 </section>
 
-                <section className="info-1-section container ">
+                <section className="info-1-section ">
                     <div className="d-flex justify-content-between container">
                         <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center">
                             <h2>iBAN te facilita toda TU actividad financiera de forma segura y sencilla.</h2>
@@ -66,7 +66,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="info-1-section info-3-section container d-flex align-items-center ">
+                <section className="info-1-section info-3-section d-flex align-items-center ">
                     <div className="d-flex justify-content-start container ">
                         <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center">
                             <h2>Ayuda al instante</h2>
@@ -75,7 +75,7 @@ class Home extends Component {
                     </div>
                 </section>
 
-                <section className="info-1-section info-2-section container ">
+                <section className="info-1-section info-2-section  ">
                     <div className="d-flex justify-content-between container">
                         <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center">
                             <h2>ONLINE, RÁPIDO Y SENCILLO</h2>

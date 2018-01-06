@@ -7,7 +7,7 @@ class Ibanopinion extends Component {
             <div className="opinion container-fluid">
 
 
-                <section className="opinion-1-section container">
+                <section className="opinion-1-section">
                     <div className="text-left">
                         <h1>Opiniones sobre iBAN</h1>
                         <h5>Nos encanta escucharte. Tus comentarios nos ayudan a definir lo que ofrecemos.</h5>
@@ -32,7 +32,7 @@ class Ibanopinion extends Component {
                 </section>
 
 
-                <section className="opinion-2-section container">
+                <section className="opinion-2-section ">
                     <h4 className="text-center">Descubre lo que la gente dice sobre iBAN</h4>
                     <div className="comment container">
                         <ul>
@@ -65,8 +65,6 @@ class Ibanopinion extends Component {
                         </ul>
                     </div>
                 </section>
-
-
 
             </div>
         )

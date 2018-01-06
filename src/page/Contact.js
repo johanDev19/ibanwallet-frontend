@@ -4,7 +4,7 @@ class Contact extends Component {
     render(){
         return(
             <div className="contact container-fluid">
-                <section className="contact-1-section container">
+                <section className="contact-1-section">
                     <h1 className="text-center">Contacta con nosotros</h1>
                     <p className="text-center">Estamos encantados de responder a cualquier pregunta que puedas tener, solo envíanos un mensaje a través de nuestro chat de soporte.</p>
                 </section>

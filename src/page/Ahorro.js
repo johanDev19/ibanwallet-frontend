@@ -8,7 +8,7 @@ class Ahorro extends Component {
     render(){
         return (
             <div className="ahorro container-fluid">
-                <section className="ah-1-section container row align-items-center">
+                <section className="ah-1-section row align-items-center">
                     <figure className="col-md-6">
                         <img src="https://n26.com/content/uploads/2016/10/n26-credit-card-unique-features-phone-de-ret-1-1x.png" alt=""/>
                     </figure>
@@ -34,7 +34,7 @@ class Ahorro extends Component {
                     </div>
                 </section>
 
-                <section className="ah-2-section container">
+                <section className="ah-2-section">
                     <h2 className="text-center">¿Cómo funciona?</h2>
 
                     <div className="d-flex flex-column align-items-center">
