@@ -2328,6 +2328,10 @@
   overflow: visible;
   clip: auto; }
 
+.container-fluid {
+  padding-right: 50px;
+  padding-left: 50px; }
+
 section {
   width: 100%;
   margin-top: 100px; }
@@ -2353,8 +2357,7 @@ button {
   color: #339966; }
 
 .page-menu {
-  margin-top: 10px;
-  padding: 0px; }
+  margin-top: 10px; }
   .page-menu figure {
     padding: 0px;
     margin: 0px; }

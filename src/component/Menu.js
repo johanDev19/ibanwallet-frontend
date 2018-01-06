@@ -5,7 +5,7 @@ import logo from './../img/Logoibanwallet.svg'
 class Menu extends Component {
     render(){
         return(
-            <header className="d-flex justify-content-between align-items-center page-menu container">
+            <header className="d-flex justify-content-between align-items-center page-menu container-fluid">
                 <figure className="col-md-4">
                     <a href="/">
                         <img src={logo} alt="logo" />
