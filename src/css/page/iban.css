@@ -11,33 +11,36 @@
 .iban .iban-3-section p {
   font-weight: 100; }
 
-.iban .iban-4-section p.margin-top {
-  margin-top: 50px; }
-  .iban .iban-4-section p.margin-top:last-child {
-    margin-top: 0px; }
-
-.iban .iban-4-section .comment ul {
-  list-style: none; }
-  .iban .iban-4-section .comment ul li {
-    margin-left: 100px;
-    margin-bottom: 50px;
-    position: relative; }
-    .iban .iban-4-section .comment ul li:before {
-      content: "\f10e";
-      font-family: "fontawesome";
-      font-size: 30px;
-      color: #339966;
-      display: inline-block;
-      vertical-align: middle;
-      width: 40px;
-      height: 40px;
-      margin-right: 10px;
-      text-align: center;
-      line-height: 40px;
-      position: absolute;
-      left: -60px;
-      top: 20%;
-      margin-top: -20px; }
+.iban .iban-4-section {
+  width: 80%; }
+  .iban .iban-4-section p.margin-top {
+    margin-top: 50px; }
+    .iban .iban-4-section p.margin-top:last-child {
+      margin-top: 0px; }
+  .iban .iban-4-section .comment {
+    margin-top: 50px; }
+    .iban .iban-4-section .comment ul {
+      list-style: none; }
+      .iban .iban-4-section .comment ul li {
+        margin-left: 100px;
+        margin-bottom: 50px;
+        position: relative; }
+        .iban .iban-4-section .comment ul li:before {
+          content: "\f10e";
+          font-family: "fontawesome";
+          font-size: 30px;
+          color: #339966;
+          display: inline-block;
+          vertical-align: middle;
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+          text-align: center;
+          line-height: 40px;
+          position: absolute;
+          left: -60px;
+          top: 20%;
+          margin-top: -20px; }
 
 .iban .iban-5-section {
   background-color: #f6f6f6;

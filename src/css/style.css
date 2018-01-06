@@ -2330,12 +2330,7 @@
 
 section {
   width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-left: 100px;
-  padding-right: 100px; }
-  section .container {
-    padding: 40px; }
+  margin-top: 100px; }
   section .info-section_text {
     width: 400px;
     margin-right: 100px; }
@@ -2343,8 +2338,10 @@ section {
 footer .container {
   padding: 40px; }
 
-figure img {
-  width: 100%; }
+figure {
+  padding: 0px; }
+  figure img {
+    width: 100%; }
 
 button {
   border-radius: 5px;
@@ -2356,8 +2353,10 @@ button {
   color: #339966; }
 
 .page-menu {
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding: 0px; }
   .page-menu figure {
+    padding: 0px;
     margin: 0px; }
     .page-menu figure img {
       width: 150px; }
@@ -2372,7 +2371,8 @@ button {
         margin-right: 0px; }
 
 footer {
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+  margin-top: 100px; }
   footer figure {
     margin: 0px;
     padding: 0px; }
@@ -2401,7 +2401,8 @@ footer {
 
 .intro-page section.intro-section {
   width: 100%;
-  padding: 0px; }
+  padding: 0px;
+  margin-top: 100px; }
   .intro-page section.intro-section .intro-text {
     margin-bottom: 50px;
     margin-left: 50px;
@@ -2472,7 +2473,8 @@ footer {
     width: 600px; }
 
 .inversion .inv-1-section {
-  position: relative; }
+  position: relative;
+  padding: 0px; }
   .inversion .inv-1-section .inv-1-section_container {
     position: relative; }
     .inversion .inv-1-section .inv-1-section_container .inv-1-section_img {
@@ -2589,33 +2591,36 @@ footer {
 .iban .iban-3-section p {
   font-weight: 100; }
 
-.iban .iban-4-section p.margin-top {
-  margin-top: 50px; }
-  .iban .iban-4-section p.margin-top:last-child {
-    margin-top: 0px; }
-
-.iban .iban-4-section .comment ul {
-  list-style: none; }
-  .iban .iban-4-section .comment ul li {
-    margin-left: 100px;
-    margin-bottom: 50px;
-    position: relative; }
-    .iban .iban-4-section .comment ul li:before {
-      content: "\f10e";
-      font-family: "fontawesome";
-      font-size: 30px;
-      color: #339966;
-      display: inline-block;
-      vertical-align: middle;
-      width: 40px;
-      height: 40px;
-      margin-right: 10px;
-      text-align: center;
-      line-height: 40px;
-      position: absolute;
-      left: -60px;
-      top: 20%;
-      margin-top: -20px; }
+.iban .iban-4-section {
+  width: 80%; }
+  .iban .iban-4-section p.margin-top {
+    margin-top: 50px; }
+    .iban .iban-4-section p.margin-top:last-child {
+      margin-top: 0px; }
+  .iban .iban-4-section .comment {
+    margin-top: 50px; }
+    .iban .iban-4-section .comment ul {
+      list-style: none; }
+      .iban .iban-4-section .comment ul li {
+        margin-left: 100px;
+        margin-bottom: 50px;
+        position: relative; }
+        .iban .iban-4-section .comment ul li:before {
+          content: "\f10e";
+          font-family: "fontawesome";
+          font-size: 30px;
+          color: #339966;
+          display: inline-block;
+          vertical-align: middle;
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+          text-align: center;
+          line-height: 40px;
+          position: absolute;
+          left: -60px;
+          top: 20%;
+          margin-top: -20px; }
 
 .iban .iban-5-section {
   background-color: #f6f6f6;
@@ -2624,7 +2629,8 @@ footer {
     font-size: 25px; }
 
 .opinion .opinion-1-section {
-  margin-top: 100px; }
+  margin-top: 100px;
+  padding: 0px; }
   .opinion .opinion-1-section .cover {
     margin-top: 50px;
     width: 100%;

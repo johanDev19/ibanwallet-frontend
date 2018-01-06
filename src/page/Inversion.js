@@ -32,7 +32,7 @@ class Inversion extends Component {
                 <section className="inv-2-section">
                     <h4 className="text-center">De verdad. Todo lo que iBAN hace</h4>
 
-                    <div className="inv-2-section_card d-flex justify-content-between align-items-center">
+                    <div className="inv-2-section_card d-flex justify-content-between align-items-center flex-wrap">
                         <div className="card d-flex justify-content-center align-items-center container">
                             <figure>
                                 <img src={icon2} alt=""/>
@@ -57,7 +57,7 @@ class Inversion extends Component {
                     </div>
                 </section>
 
-                <section className="inv-3-section d-flex justify-content-end align-items-center">
+                <section className="inv-3-section d-flex justify-content-end align-items-center container">
                     <div className="inv-3-section_text d-flex justify-content-center align-items-center">
                         <div className="container">
                             <h4 className="text-center">HA LLEGADO EL MOMENTO</h4>

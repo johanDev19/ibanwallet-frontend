@@ -1,6 +1,8 @@
 .page-menu {
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding: 0px; }
   .page-menu figure {
+    padding: 0px;
     margin: 0px; }
     .page-menu figure img {
       width: 150px; }

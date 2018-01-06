@@ -4,10 +4,10 @@ import heart from './../img/Heart.svg'
 class Ibanopinion extends Component {
     render(){
         return(
-            <div className="opinion container">
+            <div className="opinion container-fluid">
 
 
-                <section className="opinion-1-section">
+                <section className="opinion-1-section container">
                     <div className="text-left">
                         <h1>Opiniones sobre iBAN</h1>
                         <h5>Nos encanta escucharte. Tus comentarios nos ayudan a definir lo que ofrecemos.</h5>
@@ -32,9 +32,9 @@ class Ibanopinion extends Component {
                 </section>
 
 
-                <section className="opinion-2-section">
+                <section className="opinion-2-section container">
                     <h4 className="text-center">Descubre lo que la gente dice sobre iBAN</h4>
-                    <div className="comment">
+                    <div className="comment container">
                         <ul>
                             <li>
                                 <p className="h4">Debo decir que los productos son muy competitivos</p>

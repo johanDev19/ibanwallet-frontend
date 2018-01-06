@@ -7,7 +7,7 @@ import icon3 from './../img/planahorro_screen3.png'
 class Ahorro extends Component {
     render(){
         return (
-            <div className="ahorro">
+            <div className="ahorro container-fluid">
                 <section className="ah-1-section container row align-items-center">
                     <figure className="col-md-6">
                         <img src="https://n26.com/content/uploads/2016/10/n26-credit-card-unique-features-phone-de-ret-1-1x.png" alt=""/>

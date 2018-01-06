@@ -6,7 +6,8 @@
 
 .intro-page section.intro-section {
   width: 100%;
-  padding: 0px; }
+  padding: 0px;
+  margin-top: 100px; }
   .intro-page section.intro-section .intro-text {
     margin-bottom: 50px;
     margin-left: 50px;

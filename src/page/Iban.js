@@ -4,11 +4,11 @@ import icon1 from './../img/icon-inv3.svg'
 class Iban extends Component {
     render(){
         return(
-            <div className="iban container">
-                <h1 className="text-center">
+            <div className="iban container-fluid">
+                <h1 className="text-center container">
                     Creemos que podemos ser la alternativa
                 </h1>
-                <section className="iban-1-section d-flex justify-content-between align-items-center">
+                <section className="iban-1-section container d-flex justify-content-between align-items-center">
                     <div className="iban-1-section_text">
                         <p>
                             Nos enfocamos en resolver problemas, en vez de vender productos.
@@ -20,7 +20,7 @@ class Iban extends Component {
                     </figure>
                 </section>
 
-                <section className="iban-2-section d-flex justify-content-between align-items-center flex-md-row-reverse">
+                <section className="iban-2-section d-flex justify-content-between align-items-center flex-md-row-reverse container">
                     <div className="iban-2-section_text">
                         <p>
                             Estamos aquí para aquellos que se niegan a conformarse. Quienes nunca dejan de avanzar. Quienes continúan buscando nuevas ideas y mejores experiencias en todo lo que hacen.
@@ -32,16 +32,16 @@ class Iban extends Component {
                     </figure>
                 </section>
 
-                <section className="iban-5-section d-flex justify-content-center align-items-center">
+                <section className="iban-5-section d-flex justify-content-center align-items-center container">
                     <h5 className="text-center">Únete a nuestra comunidad global y accede a un mundo más allá de la banca</h5>
                 </section>
 
-                <section className="iban-3-section">
+                <section className="iban-3-section container">
                     <h5 className="text-center">Inversores</h5>
                     <p className="container">iBAN cuenta con el respaldo de algunos de los inversores de mayor renombre de Europa. Han invertido en empresas de primera como Revolut.</p>
                 </section>
 
-                <section className="iban-4-section">
+                <section className="iban-4-section container">
                     <h5 className="text-center">Los medios hablan de nosotros</h5>
                     <p className="container">Iniciamos iBAN desde nuestro hogar en Londres, y desde entonces hemos ido expandiéndonos por el mundo. Nuestra evolución ha sido recogida por los medios. Aqui te mostramos unas menciones que algunos periodistas y medios de comunicación han publicado sobre nosotros.</p>
                     <div className="comment">
