@@ -1,5 +1,6 @@
 .page-menu {
-  margin-top: 10px;
+  height: 70px;
+
 
   figure {
     padding: 0px;
@@ -11,6 +12,8 @@
 
   ul {
     list-style: none;
+    margin-bottom: 0px;
+
     a {
       margin-right: 20px;
       color: #000;

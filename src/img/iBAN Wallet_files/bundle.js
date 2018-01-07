@@ -42052,7 +42052,7 @@ var Home = function (_Component) {
 
         _this.state = {
             mobilePosition: 50,
-            mobileImage: 'http://images.contentful.com/q33z48p65a6w/6jAoggr5q8oQ4o8o0moo6G/51c31d284b868892fcf84d1009e52889/n26-home-detail-es.png?fit=thumb&w=640'
+            mobileImage: 'https://images.contentful.com/q33z48p65a6w/6jAoggr5q8oQ4o8o0moo6G/51c31d284b868892fcf84d1009e52889/n26-home-detail-es.png?fit=thumb&w=640'
         };
 
         _this.getScroll = _this.getScroll.bind(_this);
@@ -42069,7 +42069,7 @@ var Home = function (_Component) {
             window.addEventListener("scroll", function () {
                 _this2.setState({
                     mobilePosition: window.pageYOffset < 50 ? 50 : window.pageYOffset > 1725 ? 1725 : window.pageYOffset,
-                    mobileImage: window.pageYOffset < 1400 ? 'http://images.contentful.com/q33z48p65a6w/6jAoggr5q8oQ4o8o0moo6G/51c31d284b868892fcf84d1009e52889/n26-home-detail-es.png?fit=thumb&w=640' : 'https://www.revolut.com/assets/media/ios6.1d1d82.jpg'
+                    mobileImage: window.pageYOffset < 1400 ? 'https://images.contentful.com/q33z48p65a6w/6jAoggr5q8oQ4o8o0moo6G/51c31d284b868892fcf84d1009e52889/n26-home-detail-es.png?fit=thumb&w=640' : 'https://www.revolut.com/assets/media/ios6.1d1d82.jpg'
                 });
 
                 console.log(window.pageYOffset);
@@ -42166,7 +42166,7 @@ var Home = function (_Component) {
                             },
                             'Abre tu cuenta'
                         ),
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'http://images.contentful.com/q33z48p65a6w/3BY2AK4ZuowqaciuCI8IQY/5c403e002633a04dc6d8511a8a700a66/n26-intro-image-the-mobile-bank-1707.jpg%3Ffit=thumb&w=640&fm=jpg&fl=progressive', alt: 'intro', __source: {
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'https://images.contentful.com/q33z48p65a6w/3BY2AK4ZuowqaciuCI8IQY/5c403e002633a04dc6d8511a8a700a66/n26-intro-image-the-mobile-bank-1707.jpg%3Ffit=thumb&w=640&fm=jpg&fl=progressive', alt: 'intro', __source: {
                                 fileName: _jsxFileName,
                                 lineNumber: 50
                             },

@@ -11,7 +11,7 @@ class Menu extends Component {
                         <img src={logo} alt="logo" />
                     </a>
                 </figure>
-                <nav className="col-md-8 menu">
+                <nav className="col-md-8 menu ">
                     <ul className="d-flex justify-content-end">
                         <a href="/iban">
                             <li>iBAN</li>

@@ -2357,14 +2357,15 @@ button {
   color: #339966; }
 
 .page-menu {
-  margin-top: 10px; }
+  height: 70px; }
   .page-menu figure {
     padding: 0px;
     margin: 0px; }
     .page-menu figure img {
       width: 150px; }
   .page-menu ul {
-    list-style: none; }
+    list-style: none;
+    margin-bottom: 0px; }
     .page-menu ul a {
       margin-right: 20px;
       color: #000; }
@@ -2642,7 +2643,7 @@ footer {
     margin-top: 50px;
     width: 100%;
     height: 500px;
-    background-color: #f3dcb2;
+    background-color: #f1f1f1;
     padding: 0px 100px; }
 
 .opinion .opinion-2-section {
