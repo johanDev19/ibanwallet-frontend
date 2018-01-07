@@ -19,7 +19,7 @@ class Ibanopinion extends Component {
                         <h1>Opiniones sobre iBAN</h1>
                         <h5 className="h2">Nos encanta escucharte. Tus comentarios nos ayudan a definir lo que ofrecemos.</h5>
                     </div>
-                    <div className="cover d-flex justify-content-around align-items-center container">
+                    <div className="cover d-flex justify-content-around align-items-center">
                         <figure>
                             <img src={heart} alt=""/>
                         </figure>
