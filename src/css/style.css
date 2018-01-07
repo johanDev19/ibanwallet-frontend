@@ -2457,7 +2457,12 @@ footer {
     margin-bottom: 50px;
     margin-left: 50px;
     padding: 0px;
-    width: 600px; }
+    width: 500px; }
+    .intro-page section.intro-section .intro-text h6 {
+      font-size: 20px;
+      font-weight: normal; }
+    .intro-page section.intro-section .intro-text h3 {
+      font-size: 20px; }
   .intro-page section.intro-section figure {
     position: relative; }
     .intro-page section.intro-section figure img {

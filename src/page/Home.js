@@ -48,8 +48,8 @@ class Home extends Component {
                     <header>
                         <div className="intro-text container-fluid d-flex flex-column justify-content-start">
                             <h6>Saca el máximo partido a tus inversiones</h6>
-                            <h1>Más rentabilidad, menos comisiones.</h1>
-                            <h3>Esa es la nueva forma de ahorrar</h3>
+                            <h1 className="display-4">Más rentabilidad y menos comisiones</h1>
+                            <h3 className="font-weight-bold">Esa es la nueva forma de ahorrar</h3>
                         </div>
                     </header>
                     <figure>
