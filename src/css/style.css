@@ -2356,6 +2356,9 @@ button {
 .p-color {
   color: #339966; }
 
+a {
+  color: #000; }
+
 .page-menu {
   height: 70px; }
   .page-menu figure {

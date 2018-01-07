@@ -50,10 +50,12 @@ class Iban extends Component {
                     <div className="comment">
                         <ul>
                             <li>
-                                “iBAN como uno de los actores principales en un sector que está asistiendo a una verdadera transformación sin precedentes” - <strong>CincoDías</strong>
+                                “iBAN como uno de los actores principales en un sector que está asistiendo a una verdadera transformación sin precedentes” - <strong>
+                                <a href="https://cincodias.elpais.com/cincodias/2017/11/17/emprendedores/1510907958_535416.html">CincoDías</a></strong>
                             </li>
                             <li>
-                                ”iBAN, fintech enfocada a digitalizar los procesos complejos y convertirlos en procesos rápidos para todos sus clientes, tiene el objetivo de simplificar y automatizar tecnológicamente productos de inversión y ahorro para acercarlos al gran público” - <strong>Inversion y finanzas</strong>
+                                ”iBAN, fintech enfocada a digitalizar los procesos complejos y convertirlos en procesos rápidos para todos sus clientes, tiene el objetivo de simplificar y automatizar tecnológicamente productos de inversión y ahorro para acercarlos al gran público” - <strong><a
+                                href="http://www.finanzas.com/noticias/noticias-corporativas/20171204/caser-iban-wallet-alian-3737450.html">Inversion y finanzas</a></strong>
                             </li>
 
 
