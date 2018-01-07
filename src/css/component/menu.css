@@ -5,13 +5,15 @@
     margin: 0px; }
     .page-menu figure img {
       width: 150px; }
-  .page-menu ul {
+  .page-menu nav i {
+    font-size: 35px; }
+  .page-menu nav ul {
     list-style: none;
     margin-bottom: 0px; }
-    .page-menu ul a {
+    .page-menu nav ul a {
       margin-right: 20px;
       color: #000; }
-      .page-menu ul a:hover {
+      .page-menu nav ul a:hover {
         text-decoration: none; }
-      .page-menu ul a:last-child {
+      .page-menu nav ul a:last-child {
         margin-right: 0px; }

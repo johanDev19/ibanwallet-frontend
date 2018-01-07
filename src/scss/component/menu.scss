@@ -10,21 +10,28 @@
     }
   }
 
-  ul {
-    list-style: none;
-    margin-bottom: 0px;
-
-    a {
-      margin-right: 20px;
-      color: #000;
-
-      &:hover {
-        text-decoration: none;
-      }
-      &:last-child {
-        margin-right: 0px;
-      }
+  nav {
+    i {
+      font-size: 35px;
     }
+    ul {
+      list-style: none;
+      margin-bottom: 0px;
 
+      a {
+        margin-right: 20px;
+        color: #000;
+
+        &:hover {
+          text-decoration: none;
+        }
+        &:last-child {
+          margin-right: 0px;
+        }
+      }
+
+    }
   }
+
+
 }
