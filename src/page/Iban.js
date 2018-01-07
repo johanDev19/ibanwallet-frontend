@@ -41,7 +41,7 @@ class Iban extends Component {
 
                 <section className="iban-3-section container">
                     <h5 className="text-center">Inversores</h5>
-                    <p className="container">iBAN cuenta con el respaldo de algunos de los inversores de mayor renombre de Europa. Han invertido en empresas de primera como Revolut.</p>
+                    <p className="container text-center col-10">iBAN cuenta con el respaldo de algunos de los inversores de mayor renombre de Europa. Han invertido en empresas de primera como Revolut.</p>
                 </section>
 
                 <section className="iban-4-section container">
