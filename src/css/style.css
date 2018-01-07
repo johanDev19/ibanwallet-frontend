@@ -2632,7 +2632,8 @@ footer {
 .ahorro .ah-2-section .ah-2-section_text {
   background-color: #f6f6f6;
   padding-right: 50px;
-  padding-left: 50px; }
+  padding-left: 50px;
+  width: 100%; }
   .ahorro .ah-2-section .ah-2-section_text:nth-child(2) {
     background-color: #fff; }
     .ahorro .ah-2-section .ah-2-section_text:nth-child(2) figure {
