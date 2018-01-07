@@ -8,31 +8,7 @@ class Ahorro extends Component {
     render(){
         return (
             <div className="ahorro container-fluid">
-                <section className="ah-1-section row align-items-center justify-content-center">
-                    <figure className="col-4">
-                        <img src={img1} alt=""/>
-                    </figure>
-                    <div className="ah-1-section_text col-md-6">
-                        <h2>¿Por qué debería ahorrar con iBAN?</h2>
-                        <ol>
-                            <li><strong>La inflación se come tus ahorros</strong>
-                                <p>
-                                    Porque lo que hacíamos la gran mayoría era simplemente acumular dinero y la inflación no perdona.
-                                </p>
-                            </li>
-                            <li><strong>Tus ahorros generan más ahorros</strong>
-                                <p>
-                                    Porque con nosotros tus ahorros se ponen a trabajar y generan nuevos ahorros a largo plazo.
-                                </p>
-                            </li>
-                            <li><strong>Siempre disponible, sin claúsulas abusivas</strong>
-                                <p>
-                                    Porque ahorrar con nosotros es cómodo, desde el móvil, disponible cuando quieras y sin cláusulas abusivas
-                                </p>
-                            </li>
-                        </ol>
-                    </div>
-                </section>
+
 
                 <section className="ah-2-section">
                     <h2 className="text-center">¿Cómo funciona?</h2>
@@ -71,6 +47,32 @@ class Ahorro extends Component {
                     </div>
 
 
+                </section>
+
+                <section className="ah-1-section row align-items-center justify-content-center">
+                    <figure className="col-4">
+                        <img src={img1} alt=""/>
+                    </figure>
+                    <div className="ah-1-section_text col-md-6">
+                        <h2>¿Por qué debería ahorrar con iBAN?</h2>
+                        <ol>
+                            <li><strong>La inflación se come tus ahorros</strong>
+                                <p>
+                                    Porque lo que hacíamos la gran mayoría era simplemente acumular dinero y la inflación no perdona.
+                                </p>
+                            </li>
+                            <li><strong>Tus ahorros generan más ahorros</strong>
+                                <p>
+                                    Porque con nosotros tus ahorros se ponen a trabajar y generan nuevos ahorros a largo plazo.
+                                </p>
+                            </li>
+                            <li><strong>Siempre disponible, sin claúsulas abusivas</strong>
+                                <p>
+                                    Porque ahorrar con nosotros es cómodo, desde el móvil, disponible cuando quieras y sin cláusulas abusivas
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
                 </section>
             </div>
         )
