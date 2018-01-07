@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
-import icon1 from './../img/icon-inv3.svg'
+import icon1 from './../img/web_iban_imagen2.jpg'
+import icon2 from './../img/web_iban_imagen1.jpg'
+
+
 
 class Iban extends Component {
     render(){
@@ -8,7 +11,7 @@ class Iban extends Component {
                 <h1 className="text-center container">
                     Creemos que podemos ser la alternativa
                 </h1>
-                <section className="iban-1-section container d-flex justify-content-between align-items-center">
+                <section className="iban-1-section container d-flex justify-content-around align-items-center">
                     <div className="iban-1-section_text">
                         <p>
                             Nos enfocamos en resolver problemas, en vez de vender productos.
@@ -20,7 +23,7 @@ class Iban extends Component {
                     </figure>
                 </section>
 
-                <section className="iban-2-section d-flex justify-content-between align-items-center flex-md-row-reverse container">
+                <section className="iban-2-section d-flex justify-content-around align-items-center flex-md-row-reverse container">
                     <div className="iban-2-section_text">
                         <p>
                             Estamos aquí para aquellos que se niegan a conformarse. Quienes nunca dejan de avanzar. Quienes continúan buscando nuevas ideas y mejores experiencias en todo lo que hacen.
@@ -28,7 +31,7 @@ class Iban extends Component {
                         <p>Porque el mundo tan conectado de hoy merece un compañero financiero igual de avanzado. Uno que se adapta a tus necesidades, te da el control y que continuamente te lleva a nuevos y estimulantes horizontes.</p>
                     </div>
                     <figure>
-                        <img src={icon1} alt=""/>
+                        <img src={icon2} alt=""/>
                     </figure>
                 </section>
 
@@ -47,10 +50,10 @@ class Iban extends Component {
                     <div className="comment">
                         <ul>
                             <li>
-                                “iBAN como uno de los actores principales en un sector que está asistiendo a una verdadera transformación sin precedentes” - <a href="">CincoDías</a>
+                                “iBAN como uno de los actores principales en un sector que está asistiendo a una verdadera transformación sin precedentes” - <strong>CincoDías</strong>
                             </li>
                             <li>
-                                ”iBAN, fintech enfocada a digitalizar los procesos complejos y convertirlos en procesos rápidos para todos sus clientes, tiene el objetivo de simplificar y automatizar tecnológicamente productos de inversión y ahorro para acercarlos al gran público” - <a href="">Inversion y finanzas</a>
+                                ”iBAN, fintech enfocada a digitalizar los procesos complejos y convertirlos en procesos rápidos para todos sus clientes, tiene el objetivo de simplificar y automatizar tecnológicamente productos de inversión y ahorro para acercarlos al gran público” - <strong>Inversion y finanzas</strong>
                             </li>
 
 
