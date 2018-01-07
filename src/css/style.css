@@ -2639,19 +2639,29 @@ footer {
 .opinion .opinion-1-section {
   margin-top: 100px;
   padding: 0px; }
+  .opinion .opinion-1-section .opinion-1-section_text {
+    margin-left: 107px; }
+    .opinion .opinion-1-section .opinion-1-section_text h5 {
+      width: 68%; }
   .opinion .opinion-1-section .cover {
     margin-top: 50px;
-    width: 100%;
-    height: 500px;
-    background-color: #f1f1f1;
-    padding: 0px 100px; }
+    width: 82%;
+    height: 462px;
+    background-color: #f2f2f2;
+    padding: 0px 100px;
+    margin-right: auto;
+    margin-left: auto; }
 
 .opinion .opinion-2-section {
   margin-top: 100px; }
-  .opinion .opinion-2-section h4 {
+  .opinion .opinion-2-section h2 {
     margin-bottom: 50px; }
   .opinion .opinion-2-section .comment ul {
-    list-style: none; }
+    list-style: none;
+    width: 60%;
+    padding: 0px;
+    margin: auto;
+    padding-left: 66px; }
     .opinion .opinion-2-section .comment ul li {
       margin-left: 100px;
       margin-bottom: 50px;
@@ -2659,7 +2669,7 @@ footer {
       .opinion .opinion-2-section .comment ul li:before {
         content: "\f10e";
         font-family: "fontawesome";
-        font-size: 30px;
+        font-size: 66px;
         color: #339966;
         display: inline-block;
         vertical-align: middle;
@@ -2667,11 +2677,27 @@ footer {
         height: 40px;
         margin-right: 10px;
         text-align: center;
-        line-height: 40px;
         position: absolute;
-        left: -60px;
-        top: 20%;
+        left: -4px;
+        top: 3%;
         margin-top: -20px; }
+      .opinion .opinion-2-section .comment ul li figure {
+        width: 89px;
+        border-radius: 18px;
+        overflow: hidden;
+        position: absolute;
+        left: -148px;
+        bottom: 0px;
+        margin-bottom: 0px; }
+      .opinion .opinion-2-section .comment ul li p {
+        margin-left: 70px;
+        margin-bottom: 35px; }
+      .opinion .opinion-2-section .comment ul li div {
+        border-left: 1px solid #339966;
+        padding-left: 10px;
+        position: relative; }
+        .opinion .opinion-2-section .comment ul li div strong {
+          display: block; }
 
 .contact {
   margin-top: 100px; }
