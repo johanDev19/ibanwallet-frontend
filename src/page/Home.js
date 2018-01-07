@@ -27,7 +27,7 @@ class Home extends Component {
                 mobileImage: window.pageYOffset < 1400?'https://images.contentful.com/q33z48p65a6w/6jAoggr5q8oQ4o8o0moo6G/51c31d284b868892fcf84d1009e52889/n26-home-detail-es.png?fit=thumb&w=640':'https://www.revolut.com/assets/media/ios6.1d1d82.jpg'
             })
 
-            console.log(window.pageYOffset)
+            // console.log(window.pageYOffset)
         });
 
     }
