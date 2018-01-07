@@ -3,6 +3,9 @@ import React, {Component} from 'react'
 
 import banner_1 from './../img/web_inicio_banner.jpg'
 
+import s_1 from './../img/1.png'
+import s_2 from './../img/2.png'
+import s_3 from './../img/3.png'
 
 class Home extends Component {
 
@@ -10,8 +13,8 @@ class Home extends Component {
         super(props)
 
         this.state = {
-            mobilePosition: 50,
-            mobileImage: 'https://images.contentful.com/q33z48p65a6w/6jAoggr5q8oQ4o8o0moo6G/51c31d284b868892fcf84d1009e52889/n26-home-detail-es.png?fit=thumb&w=640'
+            mobilePosition: 80,
+            imageDisplay: '270px'
         };
 
         this.getScroll = this.getScroll.bind(this);
@@ -23,11 +26,11 @@ class Home extends Component {
 
         window.addEventListener("scroll", () => {
             this.setState({
-                mobilePosition: window.pageYOffset < 50?50:window.pageYOffset > 1280?1280:window.pageYOffset,
-                mobileImage: window.pageYOffset < 1400?'https://images.contentful.com/q33z48p65a6w/6jAoggr5q8oQ4o8o0moo6G/51c31d284b868892fcf84d1009e52889/n26-home-detail-es.png?fit=thumb&w=640':'https://www.revolut.com/assets/media/ios6.1d1d82.jpg'
+                mobilePosition: window.pageYOffset < 80?80:window.pageYOffset > 1300?1300:window.pageYOffset,
+                imageDisplay: window.pageYOffset >= 0 && window.pageYOffset < 690?'270px':window.pageYOffset >= 690 && window.pageYOffset < 1000 ?'0px':'-270px'
             })
 
-            // console.log(window.pageYOffset)
+            console.log(window.pageYOffset)
         });
 
     }
@@ -62,10 +65,17 @@ class Home extends Component {
                             <p>Traspasa su plan de pensiones o contrato los mejores fondos de inversión en tan solo 5 minutos.</p>
                             <span className='font-weight-bold'>Bienvenido a un mundo más allá de la banca, Bienvenido a <a href="">iBAN</a></span>
                         </div>
-                        <div className="info-1-section_img ">
-                            <figure className={"mobile-img d-flex justify-content-center align-items-center"} style={{top: this.state.mobilePosition - 1100}}>
-                                <img src={this.state.mobileImage} alt="card"/>
-                            </figure>
+                        <div className="info-1-section_img " style={{top: this.state.mobilePosition }}>
+                            <div className="img-container">
+                                <figure className={"mobile-img d-flex justify-content-center align-items-center"}>
+                                    <div className="d-flex" style={{position: 'relative', left: this.state.imageDisplay}}>
+                                        <img src={s_1} alt="card" />
+                                        <img src={s_2} alt="card" />
+                                        <img src={s_3} alt="card" />
+                                    </div>
+                                </figure>
+                            </div>
+
                         </div>
                     </div>
                 </section>

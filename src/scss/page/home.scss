@@ -64,27 +64,42 @@ $btn-primary: #339966;
     .info-1-section_img {
       position: absolute;
       right: 100px;
+      width: 300px;
+      height: 600px;
+      text-align: right;
+      box-shadow: 0 8px 12px 0 rgba(191, 197, 209, 0.22), 0 4px 4px 0 rgba(93, 97, 104, 0.1), inset 0 -8px 12px 0 rgba(239, 242, 246, 0.77), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+      background-color: rgb(255, 255, 255);
+      border-top-right-radius: 40px;
+      border-top-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      border-bottom-left-radius: 40px;
+      transition: 0.2s;
 
-      figure.mobile-img {
-        width: 300px;
-        height: 600px;
-        text-align: right;
-        box-shadow: 0 8px 12px 0 rgba(191, 197, 209, 0.22), 0 4px 4px 0 rgba(93, 97, 104, 0.1), inset 0 -8px 12px 0 rgba(239, 242, 246, 0.77), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-        background-color: rgb(255, 255, 255);
-        border-top-right-radius: 40px;
-        border-top-left-radius: 40px;
-        border-bottom-right-radius: 40px;
-        border-bottom-left-radius: 40px;
+      .img-container {
+        overflow: hidden;
+        margin: auto;
         position: relative;
-        transition: 0.2s;
+        top: 55px;
+        width: 270px;
+        height: 479px;
 
+        figure.mobile-img {
+          position: relative;
 
-        img {
-          width: 270px;
-          border: 1px solid #afafaf;
+          div {
+            transition: 0.8s;
+          }
 
+          img {
+            width: 270px;
+            height: 479px;
+            border: 1px solid #afafaf;
+
+          }
         }
       }
+
+
     }
 
   }

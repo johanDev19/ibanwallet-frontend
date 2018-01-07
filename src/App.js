@@ -14,8 +14,9 @@ import Ibanoponion from './page/Ibanopinion'
 import Contact from './page/Contact'
 
 import './css/bootstrap4.min.css'
-import './css/style.css';
+import './css/animate.css';
 
+import './css/style.css';
 
 class App extends Component {
 
