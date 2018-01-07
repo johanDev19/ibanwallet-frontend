@@ -59,6 +59,10 @@ $btn-primary: #339966;
 
     .info-1-section_text {
       width: 600px;
+
+      a {
+        color: #000;
+      }
     }
 
     .info-1-section_img {
@@ -106,6 +110,7 @@ $btn-primary: #339966;
 
   section.info-2-section {
     background-color: #ffff !important;
+    margin-bottom: -100px;
 
     ul {
       li {
@@ -138,6 +143,7 @@ $btn-primary: #339966;
   .info-3-section {
     background-color: rgb(246, 246, 246);
     height: 400px;
+
 
     .info-1-section_text {
       width: 600px;

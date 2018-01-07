@@ -32,6 +32,8 @@
   background-color: #f6f6f6; }
   .intro-page section.info-1-section .info-1-section_text {
     width: 600px; }
+    .intro-page section.info-1-section .info-1-section_text a {
+      color: #000; }
   .intro-page section.info-1-section .info-1-section_img {
     position: absolute;
     right: 100px;
@@ -62,7 +64,8 @@
           border: 1px solid #afafaf; }
 
 .intro-page section.info-2-section {
-  background-color: #ffff !important; }
+  background-color: #ffff !important;
+  margin-bottom: -100px; }
   .intro-page section.info-2-section ul li {
     position: relative;
     padding-left: 20px;

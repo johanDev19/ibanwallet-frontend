@@ -2378,7 +2378,8 @@ button {
 
 footer {
   background-color: #4B4949;
-  margin-top: 100px; }
+  margin-top: 100px;
+  padding: 25px 0px; }
   footer .fo-1 {
     margin-right: 229px; }
     footer .fo-1 .logo {
@@ -2473,6 +2474,8 @@ footer {
   background-color: #f6f6f6; }
   .intro-page section.info-1-section .info-1-section_text {
     width: 600px; }
+    .intro-page section.info-1-section .info-1-section_text a {
+      color: #000; }
   .intro-page section.info-1-section .info-1-section_img {
     position: absolute;
     right: 100px;
@@ -2503,7 +2506,8 @@ footer {
           border: 1px solid #afafaf; }
 
 .intro-page section.info-2-section {
-  background-color: #ffff !important; }
+  background-color: #ffff !important;
+  margin-bottom: -100px; }
   .intro-page section.info-2-section ul li {
     position: relative;
     padding-left: 20px;

@@ -6,6 +6,7 @@ import banner_1 from './../img/web_inicio_banner.jpg'
 import s_1 from './../img/1.png'
 import s_2 from './../img/2.png'
 import s_3 from './../img/3.png'
+import m_img from './../img/Minimalist-Showcase-Project-Presentation.png'
 
 class Home extends Component {
 
@@ -100,7 +101,7 @@ class Home extends Component {
                         </div>
                         <div className="info-2-section_img ">
                             <figure className={"mobile-img d-flex justify-content-center align-items-center"}>
-                                <img src="https://www.finanbest.com/wp-content/uploads/2016/11/disp.png" alt="card"/>
+                                <img src={m_img} alt="card"/>
                             </figure>
                         </div>
                     </div>
