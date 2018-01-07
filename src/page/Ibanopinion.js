@@ -15,11 +15,11 @@ class Ibanopinion extends Component {
 
 
                 <section className="opinion-1-section">
-                    <div className="text-left opinion-1-section_text">
-                        <h1 className="display-4">Opiniones sobre iBAN</h1>
+                    <div className="text-left opinion-1-section_text container">
+                        <h1>Opiniones sobre iBAN</h1>
                         <h5 className="h2">Nos encanta escucharte. Tus comentarios nos ayudan a definir lo que ofrecemos.</h5>
                     </div>
-                    <div className="cover d-flex justify-content-around align-items-center ">
+                    <div className="cover d-flex justify-content-around align-items-center container">
                         <figure>
                             <img src={heart} alt=""/>
                         </figure>
@@ -37,14 +37,6 @@ class Ibanopinion extends Component {
                         </figure>
                     </div>
                 </section>
-
-                {/*https://lh5.googleusercontent.com/HihhayqoNONGHBdX6NGJLmJflEdKMZFTceCjWgZKsJXWuIYK_GigAhC9HyolD9ranvw7r0ACjge0xHXNIM3dkzyIAhWXSzfFhOD_hpwsq3-7Jz9RYD283dTuH3WfUrCrJrS1NFNmcw*/}
-                {/*https://lh4.googleusercontent.com/G1pjKwAMsOFzsXm5xVuXIra_z-FFU4y2qttZ5yZX09798EdldgTuipAyY-xeKIzUYFmVl0Nco92wk1FTnEtHzzxBcU7XNmEaiEKHm3hg3yU2rG2ynKlpacgc6fx0H83Flz7OOYu7YA*/}
-                {/*https://lh6.googleusercontent.com/ML_GviTpp7HH1LSnkbxKBqmvdo58ga28ykg2jj5Zdvs8LLzgjQ4JkUxosyJOnVu9Qlm5XTI6nKEBX3qximInkpZSYJ6QIOIQbRdVakrEmAQ112leP37apQhAv3hDFDKEugY3JPLnRw*/}
-                {/*https://lh5.googleusercontent.com/TBy480Gh34-Axpe8-qqBi-FXYhkszRH7bnrHdNvUlATaIvtvurOGp9yDfIlPk9fm7E4Rx_L4Ptni3y7RI8LRh1-qXEEhIyI3y6weC-DuG2uEO5YUxc9ObwIaS-7D426nX5Eoqg19zQ*/}
-                {/*https://lh5.googleusercontent.com/2Igei-OeEkOCunPe6YibUVBymVr2f172l4Go-JQH1B0aAJwWrJ6sb_ClDDINsfj1kjTJ-HQKgCYdhBk2tkBlv7CzccLiNVmqkgpjXThiRzZAaHQhRwQaMiUMamz3mkJwT5VR_EM8pg*/}
-                {/*https://lh3.googleusercontent.com/8vFMPvVfGhnA5q7BYfdVJvUQyyjdSVTGKyGp1CRH5TJs0ZbYyLlOmOUvmssSXy-AO_PeRNlQq1L5z0nOx6ei-Q3tmg2aZQ6-_o2YOU0JOHizR27EYOHWQQ7y2HIsxG8mrSAh_XADxA*/}
-
 
                 <section className="opinion-2-section ">
                     <h2 className="text-center">Descubre lo que la gente dice sobre iBAN</h2>

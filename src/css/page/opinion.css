@@ -1,18 +1,21 @@
 .opinion .opinion-1-section {
   margin-top: 100px;
-  padding: 0px; }
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px; }
   .opinion .opinion-1-section .opinion-1-section_text {
-    margin-left: 107px; }
+    padding: 0px;
+    margin: 0px; }
     .opinion .opinion-1-section .opinion-1-section_text h5 {
       width: 68%; }
   .opinion .opinion-1-section .cover {
     margin-top: 50px;
-    width: 82%;
+    width: 100%;
     height: 462px;
     background-color: #f2f2f2;
     padding: 0px 100px;
-    margin-right: auto;
-    margin-left: auto; }
+    margin-right: 0px;
+    margin-left: 0px; }
 
 .opinion .opinion-2-section {
   margin-top: 100px; }
@@ -53,7 +56,8 @@
         margin-bottom: 0px; }
       .opinion .opinion-2-section .comment ul li p {
         margin-left: 70px;
-        margin-bottom: 35px; }
+        margin-bottom: 35px;
+        min-height: 56px; }
       .opinion .opinion-2-section .comment ul li div {
         border-left: 1px solid #339966;
         padding-left: 10px;
