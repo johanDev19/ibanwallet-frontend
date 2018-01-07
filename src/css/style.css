@@ -2429,24 +2429,28 @@ footer {
       top: 13px; }
 
 .intro-page section.info-1-section {
+  height: 400px;
   background-color: #f6f6f6; }
   .intro-page section.info-1-section .info-1-section_text {
     width: 600px; }
-  .intro-page section.info-1-section .info-1-section_img figure.mobile-img {
-    width: 300px;
-    height: 600px;
-    text-align: right;
-    box-shadow: 0 8px 12px 0 rgba(191, 197, 209, 0.22), 0 4px 4px 0 rgba(93, 97, 104, 0.1), inset 0 -8px 12px 0 rgba(239, 242, 246, 0.77), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-    background-color: white;
-    border-top-right-radius: 40px;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    position: relative;
-    transition: 0.2s; }
-    .intro-page section.info-1-section .info-1-section_img figure.mobile-img img {
-      width: 270px;
-      border: 1px solid #afafaf; }
+  .intro-page section.info-1-section .info-1-section_img {
+    position: absolute;
+    right: 100px; }
+    .intro-page section.info-1-section .info-1-section_img figure.mobile-img {
+      width: 300px;
+      height: 600px;
+      text-align: right;
+      box-shadow: 0 8px 12px 0 rgba(191, 197, 209, 0.22), 0 4px 4px 0 rgba(93, 97, 104, 0.1), inset 0 -8px 12px 0 rgba(239, 242, 246, 0.77), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+      background-color: white;
+      border-top-right-radius: 40px;
+      border-top-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      border-bottom-left-radius: 40px;
+      position: relative;
+      transition: 0.2s; }
+      .intro-page section.info-1-section .info-1-section_img figure.mobile-img img {
+        width: 270px;
+        border: 1px solid #afafaf; }
 
 .intro-page section.info-2-section {
   background-color: #ffff !important; }
@@ -2474,7 +2478,7 @@ footer {
 
 .intro-page .info-3-section {
   background-color: #f6f6f6;
-  min-height: 700px; }
+  height: 400px; }
   .intro-page .info-3-section .info-1-section_text {
     width: 600px; }
 
