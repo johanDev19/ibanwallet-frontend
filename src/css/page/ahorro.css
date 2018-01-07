@@ -22,3 +22,7 @@
     margin-left: 50px; }
     .ahorro .ah-2-section .ah-2-section_text figure img {
       width: 100%; }
+
+.ahorro .ah-1-section figure {
+  max-width: 366px;
+  overflow: hidden; }
