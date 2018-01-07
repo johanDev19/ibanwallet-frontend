@@ -31,7 +31,7 @@ class Footer extends Component {
                         </div>
 
                     </div>
-                    <div className="row">
+                    <div className="row fo-2">
                         <div className="d-flex flex-column f-nav f-nav_1 col">
                             <span className="font-weight-bold">Producto</span>
                             <span><a href="ahorro">Planes de Ahorro</a></span>
