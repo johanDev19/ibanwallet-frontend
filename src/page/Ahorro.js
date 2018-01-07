@@ -11,7 +11,7 @@ class Ahorro extends Component {
 
 
                 <section className="ah-2-section">
-                    <h2 className="text-center">¿Cómo funciona?</h2>
+                    <h1 className="text-center h2">¿Cómo funciona?</h1>
 
                     <div className="d-flex flex-column align-items-center">
                         <div className="ah-2-section_text d-flex align-items-center">

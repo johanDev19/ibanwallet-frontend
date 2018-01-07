@@ -2,13 +2,18 @@ $btn-primary: #339966;
 
 .ahorro {
 
-  h2 {
+  h1 {
     margin-bottom: 50px;
   }
 
   .ah-2-section {
     .ah-2-section_text {
+      background-color: rgb(246, 246, 246);
+      padding-right: 50px;
+      padding-left: 50px;
+
       &:nth-child(2) {
+        background-color: #fff;
 
         figure {
           margin-left: 0px;
