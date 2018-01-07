@@ -1,16 +1,16 @@
 import React, {Component} from 'react'
 import icon1 from './../img/planahorro_screen1.png'
-import icon2 from './../img/planahorro_screen2.png'
+import icon2 from './../img/planahorro_screen2-2-3.png'
 import icon3 from './../img/planahorro_screen3-2.png'
-
+import img1 from './../img/pexels-photo-774909.jpeg'
 
 class Ahorro extends Component {
     render(){
         return (
             <div className="ahorro container-fluid">
-                <section className="ah-1-section row align-items-center">
-                    <figure className="col-md-6">
-                        <img src="https://n26.com/content/uploads/2016/10/n26-credit-card-unique-features-phone-de-ret-1-1x.png" alt=""/>
+                <section className="ah-1-section row align-items-center justify-content-center">
+                    <figure className="col-4">
+                        <img src={img1} alt=""/>
                     </figure>
                     <div className="ah-1-section_text col-md-6">
                         <h2>¿Por qué debería ahorrar con iBAN?</h2>
@@ -40,7 +40,7 @@ class Ahorro extends Component {
                     <div className="d-flex flex-column align-items-center">
                         <div className="ah-2-section_text d-flex align-items-center">
                             <div className="text">
-                                <h6>1. Tus preferencias</h6>
+                                <h6 className="h2">1. Tus preferencias</h6>
                                 <span>PARA OFRECERTE EL PLAN QUE MEJOR SE ADAPTE A TI</span>
                                 <p>Dinos tus preferencias, con cuánto quieres empezar y cuánto puedes poner al mes. No te agobies porque podrás cambiarlo cuando quieras.</p>
                             </div>
@@ -50,22 +50,22 @@ class Ahorro extends Component {
                         </div>
                         <div className="ah-2-section_text d-flex align-items-center flex-row-reverse">
                             <div className="text">
-                                <h6>2. Tu perfil de ahorrador</h6>
+                                <h6 className="h2">2. Tu perfil de ahorrador</h6>
                                 <span>PARA CONFIGURAR EL PLAN A TU MEDIDA</span>
                                 <p>Responde 10 sencillas preguntas sobre ti para que podamos calcular tu perfil de ahorrador y diseñar tu plan a medida.</p>
                             </div>
                             <figure>
-                                <img src={icon3} alt="ahorro2"/>
+                                <img src={icon2} alt="ahorro2"/>
                             </figure>
                         </div>
                         <div className="ah-2-section_text d-flex align-items-center">
                             <div className="text">
-                                <h6>3. Introduce tus datos personales</h6>
+                                <h6 className="h2">3. Introduce tus datos personales</h6>
                                 <span>Y ACTÍVALO 100% ONLINE</span>
                                 <p>Actívalo en 10 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
                             </div>
                             <figure>
-                                <img src={icon2} alt="ahorro3"/>
+                                <img src={icon3} alt="ahorro3"/>
                             </figure>
                         </div>
                     </div>
