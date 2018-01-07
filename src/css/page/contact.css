@@ -6,13 +6,18 @@
     .contact .contact-2-section:last-child {
       background-color: #fff; }
     .contact .contact-2-section .icon {
-      width: 70px;
-      height: 70px;
-      border: 1px solid #000;
-      border-radius: 100%; }
-      .contact .contact-2-section .icon i {
-        font-size: 40px;
-        width: 40px;
-        height: 40px; }
+      width: 83px;
+      height: 83px; }
+      .contact .contact-2-section .icon figure {
+        width: 83px;
+        height: 83px;
+        margin: 0px; }
     .contact .contact-2-section h4 {
       margin-top: 40px; }
+    .contact .contact-2-section .address p {
+      text-decoration: underline; }
+      .contact .contact-2-section .address p i {
+        margin-right: 5px;
+        color: #000; }
+      .contact .contact-2-section .address p a {
+        color: #000; }
