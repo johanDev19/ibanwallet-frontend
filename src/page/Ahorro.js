@@ -14,7 +14,8 @@ class Ahorro extends Component {
                     <h1 className="text-center h2">¿Cómo funciona?</h1>
 
                     <div className="d-flex flex-column align-items-center">
-                        <div className="ah-2-section_text d-flex align-items-center">
+                        <div className="ah-2-section_text d-flex align-items-center justify-content-around">
+
                             <div className="text">
                                 <h6 className="h2">1. Tus preferencias</h6>
                                 <span>PARA OFRECERTE EL PLAN QUE MEJOR SE ADAPTE A TI</span>
@@ -24,7 +25,7 @@ class Ahorro extends Component {
                                 <img src={icon1} alt="ahorro1"/>
                             </figure>
                         </div>
-                        <div className="ah-2-section_text d-flex align-items-center flex-row-reverse">
+                        <div className="ah-2-section_text d-flex align-items-center flex-row-reverse justify-content-around">
                             <div className="text">
                                 <h6 className="h2">2. Tu perfil de ahorrador</h6>
                                 <span>PARA CONFIGURAR EL PLAN A TU MEDIDA</span>
@@ -34,7 +35,7 @@ class Ahorro extends Component {
                                 <img src={icon2} alt="ahorro2"/>
                             </figure>
                         </div>
-                        <div className="ah-2-section_text d-flex align-items-center">
+                        <div className="ah-2-section_text d-flex align-items-center justify-content-around">
                             <div className="text">
                                 <h6 className="h2">3. Introduce tus datos personales</h6>
                                 <span>Y ACTÍVALO 100% ONLINE</span>
