@@ -51,7 +51,7 @@ class Footer extends Component {
                         <a href="/politica">
                             <li>Politica de privacidad | </li>
                         </a>
-                        <a href="">
+                        <a href="/termino">
                             <li> Terminos y condiciones de uso | </li>
                         </a>
                         <a href="">

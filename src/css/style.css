@@ -2808,8 +2808,22 @@ footer {
   margin-top: 40px; }
   .politica .poli-1-section h1, .politica .poli-1-section .h6 {
     color: #333;
-    margin-bottom: 18px; }
+    margin-bottom: 18px;
+    margin-top: 30px; }
   .politica .poli-1-section p, .politica .poli-1-section li {
+    color: #777;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 40px;
+    font-family: "Open Sans"; }
+
+.termino .term-1-section {
+  margin-top: 40px; }
+  .termino .term-1-section h1, .termino .term-1-section .h6, .termino .term-1-section h6 {
+    color: #333;
+    margin-bottom: 18px;
+    margin-top: 30px; }
+  .termino .term-1-section p, .termino .term-1-section li {
     color: #777;
     font-size: 18px;
     font-weight: lighter;
