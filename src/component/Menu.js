@@ -3,9 +3,35 @@ import logo from './../img/Logoibanwallet.svg'
 
 
 class Menu extends Component {
+    constructor(){
+        super()
+
+        this.state = {
+            shadow: false
+        }
+
+        this.getScroll = this.getScroll.bind(this)
+        this.getScroll();
+
+    }
+
+    getScroll(){
+
+        window.addEventListener("scroll", () => {
+            this.setState({
+                shadow: window.pageYOffset > 0
+            })
+
+            // console.log(window.pageYOffset)
+        });
+
+    }
+
+
+
     render(){
         return(
-            <header className="d-flex justify-content-between align-items-center page-menu container-fluid">
+            <header className={this.state.shadow === true?'d-flex justify-content-between align-items-center page-menu container-fluid shadow':'d-flex justify-content-between align-items-center page-menu container-fluid'}>
                 <figure className="col-2">
                     <a href="/">
                         <img src={logo} alt="logo" />
@@ -23,10 +49,10 @@ class Menu extends Component {
                         <a href="/inversion">
                             <li>Inversión</li>
                         </a>
-                        <a href="">
+                        <a href="https://secure.myibanwallet.com">
                             <li>Acceso Clientes</li>
                         </a>
-                        <a href="">
+                        <a href="https://secure.myibanwallet.com">
                             <li>Registrate</li>
                         </a>
                     </ul>

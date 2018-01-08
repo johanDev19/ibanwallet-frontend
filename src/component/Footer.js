@@ -10,21 +10,23 @@ class Footer extends Component {
                         <div className="d-flex flex-column">
                             <span className="font-weight-bold logo">
                                 <figure>
+                                    <a href="/">
                                     <img src={logo} alt="logo"/>
+                                    </a>
                                 </figure>
                             </span>
                             <span className="r">® iBAN Wallet 2018</span>
                             <ul className="d-flex l-social">
-                                <a href="">
+                                <a href="https://www.facebook.com/myibanwallet">
                                     <i className="fa fa-facebook" aria-hidden="true"></i>
                                 </a>
-                                <a href="">
+                                <a href="https://twitter.com/myibanwallet">
                                     <i className="fa fa-twitter" aria-hidden="true"></i>
                                 </a>
-                                <a href="">
+                                <a href="https://www.linkedin.com/company/11428519/">
                                     <i className="fa fa-linkedin" aria-hidden="true"></i>
                                 </a>
-                                <a href="">
+                                <a href="https://www.instagram.com/myibanwallet/">
                                     <i className="fa fa-instagram" aria-hidden="true"></i>
                                 </a>
                             </ul>

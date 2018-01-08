@@ -1,5 +1,9 @@
 .page-menu {
   height: 70px;
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  z-index: 100000000;
 
 
   figure {
@@ -32,6 +36,4 @@
 
     }
   }
-
-
 }

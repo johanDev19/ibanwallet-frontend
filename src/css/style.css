@@ -2332,6 +2332,9 @@
   padding-right: 50px;
   padding-left: 50px; }
 
+.shadow {
+  box-shadow: 0px 4px 10px -8px #000; }
+
 section {
   width: 100%;
   margin-top: 100px; }
@@ -2358,9 +2361,15 @@ button {
 
 a {
   color: #000; }
+  a:hover {
+    color: #66cc99 !important; }
 
 .page-menu {
-  height: 70px; }
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  z-index: 100000000; }
   .page-menu figure {
     padding: 0px;
     margin: 0px; }
@@ -2452,7 +2461,7 @@ footer {
 .intro-page section.intro-section {
   width: 100%;
   padding: 0px;
-  margin-top: 100px; }
+  margin-top: 170px; }
   .intro-page section.intro-section .intro-text {
     margin-bottom: 50px;
     margin-left: 50px;
@@ -2547,7 +2556,7 @@ footer {
 .inversion .inv-1-section {
   position: relative;
   padding: 0px;
-  margin-top: 50px; }
+  margin-top: 170px; }
   .inversion .inv-1-section .inv-1-section_container {
     position: relative;
     width: 80%; }
@@ -2637,84 +2646,82 @@ footer {
 .ahorro h1 {
   margin-bottom: 50px; }
 
-.ahorro .ah-2-section .ah-2-section_text {
-  background-color: #f6f6f6;
-  padding-right: 50px;
-  padding-left: 50px;
-  width: 100%; }
-  .ahorro .ah-2-section .ah-2-section_text:nth-child(2) {
-    background-color: #fff; }
-    .ahorro .ah-2-section .ah-2-section_text:nth-child(2) figure {
-      margin-left: 0px;
-      margin-right: 50px; }
-  .ahorro .ah-2-section .ah-2-section_text .text {
-    width: 600px; }
-    .ahorro .ah-2-section .ah-2-section_text .text span {
-      color: #339966; }
-    .ahorro .ah-2-section .ah-2-section_text .text p {
-      margin-top: 20px; }
-  .ahorro .ah-2-section .ah-2-section_text figure {
-    width: 300px;
-    margin-left: 50px; }
-    .ahorro .ah-2-section .ah-2-section_text figure img {
-      width: 100%; }
+.ahorro .ah-2-section {
+  margin-top: 170px; }
+  .ahorro .ah-2-section .ah-2-section_text {
+    background-color: #f6f6f6;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 100%; }
+    .ahorro .ah-2-section .ah-2-section_text:nth-child(2) {
+      background-color: #fff; }
+      .ahorro .ah-2-section .ah-2-section_text:nth-child(2) figure {
+        margin-left: 0px;
+        margin-right: 50px; }
+    .ahorro .ah-2-section .ah-2-section_text .text {
+      width: 600px; }
+      .ahorro .ah-2-section .ah-2-section_text .text span {
+        color: #339966; }
+      .ahorro .ah-2-section .ah-2-section_text .text p {
+        margin-top: 20px; }
+    .ahorro .ah-2-section .ah-2-section_text figure {
+      width: 300px;
+      margin-left: 50px; }
+      .ahorro .ah-2-section .ah-2-section_text figure img {
+        width: 100%; }
 
 .ahorro .ah-1-section figure {
   max-width: 366px;
   overflow: hidden; }
 
-.iban h1 {
-  margin-top: 100px; }
-
-.iban .iban-1-section, .iban .iban-2-section {
-  margin-top: 50px; }
-  .iban .iban-1-section .iban-1-section_text, .iban .iban-1-section .iban-2-section_text, .iban .iban-2-section .iban-1-section_text, .iban .iban-2-section .iban-2-section_text {
-    width: 500px; }
-  .iban .iban-1-section figure, .iban .iban-2-section figure {
-    width: 500px; }
-
-.iban .iban-3-section p {
-  font-weight: 100; }
-
-.iban .iban-4-section {
-  width: 80%; }
-  .iban .iban-4-section p.margin-top {
+.iban {
+  margin-top: 170px; }
+  .iban .iban-1-section, .iban .iban-2-section {
     margin-top: 50px; }
-    .iban .iban-4-section p.margin-top:last-child {
-      margin-top: 0px; }
-  .iban .iban-4-section .comment {
-    margin-top: 50px; }
-    .iban .iban-4-section .comment ul {
-      list-style: none; }
-      .iban .iban-4-section .comment ul li {
-        margin-left: 100px;
-        margin-bottom: 50px;
-        position: relative; }
-        .iban .iban-4-section .comment ul li:before {
-          content: "\f10e";
-          font-family: "fontawesome";
-          font-size: 30px;
-          color: #339966;
-          display: inline-block;
-          vertical-align: middle;
-          width: 40px;
-          height: 40px;
-          margin-right: 10px;
-          text-align: center;
-          line-height: 40px;
-          position: absolute;
-          left: -60px;
-          top: 20%;
-          margin-top: -20px; }
-
-.iban .iban-5-section {
-  background-color: #f6f6f6;
-  height: 200px; }
-  .iban .iban-5-section h5 {
-    font-size: 25px; }
+    .iban .iban-1-section .iban-1-section_text, .iban .iban-1-section .iban-2-section_text, .iban .iban-2-section .iban-1-section_text, .iban .iban-2-section .iban-2-section_text {
+      width: 500px; }
+    .iban .iban-1-section figure, .iban .iban-2-section figure {
+      width: 500px; }
+  .iban .iban-3-section p {
+    font-weight: 100; }
+  .iban .iban-4-section {
+    width: 80%; }
+    .iban .iban-4-section p.margin-top {
+      margin-top: 50px; }
+      .iban .iban-4-section p.margin-top:last-child {
+        margin-top: 0px; }
+    .iban .iban-4-section .comment {
+      margin-top: 50px; }
+      .iban .iban-4-section .comment ul {
+        list-style: none; }
+        .iban .iban-4-section .comment ul li {
+          margin-left: 100px;
+          margin-bottom: 50px;
+          position: relative; }
+          .iban .iban-4-section .comment ul li:before {
+            content: "\f10e";
+            font-family: "fontawesome";
+            font-size: 30px;
+            color: #339966;
+            display: inline-block;
+            vertical-align: middle;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            text-align: center;
+            line-height: 40px;
+            position: absolute;
+            left: -60px;
+            top: 20%;
+            margin-top: -20px; }
+  .iban .iban-5-section {
+    background-color: #f6f6f6;
+    height: 200px; }
+    .iban .iban-5-section h5 {
+      font-size: 25px; }
 
 .opinion .opinion-1-section {
-  margin-top: 100px;
+  margin-top: 170px;
   padding: 0px;
   margin-left: 0px;
   margin-right: 0px; }
@@ -2781,7 +2788,7 @@ footer {
           display: block; }
 
 .contact {
-  margin-top: 100px; }
+  margin-top: 170px; }
   .contact .contact-2-section {
     padding: 50px;
     background-color: #f6f6f6; }
@@ -2804,28 +2811,32 @@ footer {
       .contact .contact-2-section .address p a {
         color: #000; }
 
-.politica .poli-1-section {
-  margin-top: 40px; }
-  .politica .poli-1-section h1, .politica .poli-1-section .h6 {
-    color: #333;
-    margin-bottom: 18px;
-    margin-top: 30px; }
-  .politica .poli-1-section p, .politica .poli-1-section li {
-    color: #777;
-    font-size: 18px;
-    font-weight: lighter;
-    line-height: 40px;
-    font-family: "Open Sans"; }
+.politica {
+  margin-top: 170px; }
+  .politica .poli-1-section {
+    margin-top: 40px; }
+    .politica .poli-1-section h1, .politica .poli-1-section .h6 {
+      color: #333;
+      margin-bottom: 18px;
+      margin-top: 30px; }
+    .politica .poli-1-section p, .politica .poli-1-section li {
+      color: #777;
+      font-size: 18px;
+      font-weight: lighter;
+      line-height: 40px;
+      font-family: "Open Sans"; }
 
-.termino .term-1-section {
-  margin-top: 40px; }
-  .termino .term-1-section h1, .termino .term-1-section .h6, .termino .term-1-section h6 {
-    color: #333;
-    margin-bottom: 18px;
-    margin-top: 30px; }
-  .termino .term-1-section p, .termino .term-1-section li {
-    color: #777;
-    font-size: 18px;
-    font-weight: lighter;
-    line-height: 40px;
-    font-family: "Open Sans"; }
+.termino {
+  margin-top: 170px; }
+  .termino .term-1-section {
+    margin-top: 40px; }
+    .termino .term-1-section h1, .termino .term-1-section .h6, .termino .term-1-section h6 {
+      color: #333;
+      margin-bottom: 18px;
+      margin-top: 30px; }
+    .termino .term-1-section p, .termino .term-1-section li {
+      color: #777;
+      font-size: 18px;
+      font-weight: lighter;
+      line-height: 40px;
+      font-family: "Open Sans"; }

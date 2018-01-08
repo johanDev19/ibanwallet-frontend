@@ -31,7 +31,7 @@ class Home extends Component {
                 imageDisplay: window.pageYOffset >= 0 && window.pageYOffset < 690?'270px':window.pageYOffset >= 690 && window.pageYOffset < 1000 ?'0px':'-270px'
             })
 
-            console.log(window.pageYOffset)
+            // console.log(window.pageYOffset)
         });
 
     }
@@ -43,7 +43,7 @@ class Home extends Component {
 
     render() {
         return(
-            <div className="intro-page container-fluid">
+            <div className="intro-page container-fluid ">
                 <section className="intro-section">
                     <header>
                         <div className="intro-text container-fluid d-flex flex-column justify-content-start">
@@ -53,7 +53,9 @@ class Home extends Component {
                         </div>
                     </header>
                     <figure>
-                        <button>Abre tu cuenta</button>
+                        <a href="https://secure.myibanwallet.com">
+                            <button>Abre tu cuenta</button>
+                        </a>
                         <img src={banner_1} alt="intro" />
                     </figure>
 
