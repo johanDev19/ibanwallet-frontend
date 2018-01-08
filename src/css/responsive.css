@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (max-width: 767.99px) {
   section {
     margin-top: 20px; }
   .inversion .inv-1-section {
@@ -23,7 +23,23 @@
   .opinion .opinion-2-section .comment ul {
     width: 100%; } }
 
-@media (min-width: 1024px) {
+@media (max-width: 991.99px) {
+  .intro-page section {
+    margin-top: 0px; }
+  .intro-page .intro-section figure {
+    margin-bottom: 0px; }
+  .intro-page section.info-1-section {
+    display: none; }
+    .intro-page section.info-1-section .info-1-section_text {
+      width: 100%; }
+    .intro-page section.info-1-section .info-1-section_img {
+      display: none; }
+  .intro-page ul {
+    display: none; }
+  .intro-page .info-3-section {
+    height: 300px; } }
+
+@media (max-width: 1199.99px) {
   .inversion .inv-1-section {
     margin-top: 100px; }
     .inversion .inv-1-section .inv-1-section_container .inv-1-section_img {

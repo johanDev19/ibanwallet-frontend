@@ -2,10 +2,13 @@
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {  }
+
+@media (max-width: 575.99px) {  }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+@media (max-width: 767.99px) {
+
+
   section {
     margin-top: 20px;
 
@@ -72,10 +75,54 @@
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (max-width: 991.99px) {
+
+
+  .intro-page {
+
+    section {
+      margin-top: 0px;
+    }
+
+    .intro-section {
+      figure {
+        margin-bottom: 0px;
+      }
+    }
+
+
+
+
+
+
+    section.info-1-section {
+      display: none;
+      .info-1-section_text {
+        width: 100%;
+      }
+
+      .info-1-section_img {
+        display: none;
+      }
+    }
+
+    ul {
+      display: none;
+    }
+
+    .info-3-section {
+      height: 300px;
+    }
+
+  }
+
+
+
+
+}
 
 // Extra large devices (large desktops, 1024px and up)
-@media (min-width: 1024px) {
+@media (max-width: 1199.99px) {
 
   .inversion {
     .inv-1-section {

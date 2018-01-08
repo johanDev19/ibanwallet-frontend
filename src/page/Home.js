@@ -63,7 +63,7 @@ class Home extends Component {
 
                 <section className="info-1-section d-flex align-items-center">
                     <div className="d-flex justify-content-between container">
-                        <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center col-md-6 col-sm-12">
+                        <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center col-lg-6 col-md-12 col-sm-12">
                             <h2>iBAN te facilita toda TU actividad financiera de forma segura y sencilla.</h2>
                             <p>Traspasa su plan de pensiones o contrato los mejores fondos de inversión en tan solo 5 minutos.</p>
                             <span className='font-weight-bold'>Bienvenido a un mundo más allá de la banca, Bienvenido a <a href="">iBAN</a></span>
@@ -84,7 +84,7 @@ class Home extends Component {
                 </section>
                 <section className="info-3-section d-flex align-items-center ">
                     <div className="d-flex justify-content-start container ">
-                        <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center col-md-6 col-sm-12">
+                        <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center col-lg-6 col-md-12 col-sm-12">
                             <h2>Ayuda al instante</h2>
                             <p>Ponerse en contacto con nosotros es tan fácil como enviar un SMS o un Whatsapp a un amigo. ¡Nuestro equipo de soporte está siempre disponible para ayudar a través del chat en la aplicación!</p>
                         </div>
