@@ -17,7 +17,7 @@ class Footer extends Component {
                             </span>
                             <span className="r">® iBAN Wallet 2018</span>
                             <ul className="d-flex l-social">
-                                <a href="https://www.facebook.com/myibanwallet">
+                                <a href="https://www.facebook.com/myibanwallet" >
                                     <i className="fa fa-facebook" aria-hidden="true"></i>
                                 </a>
                                 <a href="https://twitter.com/myibanwallet">
@@ -61,7 +61,7 @@ class Footer extends Component {
                         </a>
                     </ul>
                     <p>
-                        iBAN Investment Group S.L, Paseo de las Delicias, 1, 41001, Sevilla, Agente de Esfera Capital, Agencia de valores sujeta a supervisión de la <a href="http://www.cnmv.es/Portal/Consultas/ESI/ESIS.aspx?nif=A04791943&id=660730&vista=19&fs=" target="_blank">CNMV</a> inscrito con el número 252. Agente de de Seguros Exclusivo de Caser (Caja de Seguros Reunidos, Compañia de Seguros y reaseguros, S.A.) sujeto a la supervisión de la DGSFP inscrito con el número C0031B90344383. Los planes de ahorro están gestionados por Caser y depositado en CecaBank.
+                        iBAN Investment Group S.L, Paseo de las Delicias, 1, 41001, Sevilla, Agente de Esfera Capital, Agencia de valores sujeta a supervisión de la <a href="http://www.cnmv.es/Portal/Consultas/ESI/ESIS.aspx?nif=A04791943&id=660730&vista=19&fs=" >CNMV</a> inscrito con el número 252. Agente de de Seguros Exclusivo de Caser (Caja de Seguros Reunidos, Compañia de Seguros y reaseguros, S.A.) sujeto a la supervisión de la DGSFP inscrito con el número C0031B90344383. Los planes de ahorro están gestionados por Caser y depositado en CecaBank.
                     </p>
                 </div>
             </footer>

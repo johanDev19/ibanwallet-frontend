@@ -12,25 +12,25 @@ class Iban extends Component {
                     Creemos que podemos ser la alternativa
                 </h1>
                 <section className="iban-1-section container d-flex justify-content-around align-items-center">
-                    <div className="iban-1-section_text">
+                    <div className="iban-1-section_text col-md-6">
                         <p>
                             Nos enfocamos en resolver problemas, en vez de vender productos.
                             Queremos hacer un mundo mejor y cambiar la vida de la gente a traves de iBAN.
                         </p>
                     </div>
-                    <figure>
+                    <figure className="col-md-6">
                         <img src={icon1} alt=""/>
                     </figure>
                 </section>
 
                 <section className="iban-2-section d-flex justify-content-around align-items-center flex-md-row-reverse container">
-                    <div className="iban-2-section_text">
+                    <div className="iban-2-section_text col-md-6">
                         <p>
                             Estamos aquí para aquellos que se niegan a conformarse. Quienes nunca dejan de avanzar. Quienes continúan buscando nuevas ideas y mejores experiencias en todo lo que hacen.
                         </p>
                         <p>Porque el mundo tan conectado de hoy merece un compañero financiero igual de avanzado. Uno que se adapta a tus necesidades, te da el control y que continuamente te lleva a nuevos y estimulantes horizontes.</p>
                     </div>
-                    <figure>
+                    <figure className="col-md-6">
                         <img src={icon2} alt=""/>
                     </figure>
                 </section>

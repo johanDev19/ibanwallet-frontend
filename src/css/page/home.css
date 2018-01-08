@@ -71,27 +71,29 @@
 .intro-page section.info-2-section {
   background-color: #ffff !important;
   margin-bottom: -100px; }
-  .intro-page section.info-2-section ul li {
-    position: relative;
-    padding-left: 20px;
-    margin-top: 30px; }
-    .intro-page section.info-2-section ul li:after {
-      content: "1";
-      font-size: 18px;
-      color: #fff;
-      display: inline-block;
-      vertical-align: middle;
-      width: 40px;
-      height: 40px;
-      margin-right: 10px;
-      text-align: center;
-      line-height: 40px;
-      background-color: #339966;
-      border-radius: 50%;
-      position: absolute;
-      left: -40px;
-      top: 50%;
-      margin-top: -20px; }
+  .intro-page section.info-2-section ul {
+    list-style: none; }
+    .intro-page section.info-2-section ul li {
+      position: relative;
+      padding-left: 20px;
+      margin-top: 30px; }
+      .intro-page section.info-2-section ul li:after {
+        content: "1";
+        font-size: 18px;
+        color: #fff;
+        display: inline-block;
+        vertical-align: middle;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        text-align: center;
+        line-height: 40px;
+        background-color: #339966;
+        border-radius: 50%;
+        position: absolute;
+        left: -40px;
+        top: 50%;
+        margin-top: -20px; }
 
 .intro-page .info-3-section {
   background-color: #f6f6f6;

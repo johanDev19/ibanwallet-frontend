@@ -1,0 +1,32 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) { }
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {  }
+
+// Extra large devices (large desktops, 1024px and up)
+@media (max-width: 1024px) {
+
+  .inversion {
+    .inv-1-section {
+      margin-top: 100px;
+
+      .inv-1-section_container {
+        .inv-1-section_img {
+          top: 20px;
+          right: -4px;
+        }
+      }
+    }
+
+    .inv-3-section figure {
+      display: none;
+    }
+  }
+}
