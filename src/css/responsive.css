@@ -83,7 +83,11 @@
         .opinion .opinion-2-section .comment ul li figure {
           position: relative;
           left: 0px;
-          margin: auto; } }
+          margin: auto; }
+  .contact {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    margin-top: 120px; } }
 
 @media (max-width: 991.99px) {
   footer {
