@@ -25,7 +25,7 @@ class Ahorro extends Component {
                                 <img src={icon1} alt="ahorro1"/>
                             </figure>
                         </div>
-                        <div className="ah-2-section_text d-flex align-items-center flex-row-reverse justify-content-around">
+                        <div className="ah-2-section_text d-flex align-items-center flex-row-reverse justify-content-around ">
                             <div className="text">
                                 <h6 className="h2">2. Tu perfil de ahorrador</h6>
                                 <span>PARA CONFIGURAR EL PLAN A TU MEDIDA</span>
@@ -54,7 +54,7 @@ class Ahorro extends Component {
                     <figure className="col-4">
                         <img src={img1} alt=""/>
                     </figure>
-                    <div className="ah-1-section_text col-md-6">
+                    <div className="ah-1-section_text col-md-6 col-sm-12">
                         <h2>¿Por qué debería ahorrar con iBAN?</h2>
                         <ol>
                             <li><strong>La inflación se come tus ahorros</strong>

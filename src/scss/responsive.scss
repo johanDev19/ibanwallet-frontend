@@ -54,6 +54,27 @@
   }
 
 
+  .ahorro {
+    .ah-2-section_text {
+      flex-direction: column !important;
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+      .text {
+        width: 100% !important;
+      }
+    }
+
+    .ah-1-section {
+      .row {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+      }
+    }
+
+
+  }
+
+
 
 
 }
@@ -61,7 +82,7 @@
 // Medium devices (tablets, 768px and up)
 @media (max-width: 767.99px) {
   html {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 
   section {
@@ -89,8 +110,8 @@
 
       .inv-1-section_container {
         .inv-1-section_img {
-          top: 228px;
-          right: 103px;
+          top: 245px !important;
+          left: 0 !important;
 
           figure {
             width: 338px;
@@ -114,6 +135,7 @@
     }
 
     .inv-3-section {
+      margin-bottom: 170px;
       figure {
         display: none;
       }
@@ -121,6 +143,17 @@
   }
 
   .opinion {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+
+    .opinion-1-section {
+      .cover {
+        padding: 0px !important;
+        figure {
+          min-width: 100px;
+        }
+      }
+    }
     .opinion-2-section {
       .comment ul {
         width: 100%;
@@ -230,8 +263,8 @@
 
       .inv-1-section_container {
         .inv-1-section_img {
-          top: 20px;
-          right: -4px;
+          top: 77px;
+          right: -71px;
         }
       }
     }

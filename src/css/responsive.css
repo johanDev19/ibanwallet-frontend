@@ -24,11 +24,20 @@
       transform: scale(0.6, 0.6) rotate(30deg) !important;
       left: 47px !important; }
   .intro-page section.info-1-section .info-1-section_img_mobile {
-    left: 61px !important; } }
+    left: 61px !important; }
+  .ahorro .ah-2-section_text {
+    flex-direction: column !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important; }
+    .ahorro .ah-2-section_text .text {
+      width: 100% !important; }
+  .ahorro .ah-1-section .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important; } }
 
 @media (max-width: 767.99px) {
   html {
-    font-size: 14px; }
+    font-size: 14px !important; }
   section {
     margin-top: 20px; }
   .inversion .inv-1-section {
@@ -38,8 +47,8 @@
     .inversion .inv-1-section .inv-1-section_container .inv-1-section_text {
       width: 100%; }
     .inversion .inv-1-section .inv-1-section_container .inv-1-section_img {
-      top: 228px;
-      right: 103px; }
+      top: 245px !important;
+      left: 0 !important; }
       .inversion .inv-1-section .inv-1-section_container .inv-1-section_img figure {
         width: 338px; }
   .inversion .inv-2-section {
@@ -48,10 +57,19 @@
       height: 596px; }
     .inversion .inv-2-section .inv-2-section_card .card {
       margin: 40px auto; }
-  .inversion .inv-3-section figure {
-    display: none; }
-  .opinion .opinion-2-section .comment ul {
-    width: 100%; } }
+  .inversion .inv-3-section {
+    margin-bottom: 170px; }
+    .inversion .inv-3-section figure {
+      display: none; }
+  .opinion {
+    padding-right: 10px !important;
+    padding-left: 10px !important; }
+    .opinion .opinion-1-section .cover {
+      padding: 0px !important; }
+      .opinion .opinion-1-section .cover figure {
+        min-width: 100px; }
+    .opinion .opinion-2-section .comment ul {
+      width: 100%; } }
 
 @media (max-width: 991.99px) {
   footer {
@@ -109,7 +127,7 @@
   .inversion .inv-1-section {
     margin-top: 100px; }
     .inversion .inv-1-section .inv-1-section_container .inv-1-section_img {
-      top: 20px;
-      right: -4px; }
+      top: 77px;
+      right: -71px; }
   .inversion .inv-3-section figure {
     display: none; } }
