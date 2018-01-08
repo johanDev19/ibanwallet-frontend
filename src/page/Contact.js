@@ -13,7 +13,7 @@ class Contact extends Component {
                 </section>
 
                 <div className="row">
-                    <section className=" col-md-6 contact-2-section d-flex flex-column justify-content-center align-items-center">
+                    <section className=" col-lg-6 col-md-12 contact-2-section d-flex flex-column justify-content-center align-items-center">
                         <div className="icon d-flex justify-content-center align-items-center">
                             <figure>
                                 <img src={icon1} alt=""/>
@@ -23,7 +23,7 @@ class Contact extends Component {
                         <p>Lunes a viernes: 9:00 am - 5:00 pm</p>
                         <p className="text-center">Sábados y Domingos 10pm - 6pm (hora de España)</p>
                     </section>
-                    <section className=" col-md-6 contact-2-section d-flex flex-column justify-content-center align-items-center">
+                    <section className=" col-lg-6 col-md-12 contact-2-section d-flex flex-column justify-content-center align-items-center">
                         <div className="icon d-flex justify-content-center align-items-center">
                             <figure>
                                 <img src={icon2} alt=""/>

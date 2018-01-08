@@ -2,16 +2,80 @@
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) {  }
+@media (min-width: 576px) {  }
 
 // Medium devices (tablets, 768px and up)
-@media (max-width: 768px) { }
+@media (min-width: 768px) {
+  section {
+    margin-top: 20px;
+
+  }
+  .inversion {
+    .inv-1-section {
+      margin-top: 100px;
+
+      .info-section_text {
+        ul {
+          display: none;
+        }
+      }
+
+
+
+      .inv-1-section_container {
+        .inv-1-section_text {
+          width: 100%;
+        }
+      }
+
+
+      .inv-1-section_container {
+        .inv-1-section_img {
+          top: 228px;
+          right: 103px;
+
+          figure {
+            width: 338px;
+          }
+        }
+      }
+    }
+
+    .inv-2-section {
+      margin-top: 637px;
+
+      &:after {
+        height: 596px;
+      }
+
+      .inv-2-section_card {
+        .card {
+          margin: 40px auto;
+        }
+      }
+    }
+
+    .inv-3-section {
+      figure {
+        display: none;
+      }
+    }
+  }
+
+  .opinion {
+    .opinion-2-section {
+      .comment ul {
+        width: 100%;
+      }
+    }
+  }
+}
 
 // Large devices (desktops, 992px and up)
-@media (max-width: 992px) {  }
+@media (min-width: 992px) {  }
 
 // Extra large devices (large desktops, 1024px and up)
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 
   .inversion {
     .inv-1-section {
