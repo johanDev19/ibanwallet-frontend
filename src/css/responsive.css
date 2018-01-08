@@ -64,10 +64,13 @@
   .opinion {
     padding-right: 10px !important;
     padding-left: 10px !important; }
-    .opinion .opinion-1-section .cover {
-      padding: 0px !important; }
-      .opinion .opinion-1-section .cover figure {
-        min-width: 50px !important; }
+    .opinion .opinion-1-section {
+      margin-top: 120px; }
+      .opinion .opinion-1-section .cover {
+        padding: 0px !important;
+        height: 210px !important; }
+        .opinion .opinion-1-section .cover figure {
+          min-width: 50px !important; }
     .opinion .opinion-2-section .comment ul {
       width: 100%;
       padding: 0px; }
