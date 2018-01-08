@@ -150,13 +150,33 @@
       .cover {
         padding: 0px !important;
         figure {
-          min-width: 100px;
+          min-width: 50px !important;
         }
       }
     }
+    
+    
     .opinion-2-section {
       .comment ul {
         width: 100%;
+        padding: 0px;
+        li {
+          margin-left: 0px;
+          &:before {
+            display: none;
+          }
+          p.h4 {
+            display: none;
+          }
+
+          figure {
+            position: relative;
+            left: 0px;
+            margin: auto;
+          }
+        }
+        
+
       }
     }
   }

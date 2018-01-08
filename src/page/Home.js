@@ -103,7 +103,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="info-3-section d-flex align-items-lg-center align-items-start">
+                <section className="info-3-section d-flex align-items-lg-center align-item-start">
                     <div className="d-flex justify-content-start container ">
                         <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center col-lg-6 col-md-12 col-sm-12">
                             <h2>Ayuda al instante</h2>

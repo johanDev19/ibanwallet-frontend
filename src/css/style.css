@@ -2958,9 +2958,20 @@ footer {
     .opinion .opinion-1-section .cover {
       padding: 0px !important; }
       .opinion .opinion-1-section .cover figure {
-        min-width: 100px; }
+        min-width: 50px !important; }
     .opinion .opinion-2-section .comment ul {
-      width: 100%; } }
+      width: 100%;
+      padding: 0px; }
+      .opinion .opinion-2-section .comment ul li {
+        margin-left: 0px; }
+        .opinion .opinion-2-section .comment ul li:before {
+          display: none; }
+        .opinion .opinion-2-section .comment ul li p.h4 {
+          display: none; }
+        .opinion .opinion-2-section .comment ul li figure {
+          position: relative;
+          left: 0px;
+          margin: auto; } }
 
 @media (max-width: 991.99px) {
   footer {
