@@ -14,15 +14,18 @@
       margin-left: 10px !important; }
     .intro-section figure.banner .info-1-section_img_mobile {
       transform: scale(0.6, 0.6);
-      top: -36px !important;
-      right: -97px !important; }
-  .intro-page .info-3-section {
-    height: 500px !important; }
-    .intro-page .info-3-section .info-1-section_img_mobile {
-      bottom: -140px !important;
-      margin: auto;
-      transform: scale(0.6, 0.6) rotate(30deg) !important;
-      left: 47px !important; }
+      top: 48px !important;
+      right: -73px !important; }
+  .intro-page {
+    overflow: hidden; }
+    .intro-page .info-3-section {
+      height: 200px !important;
+      background-color: #ffff; }
+      .intro-page .info-3-section .info-1-section_img_mobile {
+        bottom: -140px !important;
+        margin: auto;
+        transform: scale(0.6, 0.6) rotate(30deg) !important;
+        left: 47px !important; }
   .intro-page section.info-1-section .info-1-section_img_mobile {
     left: 61px !important; }
   .ahorro .ah-2-section_text {
@@ -109,7 +112,7 @@
         top: 180px;
         right: 0px; }
     .intro-page section.info-1-section {
-      height: 500px;
+      height: auto;
       position: relative;
       overflow: hidden;
       padding-top: 50px; }

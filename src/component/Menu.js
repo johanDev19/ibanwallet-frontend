@@ -37,7 +37,7 @@ class Menu extends Component {
                         <img src={logo} alt="logo" />
                     </a>
                 </figure>
-                <nav className="col-2 menu hidden-lg-down">
+                <nav className="col-ms-2 col-md-10 menu hidden-lg-down">
                     <i className="fa fa-bars d-md-none d-lg-none d-sm-block float-right " aria-hidden="true"></i>
                     <ul className="justify-content-end d-none d-md-flex">
                         <a href="/iban">

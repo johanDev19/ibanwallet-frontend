@@ -30,15 +30,17 @@
 
       .info-1-section_img_mobile {
         transform: scale(0.6, 0.6);
-        top: -36px !important;
-        right: -97px !important;
+        top: 48px !important;
+        right: -73px !important;
       }
     }
   }
 
   .intro-page {
+    overflow: hidden;
     .info-3-section {
-      height: 500px !important;
+      height: 200px !important;
+      background-color: #ffff;
 
       .info-1-section_img_mobile {
         bottom: -140px !important;
@@ -226,7 +228,7 @@
     }
 
     section.info-1-section {
-      height: 500px;
+      height: auto;
       position: relative;
       overflow: hidden;
       padding-top: 50px;

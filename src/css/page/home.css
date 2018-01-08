@@ -130,3 +130,78 @@
   height: 400px; }
   .intro-page .info-3-section .info-1-section_text {
     width: 600px; }
+
+.intro-page .banner-img_mobile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+  height: 450px; }
+  .intro-page .banner-img_mobile .info-1-section_img_mobile {
+    position: relative;
+    width: 300px;
+    right: 0px;
+    height: 600px;
+    text-align: right;
+    box-shadow: 0 8px 12px 0 rgba(191, 197, 209, 0.22), 0 4px 4px 0 rgba(93, 97, 104, 0.1), inset 0 -8px 12px 0 rgba(239, 242, 246, 0.77), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    transition: 0.2s; }
+    .intro-page .banner-img_mobile .info-1-section_img_mobile .img-container {
+      overflow: hidden;
+      margin: auto;
+      position: relative;
+      top: 55px;
+      width: 270px;
+      height: 479px; }
+      .intro-page .banner-img_mobile .info-1-section_img_mobile .img-container figure.mobile-img {
+        position: relative; }
+        .intro-page .banner-img_mobile .info-1-section_img_mobile .img-container figure.mobile-img div {
+          transition: 0.8s; }
+        .intro-page .banner-img_mobile .info-1-section_img_mobile .img-container figure.mobile-img img {
+          width: 270px;
+          height: 479px;
+          border: 1px solid #afafaf; }
+
+.intro-page .banner-img_mobile_2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  overflow: hidden;
+  height: 450px; }
+  .intro-page .banner-img_mobile_2 .info-1-section_img_mobile {
+    position: relative;
+    width: 300px;
+    right: 55px;
+    top: 15px;
+    height: 600px;
+    text-align: right;
+    box-shadow: 0 8px 12px 0 rgba(191, 197, 209, 0.22), 0 4px 4px 0 rgba(93, 97, 104, 0.1), inset 0 -8px 12px 0 rgba(239, 242, 246, 0.77), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    transform: scale(0.9, 0.9) rotate(30deg) !important;
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    transition: 0.2s; }
+    .intro-page .banner-img_mobile_2 .info-1-section_img_mobile .img-container {
+      overflow: hidden;
+      margin: auto;
+      position: relative;
+      top: 55px;
+      width: 270px;
+      height: 479px; }
+      .intro-page .banner-img_mobile_2 .info-1-section_img_mobile .img-container figure.mobile-img {
+        position: relative; }
+        .intro-page .banner-img_mobile_2 .info-1-section_img_mobile .img-container figure.mobile-img div {
+          transition: 0.8s; }
+        .intro-page .banner-img_mobile_2 .info-1-section_img_mobile .img-container figure.mobile-img img {
+          width: 270px;
+          height: 479px;
+          border: 1px solid #afafaf; }

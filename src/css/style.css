@@ -2585,6 +2585,81 @@ footer {
   .intro-page .info-3-section .info-1-section_text {
     width: 600px; }
 
+.intro-page .banner-img_mobile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+  height: 450px; }
+  .intro-page .banner-img_mobile .info-1-section_img_mobile {
+    position: relative;
+    width: 300px;
+    right: 0px;
+    height: 600px;
+    text-align: right;
+    box-shadow: 0 8px 12px 0 rgba(191, 197, 209, 0.22), 0 4px 4px 0 rgba(93, 97, 104, 0.1), inset 0 -8px 12px 0 rgba(239, 242, 246, 0.77), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    transition: 0.2s; }
+    .intro-page .banner-img_mobile .info-1-section_img_mobile .img-container {
+      overflow: hidden;
+      margin: auto;
+      position: relative;
+      top: 55px;
+      width: 270px;
+      height: 479px; }
+      .intro-page .banner-img_mobile .info-1-section_img_mobile .img-container figure.mobile-img {
+        position: relative; }
+        .intro-page .banner-img_mobile .info-1-section_img_mobile .img-container figure.mobile-img div {
+          transition: 0.8s; }
+        .intro-page .banner-img_mobile .info-1-section_img_mobile .img-container figure.mobile-img img {
+          width: 270px;
+          height: 479px;
+          border: 1px solid #afafaf; }
+
+.intro-page .banner-img_mobile_2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  overflow: hidden;
+  height: 450px; }
+  .intro-page .banner-img_mobile_2 .info-1-section_img_mobile {
+    position: relative;
+    width: 300px;
+    right: 55px;
+    top: 15px;
+    height: 600px;
+    text-align: right;
+    box-shadow: 0 8px 12px 0 rgba(191, 197, 209, 0.22), 0 4px 4px 0 rgba(93, 97, 104, 0.1), inset 0 -8px 12px 0 rgba(239, 242, 246, 0.77), inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    transform: scale(0.9, 0.9) rotate(30deg) !important;
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    transition: 0.2s; }
+    .intro-page .banner-img_mobile_2 .info-1-section_img_mobile .img-container {
+      overflow: hidden;
+      margin: auto;
+      position: relative;
+      top: 55px;
+      width: 270px;
+      height: 479px; }
+      .intro-page .banner-img_mobile_2 .info-1-section_img_mobile .img-container figure.mobile-img {
+        position: relative; }
+        .intro-page .banner-img_mobile_2 .info-1-section_img_mobile .img-container figure.mobile-img div {
+          transition: 0.8s; }
+        .intro-page .banner-img_mobile_2 .info-1-section_img_mobile .img-container figure.mobile-img img {
+          width: 270px;
+          height: 479px;
+          border: 1px solid #afafaf; }
+
 .inversion .inv-1-section {
   position: relative;
   padding: 0px;
@@ -2905,15 +2980,18 @@ footer {
       margin-left: 10px !important; }
     .intro-section figure.banner .info-1-section_img_mobile {
       transform: scale(0.6, 0.6);
-      top: -36px !important;
-      right: -97px !important; }
-  .intro-page .info-3-section {
-    height: 500px !important; }
-    .intro-page .info-3-section .info-1-section_img_mobile {
-      bottom: -140px !important;
-      margin: auto;
-      transform: scale(0.6, 0.6) rotate(30deg) !important;
-      left: 47px !important; }
+      top: 48px !important;
+      right: -73px !important; }
+  .intro-page {
+    overflow: hidden; }
+    .intro-page .info-3-section {
+      height: 200px !important;
+      background-color: #ffff; }
+      .intro-page .info-3-section .info-1-section_img_mobile {
+        bottom: -140px !important;
+        margin: auto;
+        transform: scale(0.6, 0.6) rotate(30deg) !important;
+        left: 47px !important; }
   .intro-page section.info-1-section .info-1-section_img_mobile {
     left: 61px !important; }
   .ahorro .ah-2-section_text {
@@ -3000,7 +3078,7 @@ footer {
         top: 180px;
         right: 0px; }
     .intro-page section.info-1-section {
-      height: 500px;
+      height: auto;
       position: relative;
       overflow: hidden;
       padding-top: 50px; }
