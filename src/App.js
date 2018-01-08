@@ -12,6 +12,8 @@ import Ahorro from './page/Ahorro'
 import Iban from './page/Iban'
 import Ibanoponion from './page/Ibanopinion'
 import Contact from './page/Contact'
+import Politica from './page/Politica'
+
 
 import './css/bootstrap4.min.css'
 import './css/animate.css';
@@ -31,6 +33,7 @@ class App extends Component {
                 <Route path="/iban" component={Iban}/>
                 <Route path="/ibanopinion" component={Ibanoponion}/>
                 <Route path="/contact" component={Contact}/>
+                <Route path="/politica" component={Politica}/>
                 <Footer/>
             </div>
 

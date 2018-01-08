@@ -48,7 +48,7 @@ class Footer extends Component {
                 </div>
                 <div className="container f-2">
                     <ul className="d-flex justify-content-start">
-                        <a href="">
+                        <a href="/politica">
                             <li>Politica de privacidad | </li>
                         </a>
                         <a href="">
