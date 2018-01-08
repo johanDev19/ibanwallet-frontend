@@ -50,7 +50,7 @@ class Cookie extends Component {
                         <tbody>
                         <tr>
                             <td >
-                                <span className="d-block">Google Analytics</span> <a href="">Más información</a>
+                                <span className="d-block">Google Analytics</span> <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage">Más información</a>
                             </td>
                             <td>
                                 utma
