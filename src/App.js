@@ -14,6 +14,7 @@ import Ibanoponion from './page/Ibanopinion'
 import Contact from './page/Contact'
 import Politica from './page/Politica'
 import Termino from './page/Termino'
+import Cookie from './page/Cookie'
 
 
 import './css/bootstrap4.min.css'
@@ -36,6 +37,7 @@ class App extends Component {
                 <Route path="/contact" component={Contact}/>
                 <Route path="/politica" component={Politica}/>
                 <Route path="/termino" component={Termino}/>
+                <Route path="/cookie" component={Cookie}/>
                 <Footer/>
             </div>
 

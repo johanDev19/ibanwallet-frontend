@@ -2840,3 +2840,18 @@ footer {
       font-weight: lighter;
       line-height: 40px;
       font-family: "Open Sans"; }
+
+.cookie {
+  margin-top: 170px; }
+  .cookie .coo-1-section {
+    margin-top: 40px; }
+    .cookie .coo-1-section h1, .cookie .coo-1-section .h6, .cookie .coo-1-section h6 {
+      color: #333;
+      margin-bottom: 18px;
+      margin-top: 30px; }
+    .cookie .coo-1-section p, .cookie .coo-1-section li {
+      color: #777;
+      font-size: 18px;
+      font-weight: lighter;
+      line-height: 40px;
+      font-family: "Open Sans"; }

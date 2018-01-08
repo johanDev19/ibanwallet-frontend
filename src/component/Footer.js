@@ -56,7 +56,7 @@ class Footer extends Component {
                         <a href="/termino">
                             <li> Terminos y condiciones de uso | </li>
                         </a>
-                        <a href="">
+                        <a href="/cookie">
                             <li> Politica de cookies</li>
                         </a>
                     </ul>
