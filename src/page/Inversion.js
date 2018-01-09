@@ -1,4 +1,8 @@
 import React, {Component} from 'react'
+import OwlCarousel from 'react-owl-carousel';
+
+
+
 import icon1 from './../img/Inversiones_screen_1.png'
 import icon2 from './../img/Rentabilidad.svg'
 import icon3 from './../img/Comisiones.svg'
@@ -7,6 +11,60 @@ import icon5 from './../img/banner_07.png'
 
 class Inversion extends Component {
 
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            options: {
+                loop: true,
+                margin:10,
+                nav:false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            },
+
+            items: [
+
+                <div className="item" key={1}>
+                    <div className="card d-flex justify-content-center align-items-center container">
+                        <figure>
+                            <img src={icon2} alt=""/>
+                        </figure>
+                        <p>MAYOR RENTABILIDAD</p>
+                        <p className="text-center">Una cartera de inversión diversificada y gestionada por ti.</p>
+                    </div>
+                </div>,
+                <div className="item" key={2}>
+                    <div className="card d-flex justify-content-center align-items-center container">
+                        <figure>
+                            <img src={icon4} alt=""/>
+                        </figure>
+                        <p>SIEMPRE ACCESSIBLE</p>
+                        <p className="text-center">Puedes solicitar tu dinero cuando quieras.</p>
+                    </div>
+                </div>,
+                <div className="item" key={3}>
+                    <div className="card d-flex justify-content-center align-items-center container">
+                        <figure>
+                            <img src={icon3} alt=""/>
+                        </figure>
+                        <p>COMISIONES MÍNIMAS</p>
+                        <p className="text-center">Un 80% menos de comisiones que la banca. Eliminamos comisiones.</p>
+                    </div>
+                </div>
+            ],
+
+        };
+    }
 
     render(){
         return(
@@ -33,21 +91,29 @@ class Inversion extends Component {
                     <h4 className="text-center">De verdad. <span className="d-block">¡Todo lo que iBAN hace!</span></h4>
 
                     <div className="inv-2-section_card d-flex justify-content-between align-items-center flex-wrap">
-                        <div className="card d-flex justify-content-center align-items-center container">
+                        <OwlCarousel
+                            className="owl-theme"
+                            {...this.state.options}>
+
+                            {this.state.items}
+
+                        </OwlCarousel>
+
+                        <div className="card desktop d-flex justify-content-center align-items-center container">
                             <figure>
                                 <img src={icon2} alt=""/>
                             </figure>
                             <p>MAYOR RENTABILIDAD</p>
                             <p className="text-center">Una cartera de inversión diversificada y gestionada por ti.</p>
                         </div>
-                        <div className="card d-flex justify-content-center align-items-center container">
+                        <div className="card desktop d-flex justify-content-center align-items-center container">
                             <figure>
                                 <img src={icon4} alt=""/>
                             </figure>
                             <p>SIEMPRE ACCESSIBLE</p>
                             <p className="text-center">Puedes solicitar tu dinero cuando quieras.</p>
                         </div>
-                        <div className="card d-flex justify-content-center align-items-center container">
+                        <div className="card desktop  d-flex  justify-content-center align-items-center container">
                             <figure>
                                 <img src={icon3} alt=""/>
                             </figure>

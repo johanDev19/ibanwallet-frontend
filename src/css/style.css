@@ -3127,6 +3127,8 @@ footer {
         height: 596px; }
       .inversion .inv-2-section .inv-2-section_card {
         margin-top: 0px; }
+        .inversion .inv-2-section .inv-2-section_card .card.desktop {
+          display: none !important; }
         .inversion .inv-2-section .inv-2-section_card .card {
           margin: 40px auto;
           height: 336px; }

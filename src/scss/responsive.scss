@@ -282,6 +282,11 @@
 
       .inv-2-section_card {
         margin-top: 0px;
+
+        .card.desktop {
+          display: none !important;
+        }
+
         .card {
           margin: 40px auto;
           height: 336px;
