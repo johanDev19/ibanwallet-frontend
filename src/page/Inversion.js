@@ -15,6 +15,7 @@ class Inversion extends Component {
         super(props);
 
         this.state = {
+            imgLoad: false,
             options: {
                 loop: true,
                 margin:10,
@@ -64,6 +65,17 @@ class Inversion extends Component {
             ],
 
         };
+
+
+    }
+
+    handleLoad(){
+        setTimeout(()=>{
+            this.setState({
+                imgLoad: true
+            })
+        }, 500)
+
     }
 
     render(){
@@ -80,8 +92,8 @@ class Inversion extends Component {
                             </ul>
                         </div>
                         <div className="inv-1-section_img">
-                            <figure className={"mobile-img d-flex justify-content-center align-items-center"}>
-                                <img src={icon1} alt="card"/>
+                            <figure className={"mobile-img justify-content-center align-items-center " + (this.state.imgLoad === true?'d-flex animated fadeInRight':'d-none')}>
+                                <img src={icon1} alt="card" onLoad={this.handleLoad.bind(this)}/>
                             </figure>
                         </div>
                     </div>
