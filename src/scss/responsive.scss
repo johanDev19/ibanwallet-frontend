@@ -229,10 +229,23 @@
   .opinion {
     padding-right: 10px !important;
     padding-left: 10px !important;
+    overflow: hidden;
 
 
     .opinion-1-section {
       margin-top: 120px;
+
+      .opinion-1-section_text {
+        h1 {
+          font-size: 2rem;
+        }
+        h5 {
+          font-size: 1.3rem;
+          font-weight: normal;
+          line-height: 30px;
+        }
+      }
+
       .cover {
         padding: 0px !important;
         height: 210px !important;
@@ -244,24 +257,52 @@
     
     
     .opinion-2-section {
-      .comment ul {
-        width: 100%;
-        padding: 0px;
-        li {
-          margin-left: 0px;
-          &:before {
-            display: none;
-          }
-          p.h4 {
-            display: none;
-          }
+      .comment {
+        position: relative;
+        div {
+          span {
+            font-size: 1.4rem;
+            line-height: 30px;
 
-          figure {
-            position: relative;
-            left: 0px;
-            margin: auto;
+            strong {
+              font-size: 1rem;
+              color: #818a91;
+              font-weight: normal;
+            }
           }
         }
+
+        ul {
+          width: 100%;
+          padding: 0px;
+          li {
+            margin-left: 0px;
+            &:before {
+              display: none;
+            }
+
+            div {
+              border: none;
+            }
+            p.h4 {
+              display: none;
+            }
+
+            figure {
+              position: relative;
+              left: 0px;
+              margin: auto;
+              margin-bottom: 53px;
+              width: 89px;
+            }
+
+            span {
+              display: block;
+              border-left: 1px solid #339966;
+              padding-left: 10px;
+            }
+          }
+      }
         
 
       }

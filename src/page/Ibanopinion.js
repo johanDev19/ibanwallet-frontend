@@ -48,7 +48,9 @@ class Ibanopinion extends Component {
                                     <figure>
                                         <img src={victor} alt=""/>
                                     </figure>
+                                    <span>
                                     “iBAN como uno de los actores principales en un sector que está asistiendo a una verdadera transformación sin precedentes” <strong> -Víctor Manuel Lobato</strong>
+                                    </span>
                                 </div>
                             </li>
                             <li>
@@ -57,7 +59,8 @@ class Ibanopinion extends Component {
                                     <figure>
                                         <img src={carmen} alt=""/>
                                     </figure>
-                                    Con ellos, tú eliges en qué tipo de producto inviertes tu dinero. Yo elegí uno de rentabilidad media que me permite disponer del dinero en cualquier momento. Lo mejor de la plataforma, es que es cómoda y fácil de manejar” <strong> -Carmen Vinaza</strong>
+                                    <span>Con ellos, tú eliges en qué tipo de producto inviertes tu dinero. Yo elegí uno de rentabilidad media que me permite disponer del dinero en cualquier momento. Lo mejor de la plataforma, es que es cómoda y fácil de manejar” <strong> -Carmen Vinaza</strong></span>
+
                                 </div>
                             </li>
                             <li>
@@ -66,7 +69,7 @@ class Ibanopinion extends Component {
                                     <figure>
                                         <img src={francisco} alt=""/>
                                     </figure>
-                                    “Me convenció esta alternativa a la banca. Las nuevas tecnologías hacen que la relación entre productos y cliente sea más fácil, más fluida y más dinámica. iBAN no tiene competencia” <strong> -Francisco Jiménez</strong>
+                                    <span>“Me convenció esta alternativa a la banca. Las nuevas tecnologías hacen que la relación entre productos y cliente sea más fácil, más fluida y más dinámica. iBAN no tiene competencia” <strong> -Francisco Jiménez</strong></span>
                                 </div>
                             </li>
                             <li>
@@ -75,7 +78,8 @@ class Ibanopinion extends Component {
                                     <figure>
                                         <img src={monica} alt=""/>
                                     </figure>
-                                    “La plataforma resulta muy cómoda e intuitiva y me permite controlar de forma segura mis inversiones en todo momento y desde cualquier lugar con tan sólo una conexión a Internet. No puedo estar más contenta de la decisión que tomé en su día” <strong> -Mónica Ruiz</strong>
+
+                                    <span>“La plataforma resulta muy cómoda e intuitiva y me permite controlar de forma segura mis inversiones en todo momento y desde cualquier lugar con tan sólo una conexión a Internet. No puedo estar más contenta de la decisión que tomé en su día” <strong> -Mónica Ruiz</strong></span>
                                 </div>
                             </li>
                             <li>
@@ -84,7 +88,7 @@ class Ibanopinion extends Component {
                                     <figure>
                                         <img src={cristiana} alt=""/>
                                     </figure>
-                                    “He descubierto con iBAN un nuevo mundo oculto para mí y estoy convencida que para muchos ahorradores de este país.Las FinTech como iBAN que se han puesto a la vanguardia del sistema financiero son un valor añadido con sus productos, transparencia y, sobre todo, rentabilidad” <strong> -Cristina González</strong>
+                                    <span>“He descubierto con iBAN un nuevo mundo oculto para mí y estoy convencida que para muchos ahorradores de este país.Las FinTech como iBAN que se han puesto a la vanguardia del sistema financiero son un valor añadido con sus productos, transparencia y, sobre todo, rentabilidad” <strong> -Cristina González</strong></span>
                                 </div>
                             </li>
 

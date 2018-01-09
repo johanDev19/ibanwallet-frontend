@@ -3086,27 +3086,51 @@ footer {
           font-weight: normal; }
   .opinion {
     padding-right: 10px !important;
-    padding-left: 10px !important; }
+    padding-left: 10px !important;
+    overflow: hidden; }
     .opinion .opinion-1-section {
       margin-top: 120px; }
+      .opinion .opinion-1-section .opinion-1-section_text h1 {
+        font-size: 2rem; }
+      .opinion .opinion-1-section .opinion-1-section_text h5 {
+        font-size: 1.3rem;
+        font-weight: normal;
+        line-height: 30px; }
       .opinion .opinion-1-section .cover {
         padding: 0px !important;
         height: 210px !important; }
         .opinion .opinion-1-section .cover figure {
           min-width: 50px !important; }
-    .opinion .opinion-2-section .comment ul {
-      width: 100%;
-      padding: 0px; }
-      .opinion .opinion-2-section .comment ul li {
-        margin-left: 0px; }
-        .opinion .opinion-2-section .comment ul li:before {
-          display: none; }
-        .opinion .opinion-2-section .comment ul li p.h4 {
-          display: none; }
-        .opinion .opinion-2-section .comment ul li figure {
-          position: relative;
-          left: 0px;
-          margin: auto; }
+    .opinion .opinion-2-section .comment {
+      position: relative; }
+      .opinion .opinion-2-section .comment div span {
+        font-size: 1.4rem;
+        line-height: 30px; }
+        .opinion .opinion-2-section .comment div span strong {
+          font-size: 1rem;
+          color: #818a91;
+          font-weight: normal; }
+      .opinion .opinion-2-section .comment ul {
+        width: 100%;
+        padding: 0px; }
+        .opinion .opinion-2-section .comment ul li {
+          margin-left: 0px; }
+          .opinion .opinion-2-section .comment ul li:before {
+            display: none; }
+          .opinion .opinion-2-section .comment ul li div {
+            border: none; }
+          .opinion .opinion-2-section .comment ul li p.h4 {
+            display: none; }
+          .opinion .opinion-2-section .comment ul li figure {
+            position: relative;
+            left: 0px;
+            margin: auto;
+            margin-bottom: 53px;
+            width: 89px; }
+          .opinion .opinion-2-section .comment ul li span {
+            display: block;
+            border-left: 1px solid #339966;
+            padding-left: 10px; }
   .contact {
     padding-right: 10px !important;
     padding-left: 10px !important;
