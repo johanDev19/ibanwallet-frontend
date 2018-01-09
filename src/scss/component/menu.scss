@@ -1,39 +1,38 @@
 .page-menu {
-  height: 70px;
+  max-height: 70px;
   position: fixed;
   top: 0px;
-  background-color: #fff;
+  background-color: #fff !important;
   z-index: 100000000;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
 
 
-  figure {
-    padding: 0px;
-    margin: 0px;
-    img {
-      width: 150px;
+  .navbar-brand {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  button {
+    width: 50px;
+    height: 40px;
+    font-size: 25px;
+
+    &:focus {
+      outline: none;
     }
   }
 
-  nav {
-    i {
-      font-size: 35px;
-    }
-    ul {
-      list-style: none;
-      margin-bottom: 0px;
+  ul {
+    background-color: #fff;
 
-      a {
-        margin-right: 20px;
-        color: #000;
-
-        &:hover {
-          text-decoration: none;
-        }
-        &:last-child {
-          margin-right: 0px;
-        }
+    li {
+      padding: 10px 10px;
+      &:hover {
+        background-color: #f3f3f3;
       }
-
     }
   }
+
 }

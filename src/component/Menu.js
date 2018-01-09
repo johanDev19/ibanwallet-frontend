@@ -31,32 +31,42 @@ class Menu extends Component {
 
     render(){
         return(
-            <header className={this.state.shadow === true?'d-flex justify-content-between align-items-center page-menu container-fluid shadow':'d-flex justify-content-between align-items-center page-menu container-fluid'}>
-                <figure className="col">
-                    <a href="/">
-                        <img src={logo} alt="logo" />
+            <header className={this.state.shadow === true?'shadow':''}>
+                {/*<figure className="col">*/}
+                    {/*<a href="/">*/}
+                        {/*<img src={logo} alt="logo" />*/}
+                    {/*</a>*/}
+                {/*</figure>*/}
+                <nav class="navbar navbar-expand-lg page-menu bg-light">
+                    <a class="navbar-brand" href="#">
+                        <img src={logo} width="150" height="" class="d-inline-block align-top" alt="" />
+
                     </a>
-                </figure>
-                <nav className="col-ms-2 col-md-10 menu hidden-lg-down">
-                    <i className="fa fa-bars d-md-none d-lg-none d-sm-block float-right " aria-hidden="true"></i>
-                    <ul className="justify-content-end d-none d-md-flex">
-                        <a href="/iban">
-                            <li>iBAN</li>
-                        </a>
-                        <a href="/ahorro">
-                            <li>Planes de Ahorro</li>
-                        </a>
-                        <a href="/inversion">
-                            <li>Inversión</li>
-                        </a>
-                        <a href="https://secure.myibanwallet.com">
-                            <li>Acceso Clientes</li>
-                        </a>
-                        <a href="https://secure.myibanwallet.com">
-                            <li>Registrate</li>
-                        </a>
-                    </ul>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/iban">iBAN <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/ahorro">Planes de Ahorro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/inversion">Inversión</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/https://secure.myibanwallet.com">Acceso Clientes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/https://secure.myibanwallet.com">Registrate</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
+
             </header>
         )
     }
