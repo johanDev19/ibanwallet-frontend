@@ -1,10 +1,87 @@
 import React, {Component} from 'react'
+import OwlCarousel from 'react-owl-carousel';
+
+
+//images
 import icon1 from './../img/planahorro_screen1.png'
 import icon2 from './../img/planahorro_screen2-2-3.png'
 import icon3 from './../img/planahorro_screen3-2.png'
 import img1 from './../img/pexels-photo-774909.jpeg'
 
+
+
 class Ahorro extends Component {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            options: {
+                loop: true,
+                margin:10,
+                nav:false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            },
+
+            items: [
+                <div className="item" key={1}>
+                    <div className="ah-2-section_text d-flex align-items-center justify-content-around">
+
+                        <div className="text">
+                            <h6 className="h2">Tus preferencias</h6>
+                            <span>PARA OFRECERTE EL PLAN QUE<span> MEJOR SE ADAPTE A TI</span></span>
+                            <p className="d-none d-ms-block d-md-block d-lg-block">Dinos tus preferencias, con cuánto quieres empezar y cuánto puedes poner al mes. No te agobies porque podrás cambiarlo cuando quieras.</p>
+                        </div>
+
+                        <figure>
+                            <img src={icon1} alt="ahorro1"/>
+                        </figure>
+                        <p className="d-lg-none d-md-none d-ms-block text-left">Dinos tus preferencias, con cuánto quieres empezar y cuánto puedes poner al mes. No te agobies porque podrás cambiarlo cuando quieras.</p>
+
+                    </div>
+                </div>,
+                <div className="item" key={2}>
+                    <div className="ah-2-section_text d-flex align-items-center flex-row-reverse justify-content-around ">
+                        <div className="text">
+                            <h6 className="h2">Tu perfil de ahorrador</h6>
+                            <span>PARA CONFIGURAR EL PLAN A TU MEDIDA</span>
+                            <p className="d-none d-ms-block d-md-block d-lg-block">Responde 10 sencillas preguntas sobre ti para que podamos calcular tu perfil de ahorrador y diseñar tu plan a medida.</p>
+                        </div>
+                        <figure>
+                            <img src={icon2} alt="ahorro2"/>
+                        </figure>
+                        <p className="d-lg-none d-md-none d-ms-block text-left">Responde 10 sencillas preguntas sobre ti para que podamos calcular tu perfil de ahorrador y diseñar tu plan a medida.</p>
+                    </div>
+                </div>,
+                <div className="item" key={3}>
+                    <div className="ah-2-section_text d-flex align-items-center justify-content-around">
+                        <div className="text">
+                            <h6 className="h2">Introduce tus datos personales</h6>
+                            <span>Y ACTÍVALO 100% ONLINE</span>
+                            <p className="d-none d-ms-block d-md-block d-lg-block">Actívalo en 10 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
+                        </div>
+                        <figure>
+                            <img src={icon3} alt="ahorro3"/>
+                        </figure>
+                        <p className="d-lg-none d-md-none d-ms-block text-left">Actívalo en 10 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
+                    </div>
+                </div>
+            ],
+
+        };
+    }
+
+
     render(){
         return (
             <div className="ahorro container-fluid">
@@ -15,42 +92,54 @@ class Ahorro extends Component {
                     <div className="d-flex flex-column align-items-center">
                         <h1 className="text-center h2">¿Cómo contratar un plan de ahorro?</h1>
 
-                        <div className="ah-2-section_text d-flex align-items-center justify-content-around">
+                        <OwlCarousel
+                            className="owl-theme"
+                            {...this.state.options}>
 
-                            <div className="text">
-                                <h6 className="h2">Tus preferencias</h6>
-                                <span>PARA OFRECERTE EL PLAN QUE<span> MEJOR SE ADAPTE A TI</span></span>
-                                <p className="d-none d-ms-block d-md-block d-lg-block">Dinos tus preferencias, con cuánto quieres empezar y cuánto puedes poner al mes. No te agobies porque podrás cambiarlo cuando quieras.</p>
-                            </div>
+                            {this.state.items}
+                        </OwlCarousel>
 
-                            <figure>
-                                <img src={icon1} alt="ahorro1"/>
-                            </figure>
-                            <p className="d-lg-none d-md-none d-ms-block text-left">Dinos tus preferencias, con cuánto quieres empezar y cuánto puedes poner al mes. No te agobies porque podrás cambiarlo cuando quieras.</p>
 
-                        </div>
-                        <div className="ah-2-section_text d-flex align-items-center flex-row-reverse justify-content-around ">
-                            <div className="text">
-                                <h6 className="h2">Tu perfil de ahorrador</h6>
-                                <span>PARA CONFIGURAR EL PLAN A TU MEDIDA</span>
-                                <p className="d-none d-ms-block d-md-block d-lg-block">Responde 10 sencillas preguntas sobre ti para que podamos calcular tu perfil de ahorrador y diseñar tu plan a medida.</p>
+                        <div className="d-none d-lg-block d-md-block">
+                            <div className="ah-2-section_text d-flex align-items-center justify-content-around">
+
+                                <div className="text">
+                                    <h6 className="h2">Tus preferencias</h6>
+                                    <span>PARA OFRECERTE EL PLAN QUE<span> MEJOR SE ADAPTE A TI</span></span>
+                                    <p className="d-none d-ms-block d-md-block d-lg-block">Dinos tus preferencias, con cuánto quieres empezar y cuánto puedes poner al mes. No te agobies porque podrás cambiarlo cuando quieras.</p>
+                                </div>
+
+                                <figure>
+                                    <img src={icon1} alt="ahorro1"/>
+                                </figure>
+                                <p className="d-lg-none d-md-none d-ms-block text-left">Dinos tus preferencias, con cuánto quieres empezar y cuánto puedes poner al mes. No te agobies porque podrás cambiarlo cuando quieras.</p>
+
                             </div>
-                            <figure>
-                                <img src={icon2} alt="ahorro2"/>
-                            </figure>
-                            <p className="d-lg-none d-md-none d-ms-block text-left">Responde 10 sencillas preguntas sobre ti para que podamos calcular tu perfil de ahorrador y diseñar tu plan a medida.</p>
-                        </div>
-                        <div className="ah-2-section_text d-flex align-items-center justify-content-around">
-                            <div className="text">
-                                <h6 className="h2">Introduce tus datos personales</h6>
-                                <span>Y ACTÍVALO 100% ONLINE</span>
-                                <p className="d-none d-ms-block d-md-block d-lg-block">Actívalo en 10 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
+                            <div className="ah-2-section_text d-flex align-items-center flex-row-reverse justify-content-around ">
+                                <div className="text">
+                                    <h6 className="h2">Tu perfil de ahorrador</h6>
+                                    <span>PARA CONFIGURAR EL PLAN A TU MEDIDA</span>
+                                    <p className="d-none d-ms-block d-md-block d-lg-block">Responde 10 sencillas preguntas sobre ti para que podamos calcular tu perfil de ahorrador y diseñar tu plan a medida.</p>
+                                </div>
+                                <figure>
+                                    <img src={icon2} alt="ahorro2"/>
+                                </figure>
+                                <p className="d-lg-none d-md-none d-ms-block text-left">Responde 10 sencillas preguntas sobre ti para que podamos calcular tu perfil de ahorrador y diseñar tu plan a medida.</p>
                             </div>
-                            <figure>
-                                <img src={icon3} alt="ahorro3"/>
-                            </figure>
-                            <p className="d-lg-none d-md-none d-ms-block text-left">Actívalo en 10 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
+                            <div className="ah-2-section_text d-flex align-items-center justify-content-around">
+                                <div className="text">
+                                    <h6 className="h2">Introduce tus datos personales</h6>
+                                    <span>Y ACTÍVALO 100% ONLINE</span>
+                                    <p className="d-none d-ms-block d-md-block d-lg-block">Actívalo en 10 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
+                                </div>
+                                <figure>
+                                    <img src={icon3} alt="ahorro3"/>
+                                </figure>
+                                <p className="d-lg-none d-md-none d-ms-block text-left">Actívalo en 10 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
+                            </div>
                         </div>
+
+
                     </div>
 
 

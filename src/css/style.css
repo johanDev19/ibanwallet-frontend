@@ -2328,6 +2328,9 @@
   overflow: visible;
   clip: auto; }
 
+.owl-theme {
+  display: none !important; }
+
 .container-fluid {
   padding-right: 50px;
   padding-left: 50px; }
@@ -3049,6 +3052,8 @@ footer {
 @media (max-width: 767.99px) {
   html {
     font-size: 14px !important; }
+  .owl-theme {
+    display: block !important; }
   footer {
     background-color: #EBEBEB; }
     footer .container {
