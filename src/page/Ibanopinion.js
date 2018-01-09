@@ -33,39 +33,14 @@ class Ibanopinion extends Component {
             },
 
             items: [
-                <div className="item" key={1}>
-                    <li>
-                        <p className="h4">Debo decir que los productos son muy competitivos</p>
-                        <div>
-                            <figure>
-                                <img src={victor} alt=""/>
-                            </figure>
-                            <span>
-                                    “iBAN como uno de los actores principales en un sector que está asistiendo a una verdadera transformación sin precedentes” <strong> -Víctor Manuel Lobato</strong>
-                                    </span>
-                        </div>
-                    </li>
-                </div>,
-                <div className="item" key={2}>
-                    <li>
-                        <p className="h4">Lo mejor de la plataforma es que es cómoda y fácil de manejar</p>
-                        <div>
-                            <figure>
-                                <img src={carmen} alt=""/>
-                            </figure>
-                            <span>Con ellos, tú eliges en qué tipo de producto inviertes tu dinero. Yo elegí uno de rentabilidad media que me permite disponer del dinero en cualquier momento. Lo mejor de la plataforma, es que es cómoda y fácil de manejar” <strong> -Carmen Vinaza</strong></span>
-
-                        </div>
-                    </li>
-                </div>,
                 <div className="item" key={3}>
                     <li>
-                        <p className="h4">iBAN no tiene competencia</p>
+                        <p className="h4">A la vanguardia del sistema financiero</p>
                         <div>
                             <figure>
-                                <img src={francisco} alt=""/>
+                                <img src={cristiana} alt=""/>
                             </figure>
-                            <span>“Me convenció esta alternativa a la banca. Las nuevas tecnologías hacen que la relación entre productos y cliente sea más fácil, más fluida y más dinámica. iBAN no tiene competencia” <strong> -Francisco Jiménez</strong></span>
+                            <span>“He descubierto con iBAN un nuevo mundo oculto para mí y estoy convencida que para muchos ahorradores de este país.Las FinTech como iBAN que se han puesto a la vanguardia del sistema financiero son un valor añadido con sus productos, transparencia y, sobre todo, rentabilidad” <strong> -Cristina González</strong></span>
                         </div>
                     </li>
                 </div>,
@@ -81,14 +56,39 @@ class Ibanopinion extends Component {
                         </div>
                     </li>
                 </div>,
-                <div className="item" key={3}>
+                <div className="item" key={2}>
                     <li>
-                        <p className="h4">A la vanguardia del sistema financiero</p>
+                        <p className="h4">Lo mejor de la plataforma es que es cómoda y fácil de manejar</p>
                         <div>
                             <figure>
-                                <img src={cristiana} alt=""/>
+                                <img src={carmen} alt=""/>
                             </figure>
-                            <span>“He descubierto con iBAN un nuevo mundo oculto para mí y estoy convencida que para muchos ahorradores de este país.Las FinTech como iBAN que se han puesto a la vanguardia del sistema financiero son un valor añadido con sus productos, transparencia y, sobre todo, rentabilidad” <strong> -Cristina González</strong></span>
+                            <span>Con ellos, tú eliges en qué tipo de producto inviertes tu dinero. Yo elegí uno de rentabilidad media que me permite disponer del dinero en cualquier momento. Lo mejor de la plataforma, es que es cómoda y fácil de manejar” <strong> -Carmen Vinaza</strong></span>
+
+                        </div>
+                    </li>
+                </div>,
+                <div className="item" key={1}>
+                    <li>
+                        <p className="h4">Debo decir que los productos son muy competitivos</p>
+                        <div>
+                            <figure>
+                                <img src={victor} alt=""/>
+                            </figure>
+                            <span>
+                                    “iBAN como uno de los actores principales en un sector que está asistiendo a una verdadera transformación sin precedentes” <strong> -Víctor Manuel Lobato</strong>
+                                    </span>
+                        </div>
+                    </li>
+                </div>,
+                <div className="item" key={3}>
+                    <li>
+                        <p className="h4">iBAN no tiene competencia</p>
+                        <div>
+                            <figure>
+                                <img src={francisco} alt=""/>
+                            </figure>
+                            <span>“Me convenció esta alternativa a la banca. Las nuevas tecnologías hacen que la relación entre productos y cliente sea más fácil, más fluida y más dinámica. iBAN no tiene competencia” <strong> -Francisco Jiménez</strong></span>
                         </div>
                     </li>
                 </div>

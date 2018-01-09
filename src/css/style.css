@@ -3122,7 +3122,8 @@ footer {
         .inversion .inv-1-section .inv-1-section_container .inv-1-section_img figure {
           width: 338px; }
     .inversion .inv-2-section {
-      margin-top: 540px; }
+      margin-top: 540px;
+      padding-bottom: 50px; }
       .inversion .inv-2-section:after {
         height: 596px; }
       .inversion .inv-2-section .inv-2-section_card {
