@@ -17,8 +17,10 @@ class Home extends Component {
         super(props)
 
         this.state = {
+            imgLoad: false,
             mobilePosition: 80,
-            imageDisplay: '270px'
+            imageDisplay: '270px',
+            screenW: window.innerWidth
         };
 
         this.getScroll = this.getScroll.bind(this);
@@ -34,8 +36,17 @@ class Home extends Component {
                 imageDisplay: window.pageYOffset >= 0 && window.pageYOffset < 690?'270px':window.pageYOffset >= 690 && window.pageYOffset < 1000 ?'0px':'-270px'
             })
 
-            // console.log(window.pageYOffset)
+            console.log(window.pageYOffset)
         });
+
+    }
+
+    handleLoad(){
+        setTimeout(()=>{
+            this.setState({
+                imgLoad: true
+            })
+        }, 500)
 
     }
 
@@ -61,11 +72,11 @@ class Home extends Component {
                         </a>
                         <img src={banner_1} alt="intro"  className="d-md-block d-ms-none d-none"/>
                         <img src={banenrMobile}  className="d-lg-none  d-md-none d-ms-block" alt=""/>
-                        <div className="info-1-section_img_mobile ">
-                            <div className="img-container">
-                                <figure className={"mobile-img d-flex justify-content-center align-items-center"}>
+                        <div className={(this.state.screenW < 700 && this.state.imgLoad === true?'info-1-section_img_mobile animated fadeInRight':'info-1-section_img_mobile')}>
+                            <div className="img-container" >
+                                <figure className={"mobile-img d-flex justify-content-center align-items-center "}>
                                     <div className="d-flex">
-                                        <img src={s_1} alt="card" />
+                                        <img src={s_1} alt="card" onLoad={this.handleLoad(this)}/>
                                     </div>
                                 </figure>
                             </div>
@@ -98,7 +109,7 @@ class Home extends Component {
                     </div>
                 </section>
                 <section className="banner-img_mobile d-lg-none  d-md-none d-ms-block">
-                    <div className="info-1-section_img_mobile ">
+                    <div className={(this.state.screenW < 700 && window.pageYOffset >= 500)?'animated fadeInUp info-1-section_img_mobile':'info-1-section_img_mobile d-none'}>
                         <div className="img-container">
                             <figure className={"mobile-img d-flex justify-content-center align-items-center"}>
                                 <div className="d-flex">
@@ -118,7 +129,7 @@ class Home extends Component {
                     </div>
                 </section>
                 <section className="banner-img_mobile_2 d-lg-none  d-md-none d-ms-block">
-                    <div className="info-1-section_img_mobile ">
+                    <div className={(this.state.screenW < 700 && window.pageYOffset >= 1300)?'info-1-section_img_mobile animated fadeInLeft':'d-none'}>
                         <div className="img-container">
                             <figure className={"mobile-img d-flex justify-content-center align-items-center"}>
                                 <div className="d-flex">

@@ -38,7 +38,7 @@ class Menu extends Component {
                     {/*</a>*/}
                 {/*</figure>*/}
                 <nav className="navbar navbar-expand-lg page-menu bg-light">
-                    <a className="navbar-brand" href="">
+                    <a className="navbar-brand" href="/">
                         <img src={logo} width="150" height="" className="d-inline-block align-top" alt="" />
 
                     </a>
