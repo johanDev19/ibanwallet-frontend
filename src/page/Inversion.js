@@ -30,7 +30,7 @@ class Inversion extends Component {
                 </section>
 
                 <section className="inv-2-section">
-                    <h4 className="text-center">De verdad. Todo lo que iBAN hace</h4>
+                    <h4 className="text-center">De verdad. <span className="d-block">¡Todo lo que iBAN hace!</span></h4>
 
                     <div className="inv-2-section_card d-flex justify-content-between align-items-center flex-wrap">
                         <div className="card d-flex justify-content-center align-items-center container">
@@ -64,7 +64,7 @@ class Inversion extends Component {
                         <img src={icon5} alt=""/>
                     </figure>
                     <div className="inv-3-section_text">
-                        <h2 className="text-left">HA LLEGADO EL MOMENTO</h2>
+                        <h2 className="text-left">HA LLEGADO EL <span>MOMENTO</span></h2>
                         <p className="text-left">Gracias a la tecnología de Internet hemos conseguido una reducción de costes en la relación con nuestros clientes y gestión interna que nos permite ofrecer un <strong>modelo de comisiones al alcance de todos.</strong> </p>
                         <p>Esto es ya una realidad en países como Reino Unido. Creemos que ahora es el momento idóneo de su llegada a España, para utilizarlo en tu beneficio.</p>
                     </div>

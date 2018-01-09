@@ -3042,27 +3042,48 @@ footer {
     font-size: 14px !important; }
   section {
     margin-top: 20px; }
-  .inversion .inv-1-section {
-    margin-top: 100px; }
-    .inversion .inv-1-section .info-section_text ul {
-      display: none; }
-    .inversion .inv-1-section .inv-1-section_container .inv-1-section_text {
-      width: 100%; }
-    .inversion .inv-1-section .inv-1-section_container .inv-1-section_img {
-      top: 245px !important;
-      left: 0 !important; }
-      .inversion .inv-1-section .inv-1-section_container .inv-1-section_img figure {
-        width: 338px; }
-  .inversion .inv-2-section {
-    margin-top: 637px; }
-    .inversion .inv-2-section:after {
-      height: 596px; }
-    .inversion .inv-2-section .inv-2-section_card .card {
-      margin: 40px auto; }
-  .inversion .inv-3-section {
-    margin-bottom: 170px; }
-    .inversion .inv-3-section figure {
-      display: none; }
+  .inversion {
+    overflow: hidden; }
+    .inversion .inv-1-section {
+      margin-top: 100px; }
+      .inversion .inv-1-section .info-section_text {
+        top: 0px !important; }
+        .inversion .inv-1-section .info-section_text ul {
+          display: none; }
+      .inversion .inv-1-section .inv-1-section_container .inv-1-section_text {
+        width: 100%; }
+      .inversion .inv-1-section .inv-1-section_container .inv-1-section_img {
+        top: 148px !important;
+        left: 0 !important; }
+        .inversion .inv-1-section .inv-1-section_container .inv-1-section_img figure {
+          width: 338px; }
+    .inversion .inv-2-section {
+      margin-top: 540px; }
+      .inversion .inv-2-section:after {
+        height: 596px; }
+      .inversion .inv-2-section .inv-2-section_card {
+        margin-top: 0px; }
+        .inversion .inv-2-section .inv-2-section_card .card {
+          margin: 40px auto;
+          height: 336px; }
+          .inversion .inv-2-section .inv-2-section_card .card figure {
+            margin-bottom: 32px; }
+          .inversion .inv-2-section .inv-2-section_card .card p.text-center {
+            font-size: 1.2rem; }
+    .inversion .inv-3-section {
+      margin-bottom: 60px;
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-top: 60px; }
+      .inversion .inv-3-section figure {
+        display: none; }
+      .inversion .inv-3-section .inv-3-section_text {
+        height: auto; }
+        .inversion .inv-3-section .inv-3-section_text h2 span {
+          display: block; }
+        .inversion .inv-3-section .inv-3-section_text p {
+          font-size: 1.2rem;
+          font-weight: normal; }
   .opinion {
     padding-right: 10px !important;
     padding-left: 10px !important; }
