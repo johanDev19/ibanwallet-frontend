@@ -72,7 +72,7 @@ class Home extends Component {
                         </a>
                         <img src={banner_1} alt="intro"  className="d-md-block d-ms-none d-none"/>
                         <img src={banenrMobile}  className="d-lg-none  d-md-none d-ms-block" alt=""/>
-                        <div className={(this.state.screenW < 700 && this.state.imgLoad === true?'info-1-section_img_mobile animated fadeInRight':'info-1-section_img_mobile')}>
+                        <div className={(this.state.screenW < 700 && this.state.imgLoad === true?'info-1-section_img_mobile animated fadeInRight':'info-1-section_img_mobile d-none')}>
                             <div className="img-container" >
                                 <figure className={"mobile-img d-flex justify-content-center align-items-center "}>
                                     <div className="d-flex">
