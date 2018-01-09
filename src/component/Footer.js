@@ -47,9 +47,35 @@ class Footer extends Component {
                         </div>
                     </div>
 
+                    <div className="fo-2_m col-12 m_f_m">
+                        <div class="dropdown show">
+                            <a class="btn btn-secondary dropdown-toggle text-uppercase" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Producto
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="/ahorro">Planes de Ahorro</a>
+                                <a class="dropdown-item" href="/inversion">Inversion</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="fo-2_m col-12 m_f_m">
+                        <div class="dropdown show">
+                            <a class="btn btn-secondary dropdown-toggle text-uppercase" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Información
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="/ibanopinion">Opiniones</a>
+                                <a class="dropdown-item" href="/iban">iban</a>
+                                <a class="dropdown-item" href="/contact">Contacto</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div className="container f-2">
-                    <ul className="d-flex justify-content-start">
+                    <ul className="d-flex justify-content-start flex-wrap">
                         <a href="/politica">
                             <li>Politica de privacidad | </li>
                         </a>
@@ -58,6 +84,21 @@ class Footer extends Component {
                         </a>
                         <a href="/cookie">
                             <li> Politica de cookies</li>
+                        </a>
+                    </ul>
+
+                    <ul className="d-flex l-social">
+                        <a href="https://www.facebook.com/myibanwallet" >
+                            <i className="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://twitter.com/myibanwallet">
+                            <i className="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/11428519/">
+                            <i className="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/myibanwallet/">
+                            <i className="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </ul>
                     <p>

@@ -136,6 +136,82 @@
     font-size: 14px !important;
   }
 
+  footer {
+    background-color: #EBEBEB;
+    .container {
+      padding-right: 10px;
+      padding-left: 10px;
+
+    }
+
+    .m_f_m {
+      display: block;
+    }
+    .fo-1 {
+      margin: auto;
+
+      .logo {
+        figure {
+          width: 150px;
+        }
+      }
+      
+      ul.l-social {
+        display: none !important;
+      }
+
+      span.r {
+        color: #373A3C;
+      }
+    }
+
+    div.f-2 ul {
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      margin: 10px 0px;
+
+      a {
+        color: #757575 !important;
+      }
+    }
+    
+    .fo-2 {
+      display: none;
+    }
+
+    .fo-2_m {
+
+      div.dropdown {
+        a {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: transparent !important;
+          border: none;
+          color: #000 !important;
+          cursor: pointer;
+          margin: 14px 0px;
+
+          &:hover {
+            background-color: #f3f3f3;
+          }
+
+          &:focus {
+            outline: none;
+            border: none;
+            box-shadow: none;
+          }
+        }
+
+        .dropdown-menu {
+          width: 100% !important;
+        }
+      }
+    }
+
+  }
+
   .page-menu {
     .navbar-brand {
       margin-left: 10px;

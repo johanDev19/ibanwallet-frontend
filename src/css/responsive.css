@@ -67,6 +67,47 @@
 @media (max-width: 767.99px) {
   html {
     font-size: 14px !important; }
+  footer {
+    background-color: #EBEBEB; }
+    footer .container {
+      padding-right: 10px;
+      padding-left: 10px; }
+    footer .m_f_m {
+      display: block; }
+    footer .fo-1 {
+      margin: auto; }
+      footer .fo-1 .logo figure {
+        width: 150px; }
+      footer .fo-1 ul.l-social {
+        display: none !important; }
+      footer .fo-1 span.r {
+        color: #373A3C; }
+    footer div.f-2 ul {
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      margin: 10px 0px; }
+      footer div.f-2 ul a {
+        color: #757575 !important; }
+    footer .fo-2 {
+      display: none; }
+    footer .fo-2_m div.dropdown a {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: transparent !important;
+      border: none;
+      color: #000 !important;
+      cursor: pointer;
+      margin: 14px 0px; }
+      footer .fo-2_m div.dropdown a:hover {
+        background-color: #f3f3f3; }
+      footer .fo-2_m div.dropdown a:focus {
+        outline: none;
+        border: none;
+        box-shadow: none; }
+    footer .fo-2_m div.dropdown .dropdown-menu {
+      width: 100% !important; }
   .page-menu .navbar-brand {
     margin-left: 10px;
     margin-right: 10px; }

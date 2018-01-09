@@ -3,6 +3,10 @@ footer {
   margin-top: 100px;
   padding: 25px 0px;
 
+  .m_f_m {
+    display: none;
+  }
+
 
   .fo-1 {
     margin-right: 229px;
@@ -73,10 +77,29 @@ footer {
     padding-top: 14px;
     padding-bottom: 14px;
 
+    ul.l-social {
+      list-style: none;
+      padding: 0px;
+      margin-top: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      a {
+        margin-right: 29px;
+        color: #fff;
+        font-size: 23px;
+
+        &:last-child {
+          margin-right: 0px;
+        }
+      }
+    }
+
     ul {
       list-style: none;
       padding: 0px;
-      border-bottom: 1px solid #919090;;
       padding-bottom: 26px;
       font-size: 14px;
 
