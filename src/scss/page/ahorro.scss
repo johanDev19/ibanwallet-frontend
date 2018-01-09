@@ -50,6 +50,10 @@ $btn-primary: #339966;
   }
 
   .ah-1-section {
+    .m-text {
+      margin-bottom: 20px;
+
+    }
     figure {
       max-width: 366px;
       min-width: 250px;
@@ -57,6 +61,11 @@ $btn-primary: #339966;
 
 
 
+    }
+
+    ol {
+      margin-top: 20px;
+      padding: 0px;
     }
   }
 

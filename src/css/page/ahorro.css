@@ -25,7 +25,14 @@
       .ahorro .ah-2-section .ah-2-section_text figure img {
         width: 100%; }
 
+.ahorro .ah-1-section .m-text {
+  margin-bottom: 20px; }
+
 .ahorro .ah-1-section figure {
   max-width: 366px;
   min-width: 250px;
   overflow: hidden; }
+
+.ahorro .ah-1-section ol {
+  margin-top: 20px;
+  padding: 0px; }

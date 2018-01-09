@@ -28,15 +28,41 @@
         left: 47px !important; }
   .intro-page section.info-1-section .info-1-section_img_mobile {
     left: 61px !important; }
-  .ahorro .ah-2-section_text {
-    flex-direction: column !important;
+  .ahorro {
     padding-right: 10px !important;
     padding-left: 10px !important; }
-    .ahorro .ah-2-section_text .text {
-      width: 100% !important; }
-  .ahorro .ah-1-section .row {
-    margin-right: 0px !important;
-    margin-left: 0px !important; } }
+    .ahorro .row {
+      margin-right: 0px !important;
+      margin-left: 0px !important; }
+    .ahorro h1 {
+      margin-bottom: 20px; }
+    .ahorro .ah-2-section {
+      padding-top: 50px;
+      margin-top: 120px;
+      background-color: #f6f6f6; }
+      .ahorro .ah-2-section .ah-2-section_text {
+        background-color: #f6f6f6;
+        text-align: center; }
+        .ahorro .ah-2-section .ah-2-section_text:nth-child(2) {
+          background-color: #f6f6f6; }
+          .ahorro .ah-2-section .ah-2-section_text:nth-child(2) figure {
+            margin-left: 0px;
+            margin-right: 50px; }
+        .ahorro .ah-2-section .ah-2-section_text .text h6 {
+          font-size: 1.2rem; }
+        .ahorro .ah-2-section .ah-2-section_text .text span {
+          font-size: 1.3rem; }
+          .ahorro .ah-2-section .ah-2-section_text .text span span {
+            display: block; }
+    .ahorro .ah-2-section_text {
+      flex-direction: column !important;
+      padding-right: 10px !important;
+      padding-left: 10px !important; }
+      .ahorro .ah-2-section_text .text {
+        width: 100% !important; }
+    .ahorro .ah-1-section .row {
+      margin-right: 0px !important;
+      margin-left: 0px !important; } }
 
 @media (max-width: 767.99px) {
   html {
