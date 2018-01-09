@@ -2382,12 +2382,6 @@ a {
     font-size: 25px; }
     .page-menu button:focus {
       outline: none; }
-  .page-menu ul {
-    background-color: #fff; }
-    .page-menu ul li {
-      padding: 10px 10px; }
-      .page-menu ul li:hover {
-        background-color: #f3f3f3; }
 
 footer {
   background-color: #4B4949;
@@ -3044,6 +3038,12 @@ footer {
   .page-menu .navbar-brand {
     margin-left: 10px;
     margin-right: 10px; }
+  .page-menu ul {
+    background-color: #fff; }
+    .page-menu ul li {
+      padding: 10px 10px; }
+      .page-menu ul li:hover {
+        background-color: #f3f3f3; }
   section {
     margin-top: 20px; }
   .inversion {

@@ -70,6 +70,12 @@
   .page-menu .navbar-brand {
     margin-left: 10px;
     margin-right: 10px; }
+  .page-menu ul {
+    background-color: #fff; }
+    .page-menu ul li {
+      padding: 10px 10px; }
+      .page-menu ul li:hover {
+        background-color: #f3f3f3; }
   section {
     margin-top: 20px; }
   .inversion {

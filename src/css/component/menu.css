@@ -16,9 +16,3 @@
     font-size: 25px; }
     .page-menu button:focus {
       outline: none; }
-  .page-menu ul {
-    background-color: #fff; }
-    .page-menu ul li {
-      padding: 10px 10px; }
-      .page-menu ul li:hover {
-        background-color: #f3f3f3; }
