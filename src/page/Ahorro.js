@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import OwlCarousel from 'react-owl-carousel';
 
-
 //images
 import icon1 from './../img/planahorro_screen1.png'
 import icon2 from './../img/planahorro_screen2-2-3.png'
@@ -12,8 +11,8 @@ import img1 from './../img/pexels-photo-774909.jpeg'
 
 class Ahorro extends Component {
 
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
 
         this.state = {
             options: {
@@ -32,7 +31,6 @@ class Ahorro extends Component {
                     }
                 }
             },
-
             items: [
                 <div className="item" key={1}>
                     <div className="ah-2-section_text d-flex align-items-center justify-content-around">
@@ -77,9 +75,36 @@ class Ahorro extends Component {
                     </div>
                 </div>
             ],
-
+            elementP: 0,
+            scrollP: window.pageYOffset
         };
+
+        this.getScroll = this.getScroll.bind(this)
+        this.getScroll()
+
     }
+
+    componentDidMount(){
+        this.setState({
+            elementP: document.getElementById('ahorro-a-1').getBoundingClientRect().y
+        })
+    }
+
+
+    getScroll(){
+
+        window.addEventListener("scroll", () => {
+
+            this.setState({
+                scrollP: window.pageYOffset,
+                elementP: document.getElementById('ahorro-a-1').getBoundingClientRect().y
+            })
+
+
+        });
+
+    }
+
 
 
     render(){
@@ -147,7 +172,9 @@ class Ahorro extends Component {
 
                 <section className="ah-1-section row align-items-center justify-content-center">
                     <h2 className=" m-text d-lg-none d-md-none d-ms-block text-left text-center">¿Por qué debería ahorrar con iBAN?</h2>
-                    <figure className="col-4">
+
+
+                    <figure className={this.state.scrollP > this.state.elementP?'animated fadeInLeft':'d-none'} id="ahorro-a-1">
                         <img src={img1} alt=""/>
                     </figure>
                     <div className="ah-1-section_text col-md-6 col-sm-12">

@@ -48,27 +48,27 @@ class Footer extends Component {
                     </div>
 
                     <div className="fo-2_m col-12 m_f_m">
-                        <div class="dropdown show">
-                            <a class="btn btn-secondary dropdown-toggle text-uppercase" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div className="dropdown show">
+                            <a className="btn btn-secondary dropdown-toggle text-uppercase" href="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Producto
                             </a>
 
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="/ahorro">Planes de Ahorro</a>
-                                <a class="dropdown-item" href="/inversion">Inversion</a>
+                            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a className="dropdown-item" href="/ahorro">Planes de Ahorro</a>
+                                <a className="dropdown-item" href="/inversion">Inversion</a>
                             </div>
                         </div>
                     </div>
                     <div className="fo-2_m col-12 m_f_m">
-                        <div class="dropdown show">
-                            <a class="btn btn-secondary dropdown-toggle text-uppercase" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div className="dropdown show">
+                            <a className="btn btn-secondary dropdown-toggle text-uppercase" href="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Información
                             </a>
 
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="/ibanopinion">Opiniones</a>
-                                <a class="dropdown-item" href="/iban">iban</a>
-                                <a class="dropdown-item" href="/contact">Contacto</a>
+                            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a className="dropdown-item" href="/ibanopinion">Opiniones</a>
+                                <a className="dropdown-item" href="/iban">iban</a>
+                                <a className="dropdown-item" href="/contact">Contacto</a>
                             </div>
                         </div>
                     </div>

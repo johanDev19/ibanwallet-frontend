@@ -62,7 +62,9 @@
         width: 100% !important; }
     .ahorro .ah-1-section .row {
       margin-right: 0px !important;
-      margin-left: 0px !important; } }
+      margin-left: 0px !important; }
+    .ahorro .ah-1-section figure {
+      margin-right: 0px; } }
 
 @media (max-width: 767.99px) {
   html {
