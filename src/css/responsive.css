@@ -111,6 +111,67 @@
         .inversion .inv-3-section .inv-3-section_text p {
           font-size: 1.2rem;
           font-weight: normal; }
+  .iban {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    overflow: hidden;
+    margin-top: 120px; }
+    .iban h1 {
+      font-size: 2rem;
+      text-align: left !important; }
+      .iban h1 span {
+        display: block; }
+    .iban .iban-1-section {
+      margin-top: 33px; }
+      .iban .iban-1-section figure {
+        order: 0;
+        margin-bottom: 28px; }
+      .iban .iban-1-section .iban-1-section_text p {
+        font-size: 1.2rem;
+        font-weight: normal; }
+    .iban .iban-2-section {
+      flex-direction: column !important;
+      padding: 0px;
+      margin-top: 33px; }
+      .iban .iban-2-section figure {
+        width: 100%;
+        margin-bottom: 28px; }
+      .iban .iban-2-section .iban-2-section_text {
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: normal; }
+    .iban .iban-3-section {
+      margin-top: 37px; }
+      .iban .iban-3-section h5 {
+        text-align: left !important; }
+      .iban .iban-3-section p {
+        padding: 0px !important;
+        margin: 0px !important;
+        font-size: 1.4rem; }
+    .iban .iban-4-section {
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+      margin-top: 37px;
+      width: 100%; }
+      .iban .iban-4-section .comment {
+        margin-top: 20px; }
+        .iban .iban-4-section .comment ul {
+          padding-left: 0px; }
+          .iban .iban-4-section .comment ul li {
+            border-left: 1px solid #339966;
+            margin-left: 0px !important;
+            padding-left: 10px;
+            font-size: 1.4rem;
+            line-height: 30px;
+            font-weight: normal; }
+            .iban .iban-4-section .comment ul li strong {
+              font-size: 1.2rem;
+              font-weight: normal !important;
+              color: #818a91; }
+            .iban .iban-4-section .comment ul li:before {
+              display: none !important; }
+    .iban .iban-5-section h5 {
+      text-align: left !important; }
   .opinion {
     padding-right: 10px !important;
     padding-left: 10px !important;

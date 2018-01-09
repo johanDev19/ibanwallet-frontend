@@ -9,22 +9,32 @@ class Iban extends Component {
         return(
             <div className="iban container-fluid">
                 <h1 className="text-center container">
-                    Creemos que podemos ser la alternativa
+                    Creemos que podemos <span>ser la alternativa</span>
                 </h1>
-                <section className="iban-1-section container d-flex justify-content-around align-items-center">
-                    <div className="iban-1-section_text col-md-6">
-                        <p>
-                            Nos enfocamos en resolver problemas, en vez de vender productos.
-                            Queremos hacer un mundo mejor y cambiar la vida de la gente a traves de iBAN.
-                        </p>
+                <section className="iban-1-section container d-md-flex d-lg-flex d-sm-flex justify-content-around align-items-center flex-sm-column">
+                    <div className="row">
+                        <div className="iban-1-section_text col-md-6 d-none d-ms-block d-md-block d-lg-block">
+                            <p>
+                                Nos enfocamos en resolver problemas, en vez de vender productos.
+                                Queremos hacer un mundo mejor y cambiar la vida de la gente a traves de iBAN.
+                            </p>
+                        </div>
+                        <figure className="col-md-6">
+                            <img src={icon1} alt=""/>
+                        </figure>
+                        <div className="iban-1-section_text col-md-6 d-lg-none d-md-none d-ms-block">
+                            <p>
+                                Nos enfocamos en resolver problemas, en vez de vender productos.
+                                Queremos hacer un mundo mejor y cambiar la vida de la gente a traves de iBAN.
+                            </p>
+                        </div>
+
                     </div>
-                    <figure className="col-md-6">
-                        <img src={icon1} alt=""/>
-                    </figure>
+
                 </section>
 
-                <section className="iban-2-section d-flex justify-content-around align-items-center flex-md-row-reverse container">
-                    <div className="iban-2-section_text col-md-6">
+                <section className="iban-2-section d-flex justify-content-around align-items-center flex-md-row-reverse flex-sm-column container ">
+                    <div className="iban-2-section_text col-md-6 d-none d-ms-block d-md-block d-lg-block">
                         <p>
                             Estamos aquí para aquellos que se niegan a conformarse. Quienes nunca dejan de avanzar. Quienes continúan buscando nuevas ideas y mejores experiencias en todo lo que hacen.
                         </p>
@@ -33,6 +43,12 @@ class Iban extends Component {
                     <figure className="col-md-6">
                         <img src={icon2} alt=""/>
                     </figure>
+                    <div className="iban-2-section_text col-md-6 d-lg-none d-md-none d-ms-block">
+                        <p>
+                            Estamos aquí para aquellos que se niegan a conformarse. Quienes nunca dejan de avanzar. Quienes continúan buscando nuevas ideas y mejores experiencias en todo lo que hacen.
+                        </p>
+                        <p>Porque el mundo tan conectado de hoy merece un compañero financiero igual de avanzado. Uno que se adapta a tus necesidades, te da el control y que continuamente te lleva a nuevos y estimulantes horizontes.</p>
+                    </div>
                 </section>
 
                 <section className="iban-5-section d-flex justify-content-center align-items-center container">
@@ -46,7 +62,7 @@ class Iban extends Component {
 
                 <section className="iban-4-section container">
                     <h5 className="text-center">Los medios hablan de nosotros</h5>
-                    <p className="container">Iniciamos iBAN desde nuestro hogar en Londres, y desde entonces hemos ido expandiéndonos por el mundo. Nuestra evolución ha sido recogida por los medios. Aqui te mostramos unas menciones que algunos periodistas y medios de comunicación han publicado sobre nosotros.</p>
+                    <p className="container d-none d-ms-block d-md-block d-lg-block">Iniciamos iBAN desde nuestro hogar en Londres, y desde entonces hemos ido expandiéndonos por el mundo. Nuestra evolución ha sido recogida por los medios. Aqui te mostramos unas menciones que algunos periodistas y medios de comunicación han publicado sobre nosotros.</p>
                     <div className="comment">
                         <ul>
                             <li>
