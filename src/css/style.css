@@ -2367,6 +2367,18 @@ a {
   a:hover {
     color: #66cc99 !important; }
 
+/* The animation code */
+@keyframes banner_animation {
+  from {
+    right: -400px; }
+  to {
+    right: -73px; } }
+
+/* The element to apply the animation to */
+.banner_animation {
+  animation-name: banner_animation;
+  animation-duration: 4s; }
+
 .page-menu {
   max-height: 70px;
   position: fixed;
