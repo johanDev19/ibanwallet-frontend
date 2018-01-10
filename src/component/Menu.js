@@ -49,19 +49,19 @@ class Menu extends Component {
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
-                                <a className="nav-link" href="/iban">iBAN <span className="sr-only">(current)</span></a>
+                                <a className="nav-link" href="/conoce-iban">iBAN <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/ahorro">Planes de Ahorro</a>
+                                <a className="nav-link" href="/planes-de-ahorro">Planes de Ahorro</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="/inversion">Inversión</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/https://secure.myibanwallet.com">Acceso Clientes</a>
+                                <a className="nav-link" href="https://secure.myibanwallet.com">Acceso Clientes</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/https://secure.myibanwallet.com">Registrate</a>
+                                <a className="nav-link" href="https://secure.myibanwallet.com">Regístrate</a>
                             </li>
                         </ul>
                     </div>
