@@ -46,7 +46,7 @@ class Menu extends Component {
                         <i className="fa fa-bars" aria-hidden="true"></i>
                     </button>
 
-                    <div className="collapse navbar-collapse " id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse m-md-5 m-lg-5 m-sm-1" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item active">
                                 <a className="nav-link" href="/conoce-iban">iBAN <span className="sr-only">(current)</span></a>
