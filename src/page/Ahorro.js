@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import MetaTags from 'react-meta-tags';
 import OwlCarousel from 'react-owl-carousel';
-import MetaTags from 'react-meta-tags';
 
 
 //images

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import MetaTags from 'react-meta-tags'
 
 import icon1 from './../img/contact.png'
 import icon2 from './../img/address.png'
@@ -8,8 +9,8 @@ class Contact extends Component {
         return(
             <div className="contact container-fluid">
                 <MetaTags>
-                    <title>iBAN Wallet - Opiniones</title>
-                    <meta name="description" content="Conoce lo que habla sobre iBAN Wallet, sobre estrategias de inversión y rentabilidad de su dinero." />
+                    <title>iBAN Wallet - Finanzas para todo</title>
+                    <meta name="description" content="Contacta con nosotros y conoce nuestras estrategias de inversion, ahorro de dinero y fondos de inversión." />
                 </MetaTags>
                 <section className="contact-1-section">
                     <h1 className="text-center">Contacta con nosotros</h1>
