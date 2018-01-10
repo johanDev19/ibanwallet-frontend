@@ -17,16 +17,16 @@ class Footer extends Component {
                             </span>
                             <span className="r">® iBAN Wallet 2018</span>
                             <ul className="d-flex l-social">
-                                <a href="https://www.facebook.com/myibanwallet" >
+                                <a href="https://www.facebook.com/myibanwallet" target="_blank">
                                     <i className="fa fa-facebook" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://twitter.com/myibanwallet">
+                                <a href="https://twitter.com/myibanwallet" target="_blank">
                                     <i className="fa fa-twitter" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/company/11428519/">
+                                <a href="https://www.linkedin.com/company/11428519/" target="_blank">
                                     <i className="fa fa-linkedin" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://www.instagram.com/myibanwallet/">
+                                <a href="https://www.instagram.com/myibanwallet/" target="_blank">
                                     <i className="fa fa-instagram" aria-hidden="true"></i>
                                 </a>
                             </ul>
