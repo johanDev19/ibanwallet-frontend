@@ -99,7 +99,7 @@ class Home extends Component {
                         <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center col-lg-6 col-md-12 col-sm-12">
                             <h2>iBAN te facilita toda TU vida financiera de forma segura y sencilla.</h2>
                             <p>Traspasa tu plan de pensiones, crea tu plan de ahorros o contrata los mejores fondos de inversión en tan sólo 5 minutos.</p>
-                            <span className='font-weight-bold'>Bienvenido a un mundo más allá de la banca, Bienvenido a <a href="">iBAN</a></span>
+                            <span className='font-weight-bold'>Bienvenido a un mundo más allá de la banca, ¡Bienvenido a iBAN!</span>
                         </div>
                         <div className="info-1-section_img " style={{top: this.state.mobilePosition }}>
                             <div className="img-container">

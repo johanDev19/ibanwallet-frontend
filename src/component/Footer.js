@@ -87,7 +87,7 @@ class Footer extends Component {
                         </a>
                     </ul>
 
-                    <ul className="d-flex l-social">
+                    <ul className="d-flex l-social d-lg-none">
                         <a href="https://www.facebook.com/myibanwallet" >
                             <i className="fa fa-facebook" aria-hidden="true"></i>
                         </a>
