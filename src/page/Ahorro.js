@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
+import MetaTags from 'react-meta-tags';
 import OwlCarousel from 'react-owl-carousel';
+import MetaTags from 'react-meta-tags';
+
 
 //images
 import icon1 from './../img/planahorro_screen1.png'
@@ -33,6 +36,10 @@ class Ahorro extends Component {
             },
             items: [
                 <div className="item" key={1}>
+                    <MetaTags>
+                        <title>iBAN Wallet - Finanzas para todo</title>
+                        <meta name="description" content="Contacta con nosotros y conoce nuestras estrategias de inversion, ahorro de dinero y fondos de inversión." />
+                    </MetaTags>
                     <div className="ah-2-section_text d-flex align-items-center justify-content-around">
 
                         <div className="text">

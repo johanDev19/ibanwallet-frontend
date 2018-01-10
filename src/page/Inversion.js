@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import OwlCarousel from 'react-owl-carousel';
-
+import MetaTags from 'react-meta-tags';
 
 
 import icon1 from './../img/Inversiones_screen_1.png'
@@ -81,6 +81,10 @@ class Inversion extends Component {
     render(){
         return(
             <div className="inversion">
+                <MetaTags>
+                    <title>iBAN Wallet - Estrategias de Inversión</title>
+                    <meta name="description" content="Mejores estrategias de inversión. Invierte tu dinero en fondos, invierte en bolsa de forma segura y transparente." />
+                </MetaTags>
                 <section className="inv-1-section  d-flex justify-content-center align-items-center">
                     <div className="d-flex justify-content-start  inv-1-section_container">
                         <div className="inv-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center">

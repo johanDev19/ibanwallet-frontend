@@ -1,13 +1,15 @@
 import React, {Component} from 'react'
+import MetaTags from 'react-meta-tags';
 
 
 import banner_1 from './../img/web_inicio_banner.jpg'
 
 import s_1 from './../img/1.png'
 import s_2 from './../img/2.png'
-import s_3 from './../img/3.png'
+import s_3 from './../img/3.jpeg'
 import m_img from './../img/Minimalist-Showcase-Project-Presentation.png'
 import banenrMobile from './../img/banner_mobil.png'
+
 
 
 
@@ -15,6 +17,7 @@ class Home extends Component {
 
     constructor(props){
         super(props)
+
 
         this.state = {
             imgLoad: false,
@@ -58,6 +61,10 @@ class Home extends Component {
     render() {
         return(
             <div className="intro-page container-fluid ">
+                <MetaTags>
+                    <title>iBAN Wallet - Finanzas al alcance de todos</title>
+                    <meta name="description" content="Un mundo más allá de la banca -  iBAN Wallet, la nueva forma de ahorrar tu dinero ¡Únete a iBAN!" />
+                </MetaTags>
                 <section className="intro-section">
                     <header>
                         <div className="intro-text container-fluid d-flex flex-column justify-content-start">

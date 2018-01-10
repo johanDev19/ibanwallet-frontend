@@ -1,4 +1,7 @@
 import React, {Component} from 'react'
+import MetaTags from 'react-meta-tags';
+
+
 import icon1 from './../img/web_iban_imagen2.jpg'
 import icon2 from './../img/web_iban_imagen1.jpg'
 
@@ -8,6 +11,10 @@ class Iban extends Component {
     render(){
         return(
             <div className="iban container-fluid">
+                <MetaTags>
+                    <title>iBAN Wallet - Conoce iBAN</title>
+                    <meta name="description" content="Con iBAN Wallet, Un mundo más allá de la banca Infórmate en nuestra web y ¡abre tu perfil hoy!" />
+                </MetaTags>
                 <h1 className="text-center container">
                     Creemos que podemos <span>ser la alternativa</span>
                 </h1>
