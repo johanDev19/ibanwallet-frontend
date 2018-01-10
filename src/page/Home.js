@@ -97,8 +97,8 @@ class Home extends Component {
                 <section className="info-1-section d-flex align-items-lg-center align-items-start">
                     <div className="d-flex justify-content-between container ">
                         <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center col-lg-6 col-md-12 col-sm-12">
-                            <h2>iBAN te facilita toda TU actividad financiera de forma segura y sencilla.</h2>
-                            <p>Traspasa su plan de pensiones o contrato los mejores fondos de inversión en tan solo 5 minutos.</p>
+                            <h2>iBAN te facilita toda TU vida financiera de forma segura y sencilla.</h2>
+                            <p>Traspasa tu plan de pensiones, crea tu plan de ahorros o contrata los mejores fondos de inversión en tan sólo 5 minutos.</p>
                             <span className='font-weight-bold'>Bienvenido a un mundo más allá de la banca, Bienvenido a <a href="">iBAN</a></span>
                         </div>
                         <div className="info-1-section_img " style={{top: this.state.mobilePosition }}>
@@ -152,10 +152,10 @@ class Home extends Component {
                     <div className="d-flex justify-content-between container">
                         <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center">
                             <h2>ONLINE, RÁPIDO Y SENCILLO</h2>
-                            <p>Empieza desde 1.000 €. TAMBIÉN, PUEDES TRASPASAR TUS FONDOS.</p>
+                            <p>Ofrecemos una inversión adaptada al perfil y necesidades de los clientes, con la máxima profesionalidad, llevando a nuestros clientes los mejores productos de ahorro e inversión del mercado con la más moderna tecnología.</p>
                             <ul>
-                                <li><strong>Responde a un test</strong>, conoce tu perfil y analiza tu plan de inversión más adecuado para tus ahorros.</li>
-                                <li><strong>Regístrate sin compromiso</strong> para acceder a tu área privada y selecciona qué plan prefieres contratar.</li>
+                                <li><strong>Responde a un test</strong>, Conoce tu perfil y disfruta de un plan de inversión adecuado para tus ahorros.</li>
+                                <li><strong>Regístrate sin compromiso</strong> accede a tu área privada y selecciona el producto que prefieres contratar.</li>
                             </ul>
                         </div>
                         <div className="info-2-section_img ">
