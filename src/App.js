@@ -31,13 +31,13 @@ class App extends Component {
                 <Menu/>
                 <Route exact path="/" component={Home}/>
                 <Route path="/inversion" component={Inversion}/>
-                <Route path="/ahorro" component={Ahorro}/>
-                <Route path="/iban" component={Iban}/>
-                <Route path="/ibanopinion" component={Ibanoponion}/>
-                <Route path="/contact" component={Contact}/>
+                <Route path="/planes-de-ahorro" component={Ahorro}/>
+                <Route path="/conoce-iban" component={Iban}/>
+                <Route path="/opiniones-sobre-iban" component={Ibanoponion}/>
+                <Route path="/contacto" component={Contact}/>
                 <Route path="/politica" component={Politica}/>
-                <Route path="/termino" component={Termino}/>
-                <Route path="/cookie" component={Cookie}/>
+                <Route path="/terminos" component={Termino}/>
+                <Route path="/cookies" component={Cookie}/>
                 <Footer/>
             </div>
 

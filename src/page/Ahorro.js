@@ -36,8 +36,8 @@ class Ahorro extends Component {
             items: [
                 <div className="item" key={1}>
                     <MetaTags>
-                        <title>iBAN Wallet - Finanzas para todo</title>
-                        <meta name="description" content="Contacta con nosotros y conoce nuestras estrategias de inversion, ahorro de dinero y fondos de inversión." />
+                        <title>iBAN Wallet - Planes de ahorro</title>
+                        <meta name="description" content=" iBAN Wallet la nueva forma de ahorrar. Plan de Ahorro iBAN, contratalo en menos de 5 minutos." />
                     </MetaTags>
                     <div className="ah-2-section_text d-flex align-items-center justify-content-around">
 

@@ -63,7 +63,7 @@ class Home extends Component {
             <div className="intro-page container-fluid ">
                 <MetaTags>
                     <title>iBAN Wallet - Finanzas al alcance de todos</title>
-                    <meta name="description" content="Un mundo más allá de la banca -  iBAN Wallet, la nueva forma de ahorrar tu dinero ¡Únete a iBAN!" />
+                    <meta name="description" content="Un mundo más allá de la banca -  iBAN Wallet, la nueva forma de ahorrar tu dinero. ¡Únete a iBAN!" />
                 </MetaTags>
                 <section className="intro-section">
                     <header>
