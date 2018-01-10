@@ -37,7 +37,7 @@ class Footer extends Component {
                         <div className="d-flex flex-column f-nav f-nav_1 col">
                             <span className="font-weight-bold">Producto</span>
                             <span><a href="ahorro">Planes de Ahorro</a></span>
-                            <span><a href="inversion">Inversion</a></span>
+                            <span><a href="inversion">Inversión</a></span>
                         </div>
                         <div className="d-flex flex-column f-nav col">
                             <span className="font-weight-bold">Información</span>
@@ -55,7 +55,7 @@ class Footer extends Component {
 
                             <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a className="dropdown-item" href="/ahorro">Planes de Ahorro</a>
-                                <a className="dropdown-item" href="/inversion">Inversion</a>
+                                <a className="dropdown-item" href="/inversion">Inversión</a>
                             </div>
                         </div>
                     </div>
@@ -77,13 +77,13 @@ class Footer extends Component {
                 <div className="container f-2">
                     <ul className="d-flex justify-content-start flex-wrap">
                         <a href="/politica">
-                            <li>Politica de privacidad | </li>
+                            <li>Política de privacidad | </li>
                         </a>
                         <a href="/termino">
-                            <li> Terminos y condiciones de uso | </li>
+                            <li> Términos y condiciones de uso | </li>
                         </a>
                         <a href="/cookie">
-                            <li> Politica de cookies</li>
+                            <li> Política de cookies</li>
                         </a>
                     </ul>
 

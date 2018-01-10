@@ -99,7 +99,7 @@ class Home extends Component {
                         <div className="info-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center col-lg-6 col-md-12 col-sm-12">
                             <h2>iBAN te facilita toda TU vida financiera de forma segura y sencilla.</h2>
                             <p>Traspasa tu plan de pensiones, crea tu plan de ahorros o contrata los mejores fondos de inversión en tan sólo 5 minutos.</p>
-                            <span className='font-weight-bold'>Bienvenido a un mundo más allá de la banca, ¡Bienvenido a iBAN!</span>
+                            <span className='font-weight-bold'>Bienvenido a un mundo más allá de la banca. ¡Bienvenido a iBAN!</span>
                         </div>
                         <div className="info-1-section_img " style={{top: this.state.mobilePosition }}>
                             <div className="img-container">
@@ -154,7 +154,7 @@ class Home extends Component {
                             <h2>ONLINE, RÁPIDO Y SENCILLO</h2>
                             <p>Ofrecemos una inversión adaptada al perfil y necesidades de los clientes, con la máxima profesionalidad, llevando a nuestros clientes los mejores productos de ahorro e inversión del mercado con la más moderna tecnología.</p>
                             <ul>
-                                <li><strong>Responde a un test</strong>, Conoce tu perfil y disfruta de un plan de inversión adecuado para tus ahorros.</li>
+                                <li><strong>Conoce tu perfil </strong>y disfruta de un plan de inversión adecuado para tus ahorros.</li>
                                 <li><strong>Regístrate sin compromiso</strong> accede a tu área privada y selecciona el producto que prefieres contratar.</li>
                             </ul>
                         </div>

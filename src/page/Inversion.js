@@ -88,11 +88,11 @@ class Inversion extends Component {
                 <section className="inv-1-section  d-flex justify-content-center align-items-center">
                     <div className="d-flex justify-content-start  inv-1-section_container">
                         <div className="inv-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center">
-                            <h1 className="">El modelo de inversión de los grandes inversores, al alcance de todos</h1>
+                            <h1 className="">El modelo de inversión de los grandes inversores al alcance de todos</h1>
                             <ul>
-                                <li>La industria <strong>necesita una oferta diferente</strong>, más enfocada en el cliente y que sea clara y honesta.</li>
-                                <li>Necesita una novedosa manera invertir, con <strong>productos de bajo coste</strong>, sin conflictos de intereses y eliminando todo lo que no te aporta valor.</li>
-                                <li>Conseguimos así brindarte una mejor diversificación y asegurarte <strong>una mayor rentabilidad de tus ahorros.</strong></li>
+                                <li>Una propuesta centrada y enfocada en el cliente, con la máxima claridad, honestidad e independencia.</li>
+                                <li>Nuestros clientes tienen acceso a los mejores productos de ahorro e inversión, sin conflictos de intereses y eliminado todo aquello que no aporta valor.</li>
+                                <li>Proponemos inversiones diversificadas, con rentabilidades consistentes en el largo plazo.</li>
                             </ul>
                         </div>
                         <div className="inv-1-section_img">
@@ -104,7 +104,7 @@ class Inversion extends Component {
                 </section>
 
                 <section className="inv-2-section">
-                    <h4 className="text-center">De verdad. <span className="d-block">¡Todo lo que iBAN hace!</span></h4>
+                    <h4 className="text-center">Todo lo que iBAN hace. <span className="d-block">¡DE VERDAD!</span></h4>
 
                     <div className="inv-2-section_card d-flex justify-content-between align-items-center flex-wrap">
                         <OwlCarousel
