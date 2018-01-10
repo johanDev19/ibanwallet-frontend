@@ -25,6 +25,7 @@ class Contact extends Component {
                             </figure>
                         </div>
                         <h4>Chat dentro de la web</h4>
+                        <p>Puedes hacernos una pregunta sobre cualquier de nuestros servicios. Si estas fuera del horario déjanos un mensaje y tu dirección email, y te responderemos por correo.</p>
                         <p>Lunes a viernes: 9:00 am - 5:00 pm</p>
                         {/*<p className="text-center">Sábados y Domingos 10pm - 6pm (hora de España)</p>*/}
                         <p><a class="drift-open-chat" href="http://docs.drift.com/" style={{textDecoration:'underline'}}>Pincha aquí para abrir el chat</a>.</p>
