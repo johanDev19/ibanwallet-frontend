@@ -7,9 +7,15 @@
     .iban .iban-1-section figure, .iban .iban-2-section figure {
       width: 500px; }
   .iban .iban-3-section p {
-    font-weight: 100; }
+    font-weight: 100;
+    padding: 0px;
+    width: 80%;
+    font-weight: 400;
+    margin-top: 20px; }
   .iban .iban-4-section {
     width: 80%; }
+    .iban .iban-4-section h5 {
+      margin-bottom: 20px; }
     .iban .iban-4-section p.margin-top {
       margin-top: 50px; }
       .iban .iban-4-section p.margin-top:last-child {

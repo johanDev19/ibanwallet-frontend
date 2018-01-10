@@ -19,11 +19,18 @@ $btn-primary: #339966;
     p {
       //padding: 0px 100px;
       font-weight: 100;
+      padding: 0px;
+      width: 80%;
+      font-weight: 400;
+      margin-top: 20px;
     }
   }
 
   .iban-4-section {
     width: 80%;
+    h5 {
+      margin-bottom: 20px;
+    }
     p.margin-top {
       margin-top: 50px;
 
