@@ -134,7 +134,7 @@ class Inversion extends Component {
                                 <img src={icon3} alt=""/>
                             </figure>
                             <p>COMISIONES MÍNIMAS</p>
-                            <p className="text-center">La aplicación de la tecnología a la gestión de tus inversiones nos permite ofrecerte los mejores productos a un menor coste</p>
+                            <p className="text-center">La aplicación de la tecnología a la gestión de tus inversiones nos permite ofrecerte los mejores productos a un menor coste.</p>
                         </div>
                     </div>
                 </section>
@@ -147,8 +147,8 @@ class Inversion extends Component {
                     </figure>
                     <div className="inv-3-section_text">
                         <h2 className="text-left">HA LLEGADO EL <span>MOMENTO</span></h2>
-                        <p>Eliminar el texto de arriba y poner  "iBAN pone a disposición de sus clientes una forma más eficiente ​de gestionar sus ahorros. Productos de ahorro e inversión consistentes y rentables, adaptados al perfil de cada cliente. La mejor tecnología al servicio de los ahorros de nuestros clientes.</p>
-                        <p>Lo que es ya una realidad en otros países como Reino Unido al alcance de los ahorradores en España. Empieza a gestionar tus ahorros en iBAN y disfruta de una forma distinta de hacer las cosas</p>
+                        <p>iBAN pone a disposición de sus clientes una forma más eficiente ​de gestionar sus ahorros. Productos de ahorro e inversión consistentes y rentables, adaptados al perfil de cada cliente. La mejor tecnología al servicio de los ahorros de nuestros clientes.</p>
+                        <p>Lo que es ya una realidad en otros países como Reino Unido está ahora al alcance de los ahorradores en España. Empieza a gestionar tus ahorros en iBAN y disfruta de una forma distinta de hacer las cosas.</p>
 
                     </div>
                 </section>

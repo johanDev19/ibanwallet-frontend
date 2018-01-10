@@ -16,14 +16,16 @@ class Iban extends Component {
                     <meta name="description" content="Con iBAN Wallet un mundo más allá de la banca, infórmate en nuestra web y ¡abre tu perfil hoy!" />
                 </MetaTags>
                 <h1 className="text-center container">
-                    Creemos que podemos <span>ser la alternativa</span>
+                    Somos la alternativa <span>a la banca</span>
                 </h1>
                 <section className="iban-1-section container d-md-flex d-lg-flex d-sm-flex justify-content-around align-items-center flex-sm-column">
                     <div className="row">
                         <div className="iban-1-section_text col-md-6 d-none d-ms-block d-md-block d-lg-block">
                             <p>
-                                Nos enfocamos en resolver problemas, en vez de vender productos.
-                                Queremos hacer un mundo mejor y cambiar la vida de la gente a traves de iBAN.
+                                El cliente es el centro para iBAN, le aportamos soluciones de ahorro y estrategias de inversión.
+                            </p>
+                            <p>
+                                Los productos de inversión son sólo un medio para conseguirlo, por ello seleccionamos aquellos que cumplan con lo que nuestros clientes necesitan, siempre desde la más absoluta seguridad.
                             </p>
                         </div>
                         <figure className="col-md-6">

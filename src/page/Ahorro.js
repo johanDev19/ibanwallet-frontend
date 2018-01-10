@@ -150,7 +150,7 @@ class Ahorro extends Component {
                                 <div className="text">
                                     <h6 className="h2">Tu perfil de ahorrador</h6>
                                     <span>PARA CONFIGURAR EL PLAN A TU MEDIDA</span>
-                                    <p className="d-none d-ms-block d-md-block d-lg-block">Responde 10 sencillas preguntas sobre ti para que podamos calcular tu perfil de ahorrador y diseñar tu plan a medida.</p>
+                                    <p className="d-none d-ms-block d-md-block d-lg-block">Responde sencillas preguntas sobre ti para que podamos calcular tu perfil de ahorrador y diseñar tu plan a medida.</p>
                                 </div>
                                 <figure>
                                     <img src={icon2} alt="ahorro2"/>
@@ -161,12 +161,12 @@ class Ahorro extends Component {
                                 <div className="text">
                                     <h6 className="h2">Introduce tus datos personales</h6>
                                     <span>Y ACTÍVALO 100% ONLINE</span>
-                                    <p className="d-none d-ms-block d-md-block d-lg-block">Actívalo en 10 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
+                                    <p className="d-none d-ms-block d-md-block d-lg-block">Actívalo en 5 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
                                 </div>
                                 <figure>
                                     <img src={icon3} alt="ahorro3"/>
                                 </figure>
-                                <p className="d-lg-none d-md-none d-ms-block text-left">Actívalo en 10 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
+                                <p className="d-lg-none d-md-none d-ms-block text-left">Actívalo en 5 minutos y totalmente online, nuestra tecnología se encarga de todo.</p>
                             </div>
                         </div>
 
@@ -198,7 +198,7 @@ class Ahorro extends Component {
                             </li>
                             <li><strong>Siempre disponible, con las mejores condiciones</strong>
                                 <p>
-                                    Porque ahorrar con nosotros es cómodo, desde el móvil, disponible cuando quieras y sin cláusulas abusivas
+                                    Porque ahorrar con nosotros es cómodo, desde el móvil, disponible cuando quieras y con las mejores condiciones.
                                 </p>
                             </li>
                         </ol>
