@@ -26,7 +26,9 @@ class Contact extends Component {
                         </div>
                         <h4>Chat dentro de la web</h4>
                         <p>Lunes a viernes: 9:00 am - 5:00 pm</p>
-                        <p className="text-center">Sábados y Domingos 10pm - 6pm (hora de España)</p>
+                        {/*<p className="text-center">Sábados y Domingos 10pm - 6pm (hora de España)</p>*/}
+                        <p><a class="drift-open-chat" href="http://docs.drift.com/" style={{textDecoration:'underline'}}>Pincha aquí para abrir el chat</a>.</p>
+
                     </section>
                     <section className=" col-lg-6 col-md-12 contact-2-section d-flex flex-column justify-content-center align-items-center">
                         <div className="icon d-flex justify-content-center align-items-center">
