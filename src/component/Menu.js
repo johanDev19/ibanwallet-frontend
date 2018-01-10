@@ -58,7 +58,7 @@ class Menu extends Component {
                                 <a className="nav-link" href="/inversion">Inversión</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://secure.myibanwallet.com">Acceso Clientes</a>
+                                <a className="nav-link" href="">Acceso Clientes</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="https://secure.myibanwallet.com">Regístrate</a>
