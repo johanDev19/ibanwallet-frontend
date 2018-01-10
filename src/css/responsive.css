@@ -18,6 +18,8 @@
       right: -73px !important; }
   .intro-page {
     overflow: hidden; }
+    .intro-page h1 {
+      font-size: 3rem; }
     .intro-page .info-3-section {
       height: 200px !important;
       background-color: #ffff; }
