@@ -41,7 +41,7 @@ class Ibanopinion extends Component {
                             <figure>
                                 <img src={cristiana} alt=""/>
                             </figure>
-                            <span>“He descubierto con iBAN un nuevo mundo oculto para mí y estoy convencida que para muchos ahorradores de este país. Las FinTech como iBAN que se han puesto a la vanguardia del sistema financiero son un valor añadido con sus productos, transparencia y, sobre todo, rentabilidad” <strong> -Cristina González</strong></span>
+                            <span>“He descubierto con iBAN un nuevo mundo oculto para mí y estoy convencida que para muchos ahorradores de este país.Las FinTech como iBAN que se han puesto a la vanguardia del sistema financiero son un valor añadido con sus productos, transparencia y, sobre todo, rentabilidad” <strong> -Cristina González</strong></span>
                         </div>
                     </li>
                 </div>,
@@ -188,7 +188,7 @@ class Ibanopinion extends Component {
                                     <figure>
                                         <img src={cristiana} alt=""/>
                                     </figure>
-                                    <span>“He descubierto con iBAN un nuevo mundo oculto para mí y estoy convencida que para muchos ahorradores de este país.Las FinTech como iBAN que se han puesto a la vanguardia del sistema financiero son un valor añadido con sus productos, transparencia y, sobre todo, rentabilidad” <strong> -Cristina González</strong></span>
+                                    <span>“He descubierto con iBAN un nuevo mundo oculto para mí y estoy convencida que para muchos ahorradores de este país. Las FinTech como iBAN que se han puesto a la vanguardia del sistema financiero son un valor añadido con sus productos, transparencia y, sobre todo, rentabilidad” <strong> -Cristina González</strong></span>
                                 </div>
                             </li>
 
