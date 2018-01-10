@@ -2685,7 +2685,7 @@ footer {
 .inversion .inv-1-section {
   position: relative;
   padding: 0px;
-  margin-top: 170px; }
+  margin-top: 120px; }
   .inversion .inv-1-section .inv-1-section_container {
     position: relative;
     width: 80%; }
@@ -2776,7 +2776,7 @@ footer {
   margin-bottom: 50px; }
 
 .ahorro .ah-2-section {
-  margin-top: 170px; }
+  margin-top: 120px; }
   .ahorro .ah-2-section .ah-2-section_text {
     background-color: #f6f6f6;
     padding-right: 50px;
@@ -2865,7 +2865,7 @@ footer {
       font-size: 25px; }
 
 .opinion .opinion-1-section {
-  margin-top: 170px;
+  margin-top: 120px;
   padding: 0px;
   margin-left: 0px;
   margin-right: 0px; }
@@ -2932,7 +2932,7 @@ footer {
           display: block; }
 
 .contact {
-  margin-top: 170px; }
+  margin-top: 120px; }
   .contact .contact-2-section {
     padding: 50px;
     background-color: #f6f6f6; }
@@ -2956,7 +2956,7 @@ footer {
         color: #000; }
 
 .politica {
-  margin-top: 170px; }
+  margin-top: 120px; }
   .politica .poli-1-section {
     margin-top: 40px; }
     .politica .poli-1-section h1, .politica .poli-1-section .h6 {
@@ -2971,7 +2971,7 @@ footer {
       font-family: "Open Sans"; }
 
 .termino {
-  margin-top: 170px; }
+  margin-top: 120px; }
   .termino .term-1-section {
     margin-top: 40px; }
     .termino .term-1-section h1, .termino .term-1-section .h6, .termino .term-1-section h6 {
@@ -2986,7 +2986,7 @@ footer {
       font-family: "Open Sans"; }
 
 .cookie {
-  margin-top: 170px; }
+  margin-top: 120px; }
   .cookie .coo-1-section {
     margin-top: 40px; }
     .cookie .coo-1-section h1, .cookie .coo-1-section .h6, .cookie .coo-1-section h6 {
