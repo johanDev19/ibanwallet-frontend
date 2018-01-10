@@ -36,14 +36,14 @@ class Footer extends Component {
                     <div className="row fo-2">
                         <div className="d-flex flex-column f-nav f-nav_1 col">
                             <span className="font-weight-bold">Producto</span>
-                            <span><a href="ahorro">Planes de Ahorro</a></span>
+                            <span><a href="planes-de-ahorro">Planes de Ahorro</a></span>
                             <span><a href="inversion">Inversion</a></span>
                         </div>
                         <div className="d-flex flex-column f-nav col">
                             <span className="font-weight-bold">Información</span>
-                            <span><a href="/ibanopinion">Opiniones</a></span>
-                            <span><a href="/iban">iBAN</a></span>
-                            <span><a href="/contact">Contacto</a></span>
+                            <span><a href="/opiniones-sobre-iban">Opiniones</a></span>
+                            <span><a href="/conoce-iban">iBAN</a></span>
+                            <span><a href="/contacto">Contacto</a></span>
                         </div>
                     </div>
 
@@ -54,7 +54,7 @@ class Footer extends Component {
                             </a>
 
                             <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a className="dropdown-item" href="/ahorro">Planes de Ahorro</a>
+                                <a className="dropdown-item" href="/planes-de-ahorro">Planes de Ahorro</a>
                                 <a className="dropdown-item" href="/inversion">Inversion</a>
                             </div>
                         </div>
@@ -66,9 +66,9 @@ class Footer extends Component {
                             </a>
 
                             <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a className="dropdown-item" href="/ibanopinion">Opiniones</a>
-                                <a className="dropdown-item" href="/iban">iban</a>
-                                <a className="dropdown-item" href="/contact">Contacto</a>
+                                <a className="dropdown-item" href="/opiniones-sobre-iban">Opiniones</a>
+                                <a className="dropdown-item" href="/conoce-iban">iban</a>
+                                <a className="dropdown-item" href="/contacto">Contacto</a>
                             </div>
                         </div>
                     </div>
@@ -79,26 +79,11 @@ class Footer extends Component {
                         <a href="/politica">
                             <li>Politica de privacidad | </li>
                         </a>
-                        <a href="/termino">
+                        <a href="/terminos">
                             <li> Terminos y condiciones de uso | </li>
                         </a>
-                        <a href="/cookie">
+                        <a href="/cookies">
                             <li> Politica de cookies</li>
-                        </a>
-                    </ul>
-
-                    <ul className="d-flex l-social d-lg-none">
-                        <a href="https://www.facebook.com/myibanwallet" >
-                            <i className="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://twitter.com/myibanwallet">
-                            <i className="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/company/11428519/">
-                            <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.instagram.com/myibanwallet/">
-                            <i className="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </ul>
                     <p>

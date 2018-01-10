@@ -82,7 +82,7 @@ class Inversion extends Component {
         return(
             <div className="inversion">
                 <MetaTags>
-                    <title>iBAN Wallet - Estrategias de Inversión</title>
+                    <title>iBAN Wallet - Estrategias de inversión</title>
                     <meta name="description" content="Mejores estrategias de inversión. Invierte tu dinero en fondos, invierte en bolsa de forma segura y transparente." />
                 </MetaTags>
                 <section className="inv-1-section  d-flex justify-content-center align-items-center">

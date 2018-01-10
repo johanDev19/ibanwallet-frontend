@@ -13,7 +13,7 @@ class Iban extends Component {
             <div className="iban container-fluid">
                 <MetaTags>
                     <title>iBAN Wallet - Conoce iBAN</title>
-                    <meta name="description" content="Con iBAN Wallet, Un mundo más allá de la banca Infórmate en nuestra web y ¡abre tu perfil hoy!" />
+                    <meta name="description" content="Con iBAN Wallet un mundo más allá de la banca, infórmate en nuestra web y ¡abre tu perfil hoy!" />
                 </MetaTags>
                 <h1 className="text-center container">
                     Creemos que podemos <span>ser la alternativa</span>

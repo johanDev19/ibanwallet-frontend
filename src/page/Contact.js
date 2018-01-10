@@ -9,7 +9,7 @@ class Contact extends Component {
         return(
             <div className="contact container-fluid">
                 <MetaTags>
-                    <title>iBAN Wallet - Finanzas para todo</title>
+                    <title>iBAN Wallet - Contacto</title>
                     <meta name="description" content="Contacta con nosotros y conoce nuestras estrategias de inversion, ahorro de dinero y fondos de inversión." />
                 </MetaTags>
                 <section className="contact-1-section">
