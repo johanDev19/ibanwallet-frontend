@@ -1,6 +1,10 @@
 import React, {Component} from 'react'
 import MetaTags from 'react-meta-tags';
-
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 
 import icon1 from './../img/web_iban_imagen2.jpg'
 import icon2 from './../img/web_iban_imagen1.jpg'
@@ -76,11 +80,11 @@ class Iban extends Component {
                         <ul>
                             <li>
                                 “iBAN como uno de los actores principales en un sector que está asistiendo a una verdadera transformación sin precedentes” - <strong>
-                                <a href="https://cincodias.elpais.com/cincodias/2017/11/17/emprendedores/1510907958_535416.html" target="_blank">CincoDías</a></strong>
+                                <Link to="https://cincodias.elpais.com/cincodias/2017/11/17/emprendedores/1510907958_535416.html" target="_blank">CincoDías</Link></strong>
                             </li>
                             <li>
-                                ”iBAN, fintech enfocada a digitalizar los procesos complejos y convertirlos en procesos rápidos para todos sus clientes, tiene el objetivo de simplificar y automatizar tecnológicamente productos de inversión y ahorro para acercarlos al gran público” - <strong><a
-                                href="http://www.finanzas.com/noticias/noticias-corporativas/20171204/caser-iban-wallet-alian-3737450.html" target="_blank">Inversion y finanzas</a></strong>
+                                ”iBAN, fintech enfocada a digitalizar los procesos complejos y convertirlos en procesos rápidos para todos sus clientes, tiene el objetivo de simplificar y automatizar tecnológicamente productos de inversión y ahorro para acercarlos al gran público” - <strong><Link
+                                to="http://www.finanzas.com/noticias/noticias-corporativas/20171204/caser-iban-wallet-alian-3737450.html" target="_blank">Inversion y finanzas</Link></strong>
                             </li>
 
 
