@@ -1,5 +1,10 @@
 import React, {Component} from 'react'
 import MetaTags from 'react-meta-tags'
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 
 import icon1 from './../img/contact.png'
 import icon2 from './../img/address.png'
@@ -42,11 +47,11 @@ class Contact extends Component {
                         <div className="address">
                             <p className="text-left address">
                                 <i className="fa fa-users" aria-hidden="true"></i>
-                                <a href="https://goo.gl/maps/b2snYhmKmFt">Paseo de la Castellana, 194, Madrid</a>
+                                <Link to="https://goo.gl/maps/b2snYhmKmFt" target="_blank">Paseo de la Castellana, 194, Madrid</Link>
                             </p>
                             <p className="text-left address">
                                 <i className="fa fa-users" aria-hidden="true"></i>
-                                <a href="https://www.google.com/maps/place/iBAN+Wallet/@37.3821322,-5.9978541,17z/data=!3m1!4b1!4m11!1m5!8m4!1e4!2s107342914997223678157!3m1!1e1!3m4!1s0xd126c17ba3397ad:0x3b790160e28e07e9!8m2!3d37.3821322!4d-5.9956654">Paseo de las Delicias, 1, Sevilla</a>
+                                <Link to="https://www.google.com/maps/place/iBAN+Wallet/@37.3821322,-5.9978541,17z/data=!3m1!4b1!4m11!1m5!8m4!1e4!2s107342914997223678157!3m1!1e1!3m4!1s0xd126c17ba3397ad:0x3b790160e28e07e9!8m2!3d37.3821322!4d-5.9956654" target="_blank">Paseo de las Delicias, 1, Sevilla</Link>
                             </p>
                         </div>
 

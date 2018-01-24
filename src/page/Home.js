@@ -74,7 +74,7 @@ class Home extends Component {
                         </div>
                     </header>
                     <figure className="banner">
-                        <a href="https://secure.myibanwallet.com/account/register">
+                        <a href="">
                             <button>Abre tu cuenta</button>
                         </a>
                         <img src={banner_1} alt="intro"  className="d-md-block d-ms-none d-none"/>

@@ -42,6 +42,7 @@ class Footer extends Component {
                         <div className="d-flex flex-column f-nav f-nav_1 col">
                             <span className="font-weight-bold">Producto</span>
                             <span><a href="planes-de-ahorro">Planes de Ahorro</a></span>
+                            <span><a href="inversion">Inversión</a></span>
                         </div>
                         <div className="d-flex flex-column f-nav col">
                             <span className="font-weight-bold">Información</span>
