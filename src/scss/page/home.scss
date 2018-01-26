@@ -96,6 +96,11 @@ $btn-primary: #339966;
         margin-left: 50px;
         margin-bottom: -20px;
         top: 13px;
+        transition: 0.5s;
+
+        &:hover {
+          background-color: #6c9;
+        }
 
       }
     }

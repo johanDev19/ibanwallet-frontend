@@ -2537,7 +2537,10 @@ footer {
       color: #fff;
       margin-left: 50px;
       margin-bottom: -20px;
-      top: 13px; }
+      top: 13px;
+      transition: 0.5s; }
+      .intro-page section.intro-section figure button:hover {
+        background-color: #6c9; }
 
 .intro-page section.info-1-section {
   height: 400px;
