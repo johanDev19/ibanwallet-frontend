@@ -29,7 +29,7 @@ class Iban extends Component {
                                 El cliente es el centro para iBAN, le aportamos soluciones de ahorro y estrategias de inversión.
                             </p>
                             <p>
-                                Los productos de inversión son sólo un medio para conseguirlo, por ello seleccionamos aquellos que cumplan con lo que nuestros clientes necesitan, siempre desde la más absoluta seguridad.
+                                Los productos de inversión son sólo un medio para conseguirlo, por ello seleccionamos aquellos que cumplan con lo que nuestros clientes necesitan, siempre desde la más absoluta independencia.
                             </p>
                         </div>
                         <figure className="col-md-6">
