@@ -170,6 +170,7 @@ $btn-primary: #339966;
 
     ul {
       list-style: none;
+
       li {
         position: relative;
         padding-left: 20px;
@@ -192,6 +193,12 @@ $btn-primary: #339966;
           left: -40px;
           top: 50%;
           margin-top: -20px;
+        }
+      }
+
+      li.last {
+        &:after {
+          content: "2"
         }
       }
     }

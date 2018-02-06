@@ -155,7 +155,7 @@ class Home extends Component {
                             <p>Ofrecemos una inversión adaptada al perfil y necesidades de los clientes, con la máxima profesionalidad, llevando a nuestros clientes los mejores productos de ahorro e inversión del mercado con la más moderna tecnología.</p>
                             <ul>
                                 <li><strong>Conoce tu perfil </strong>y disfruta de un plan de inversión adecuado para tus ahorros.</li>
-                                <li><strong>Regístrate sin compromiso</strong> accede a tu área privada y selecciona el producto que prefieres contratar.</li>
+                                <li class="last"><strong>Regístrate sin compromiso</strong> accede a tu área privada y selecciona el producto que prefieres contratar.</li>
                             </ul>
                         </div>
                         <div className="info-2-section_img ">

@@ -2604,6 +2604,8 @@ footer {
         left: -40px;
         top: 50%;
         margin-top: -20px; }
+    .intro-page section.info-2-section ul li.last:after {
+      content: "2"; }
 
 .intro-page .info-3-section {
   background-color: #f6f6f6;
