@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import MetaTags from 'react-meta-tags';
+import {Helmet} from 'react-helmet';
 
 
 import banner_1 from './../img/web_inicio_banner.jpg'
@@ -61,10 +61,11 @@ class Home extends Component {
     render() {
         return(
             <div className="intro-page container-fluid ">
-                <MetaTags>
+                <Helmet>
                     <title>iBAN Wallet - Finanzas al alcance de todos</title>
                     <meta name="description" content="Un mundo más allá de la banca -  iBAN Wallet, la nueva forma de ahorrar tu dinero. ¡Únete a iBAN!" />
-                </MetaTags>
+                </Helmet>
+                    
                 <section className="intro-section">
                     <header>
                         <div className="intro-text container-fluid d-flex flex-column justify-content-start">

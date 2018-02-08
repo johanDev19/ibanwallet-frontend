@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import heart from './../img/Heart.svg'
 import OwlCarousel from 'react-owl-carousel';
-import MetaTags from 'react-meta-tags';
+import {Helmet} from 'react-helmet';
 
 
 import victor from './../img/opinion/VictorManuelLobatoFernandez.png'
@@ -102,10 +102,10 @@ class Ibanopinion extends Component {
     render(){
         return(
             <div className="opinion container-fluid">
-                <MetaTags>
+                <Helmet>
                     <title>iBAN Wallet - Opiniones</title>
                     <meta name="description" content="Conoce lo que habla sobre iBAN Wallet, sobre estrategias de inversión y rentabilidad de su dinero." />
-                </MetaTags>
+                </Helmet>
 
                 <section className="opinion-1-section">
                     <div className="text-left opinion-1-section_text container">

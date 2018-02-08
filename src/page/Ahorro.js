@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import MetaTags from 'react-meta-tags';
+import {Helmet} from 'react-helmet';
 import OwlCarousel from 'react-owl-carousel';
 
 
@@ -35,10 +35,10 @@ class Ahorro extends Component {
             },
             items: [
                 <div className="item" key={1}>
-                    <MetaTags>
+                    <Helmet>
                         <title>iBAN Wallet - Planes de ahorro</title>
                         <meta name="description" content=" iBAN Wallet la nueva forma de ahorrar. Plan de Ahorro iBAN, contratalo en menos de 5 minutos." />
-                    </MetaTags>
+                    </Helmet>
                     <div className="ah-2-section_text d-flex align-items-center justify-content-around">
 
                         <div className="text">

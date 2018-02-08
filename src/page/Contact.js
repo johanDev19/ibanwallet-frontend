@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import MetaTags from 'react-meta-tags'
+import {Helmet} from 'react-helmet';
 import {
   BrowserRouter as Router,
   Route,
@@ -13,10 +13,10 @@ class Contact extends Component {
     render(){
         return(
             <div className="contact container-fluid">
-                <MetaTags>
+                <Helmet>
                     <title>iBAN Wallet - Contacto</title>
                     <meta name="description" content="Contacta con nosotros y conoce nuestras estrategias de inversion, ahorro de dinero y fondos de inversión." />
-                </MetaTags>
+                </Helmet>
                 <section className="contact-1-section">
                     <h1 className="text-center">Contacta con nosotros</h1>
                     <p className="text-center">Estamos encantados de responder a cualquier pregunta que puedas tener, solo envíanos un mensaje a través de nuestro chat de soporte.</p>

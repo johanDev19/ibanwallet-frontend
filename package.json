@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
     "react-meta-tags": "^0.3.0",
     "react-owl-carousel": "^2.2.0",
     "react-router": "^4.2.0",
@@ -13,13 +14,28 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && react-static",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar --include-path ./src/scss --include-path ./node_modules src/scss -o src/css",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src/scss --include-path ./node_modules src/scss -o src/css --watch --recursive"
   },
+  "static": {
+    "paths": [
+      "/",
+      "/inversion",
+      "/planes-de-ahorro",
+      "/conoce-iban",
+      "/opiniones-sobre-iban",
+      "/contacto",
+      "/politica",
+      "/terminos",
+      "/cookies"
+    ],
+    "outputPath": "/build"
+  },
   "devDependencies": {
-    "node-sass-chokidar": "0.0.3"
+    "node-sass-chokidar": "0.0.3",
+    "react-static-generator": "^0.1.2"
   }
 }
