@@ -2391,6 +2391,8 @@ a {
   .page-menu .navbar-brand {
     margin-left: 50px;
     margin-right: 50px; }
+  .page-menu ul {
+    background-color: #fff; }
   .page-menu button {
     width: 50px;
     height: 40px;

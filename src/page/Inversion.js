@@ -81,10 +81,12 @@ class Inversion extends Component {
     render(){
         return(
             <div className="inversion">
-                <Helmet>
-                    <title>iBAN Wallet - Estrategias de inversión</title>
-                    <meta name="description" content="Mejores estrategias de inversión. Invierte tu dinero en fondos, invierte en bolsa de forma segura y transparente." />
-                </Helmet>
+                <Helmet
+                    title={"iBAN Wallet - Estrategias de inversión"}
+                    meta={[
+                        { name: 'description', content: "Mejores estrategias de inversión. Invierte tu dinero en fondos, invierte en bolsa de forma segura y transparente." },
+                    ]}
+                />
                 <section className="inv-1-section  d-flex justify-content-center align-items-center">
                     <div className="d-flex justify-content-start  inv-1-section_container">
                         <div className="inv-1-section_text info-section_text d-flex flex-column align-items-start justify-content-center">

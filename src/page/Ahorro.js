@@ -35,10 +35,12 @@ class Ahorro extends Component {
             },
             items: [
                 <div className="item" key={1}>
-                    <Helmet>
-                        <title>iBAN Wallet - Planes de ahorro</title>
-                        <meta name="description" content=" iBAN Wallet la nueva forma de ahorrar. Plan de Ahorro iBAN, contratalo en menos de 5 minutos." />
-                    </Helmet>
+                    <Helmet
+                        title={"iBAN Wallet - Planes de ahorro"}
+                        meta={[
+                            { name: 'description', content: "iBAN Wallet la nueva forma de ahorrar. Plan de Ahorro iBAN, contratalo en menos de 5 minutos." },
+                        ]}
+                    />
                     <div className="ah-2-section_text d-flex align-items-center justify-content-around">
 
                         <div className="text">

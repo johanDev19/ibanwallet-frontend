@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 import {Helmet} from 'react-helmet';
 import {
-  BrowserRouter as Router,
-  Route,
   Link
 } from 'react-router-dom'
 
@@ -13,10 +11,12 @@ class Contact extends Component {
     render(){
         return(
             <div className="contact container-fluid">
-                <Helmet>
-                    <title>iBAN Wallet - Contacto</title>
-                    <meta name="description" content="Contacta con nosotros y conoce nuestras estrategias de inversion, ahorro de dinero y fondos de inversión." />
-                </Helmet>
+                <Helmet
+                    title={"iBAN Wallet - Contacto"}
+                    meta={[
+                        { name: 'description', content: "Contacta con nosotros y conoce nuestras estrategias de inversion, ahorro de dinero y fondos de inversión." },
+                    ]}
+                />
                 <section className="contact-1-section">
                     <h1 className="text-center">Contacta con nosotros</h1>
                     <p className="text-center">Estamos encantados de responder a cualquier pregunta que puedas tener, solo envíanos un mensaje a través de nuestro chat de soporte.</p>

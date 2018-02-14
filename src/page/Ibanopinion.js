@@ -102,10 +102,12 @@ class Ibanopinion extends Component {
     render(){
         return(
             <div className="opinion container-fluid">
-                <Helmet>
-                    <title>iBAN Wallet - Opiniones</title>
-                    <meta name="description" content="Conoce lo que habla sobre iBAN Wallet, sobre estrategias de inversión y rentabilidad de su dinero." />
-                </Helmet>
+                <Helmet
+                    title={"iBAN Wallet - Opiniones"}
+                    meta={[
+                        { name: 'description', content: "Conoce lo que habla sobre iBAN Wallet, sobre estrategias de inversión y rentabilidad de su dinero." },
+                    ]}
+                />
 
                 <section className="opinion-1-section">
                     <div className="text-left opinion-1-section_text container">

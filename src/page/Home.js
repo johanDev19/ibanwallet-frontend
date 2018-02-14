@@ -61,10 +61,12 @@ class Home extends Component {
     render() {
         return(
             <div className="intro-page container-fluid ">
-                <Helmet>
-                    <title>iBAN Wallet - Finanzas al alcance de todos</title>
-                    <meta name="description" content="Un mundo más allá de la banca -  iBAN Wallet, la nueva forma de ahorrar tu dinero. ¡Únete a iBAN!" />
-                </Helmet>
+                <Helmet
+                    title={"iBAN Wallet - Finanzas al alcance de todos"}
+                    meta={[
+                        { name: 'description', content: "Un mundo más allá de la banca -  iBAN Wallet, la nueva forma de ahorrar tu dinero. ¡Únete a iBAN!" },
+                    ]}
+                />
                     
                 <section className="intro-section">
                     <header>

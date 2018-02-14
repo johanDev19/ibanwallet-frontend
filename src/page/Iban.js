@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 import {Helmet} from 'react-helmet';
 import {
-  BrowserRouter as Router,
-  Route,
   Link
 } from 'react-router-dom'
 
@@ -15,10 +13,12 @@ class Iban extends Component {
     render(){
         return(
             <div className="iban container-fluid">
-                <Helmet>
-                    <title>iBAN Wallet - Conoce iBAN</title>
-                    <meta name="description" content="Con iBAN Wallet un mundo más allá de la banca, infórmate en nuestra web y ¡abre tu perfil hoy!" />
-                </Helmet>
+                <Helmet
+                    title={"iBAN Wallet - Conoce iBAN"}
+                    meta={[
+                        { name: 'description', content: "Con iBAN Wallet un mundo más allá de la banca, infórmate en nuestra web y ¡abre tu perfil hoy!" },
+                    ]}
+                />
                 <h1 className="text-center container">
                     Somos la alternativa <span>a la banca</span>
                 </h1>
